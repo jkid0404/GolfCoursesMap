@@ -598,8 +598,8 @@ Edina Country Club,Edina,MN,(72.8/134/72),Private,0,Browndale Avenue,55424,44.91
 Edinburgh USA,Brooklyn Park,MN,(74.0/141/72),Public,0,8700 Edinbrook Crossing,55443,45.1119,-93.327682
 Elk River Golf Club,Elk River,MN,(71.9/127/72),Unknown,0,20015 Elk Lake Road Northwest,55330,45.333591,-93.602783
 Ely Golf Club,Ely,MN,(71.8/126/72),Semi-Private,0,2399 South Central Avenue,55731,47.896049,-91.867149
-Emerald Greens Golf Club - Gold,Hastings,MN,(71.6/127/72),Public,0,,,,44.737442,-92.967407
-Emerald Greens Golf Club - Silver,Hastings,MN,(74.2/134/73),Public,0,,,,44.737442,-92.967407
+Emerald Greens Golf Club - Gold,Hastings,MN,(71.6/127/72),Public,0,,,44.737442,-92.967407
+Emerald Greens Golf Club - Silver,Hastings,MN,(74.2/134/73),Public,0,,,44.737442,-92.967407
 Emily Greens Golf Course,Emily,MN,(67.3/112/69),Public,0,39823 Refuge Road,56447,46.728222,-93.987495
 Enger Park Golf Course - Back/Front,Duluth,MN,(71.9/130/72),Public/Municipal,0,1801 West Skyline Parkway,55806,46.776405,-92.131126
 Enger Park Golf Course - Front/Middle,Duluth,MN,(71.9/138/72),Public/Municipal,0,1801 West Skyline Parkway,55806,46.776405,-92.131126
@@ -754,8 +754,8 @@ Oak Lake Golf Course,Erskine,MN,(66.0/109/70),Semi-Private,0,23028 347th Street 
 Oak Marsh Golf Course,Oakdale,MN,(69.8/120/70),Public,0,500 Imperial Avenue North,55128,44.954552,-92.936142
 Oak Ridge Country Club,Hopkins,MN,(72.4/132/70),Private,0,717 Highway 7,55305,44.933514,-93.409195
 Oak Summit Golf Course,Rochester,MN,(70.8/122/70),Public,0,2751 70th Street Southwest,55902,43.920601,-92.502075
-Oak View Golf Club- Greenbush - Oak View Golf Club- Greenbush,Greenbush,MN,(32.9/116/35),Municipal,0,,,,48.695034,-96.193794
-Oak View Golf Course- Freeborn - Oak View Golf Course- Freeborn,Freeborn,MN,(69.8/122/72),Unknown,0,,,,48.695034,-96.193794
+Oak View Golf Club- Greenbush - Oak View Golf Club- Greenbush,Greenbush,MN,(32.9/116/35),Municipal,0,,,48.695034,-96.193794
+Oak View Golf Course- Freeborn - Oak View Golf Course- Freeborn,Freeborn,MN,(69.8/122/72),Unknown,0,,,48.695034,-96.193794
 Oakcrest Golf Course,Roseau,MN,(71.5/123/71),Unknown,0,4th Avenue Southeast,56751,48.841812,-95.758675
 Oakdale Golf Club,Buffalo Lake,MN,(72.0/126/72),Public,0,55109 County Road 38,55314,44.813828,-94.559525
 Oaks Golf Club,Hayfield,MN,(71.0/129/72),Public,0,73671 170th Avenue,55940,43.881721,-92.899834
@@ -2162,7 +2162,7 @@ ELDORADO GOLF COURSE - RED/BLUE,MASON,MI,(71.9/125/72),Public,0,3790 West Howell
 ELDORADO GOLF COURSE - RED/WHITE,MASON,MI,(70.8/124/71),Public,0,3790 West Howell Road,48854,42.596592,-84.494965
 ELDORADO GOLF COURSE - WHITE/BLUE,MASON,MI,(71.7/125/71),Public,0,3790 West Howell Road,48854,42.596592,-84.494965
 ELK RAPIDS GOLF CLUB,ELK RAPIDS,MI,(69.0/121/72),Semi-Private,0,724 Golf Course Drive,49629,44.902443,-85.391777
-ELK RIDGE GC,ATLANTA,MI,(75.6/147/72),Public,0,,,,45.08033,-84.192368
+ELK RIDGE GC,ATLANTA,MI,(75.6/147/72),Public,0,,,45.08033,-84.192368
 ELLA SHARP PARK GC,JACKSON,MI,(68.3/117/71),Unknown,0,730 West Hickory Avenue,49203,42.217194,-84.419907
 ELMBROOK GC,TRAVERSE CITY,MI,(69.2/117/72),Unknown,0,1750 Townline Road,49696,44.711594,-85.57196
 EMERALD GOLF COURSE,ST JOHNS,MI,(72.8/141/72),Unknown,0,44135 5 Mile Road,48170,42.395809,-83.478775
@@ -2268,7 +2268,7 @@ HUDSON MILLS METROPARK GC,DEXTER,MI,(71.6/120/71),Public,0,Golf Course,48130,42.
 HUNTMORE GC,BRIGHTON,MI,(73.6/136/72),Public,0,9595 Estancia Drive,48114,42.59251,-83.763763
 HURON BREEZE GC,AU GRES,MI,(73.2/135/72),Public,0,5200 Huron Breeze Drive,48703,44.071838,-83.598541
 HURON HILLS GC,ANN ARBOR,MI,(65.5/117/67),Public/Municipal,1,3390 East Huron River Drive,48104,42.270412,-83.69574
-HURON MEADOWS METROPARK GC,BRIGHTON,MI,(71.9/124/72),Public,0,,,,42.492493,-83.775444
+HURON MEADOWS METROPARK GC,BRIGHTON,MI,(71.9/124/72),Public,0,,,42.492493,-83.775444
 HURON SHORES GC,PORT SANILAC,MI,(67.0/122/70),Unknown,0,1441 North Lakeshore Road,48469,43.47271,-82.557716
 Hills of Lenawee Golf Club,Adrian,MI,(70.3/125/72),Private,0,4110 Country Club Road,49221,41.912949,-84.070717
 IDYL WYLD GC,LIVONIA,MI,(68.0/126/70),Public,0,35780 5 Mile Road,48154,42.396736,-83.397575
@@ -3481,7 +3481,7 @@ The Greens at Redmond,Redmond,OR,(58.0/98/58),Public,0,2575 Southwest Greens Bou
 The Oregon Golf Club,West Linn,OR,(75.8/153/72),Private,0,25610 Southwest Petes Mountain Road,97068,45.330376,-122.670807
 The Reserve Vineyards - North Course,Aloha,OR,(73.3/140/72),Semi-Private,0,4747 Southeast 67th Avenue,97078,45.4851,-122.913658
 The Reserve Vineyards - South Course,Aloha,OR,(74.6/144/72),Semi-Private,0,4747 Southeast 67th Avenue,97078,45.4851,-122.913658
-Tokatee Golf Club,Blue River,OR,(73.0/129/72),Public,0,,,,44.182629,-122.211662
+Tokatee Golf Club,Blue River,OR,(73.0/129/72),Public,0,,,44.182629,-122.211662
 Trysting Tree Golf Club,Corvallis,OR,(74.4/127/71),Public,0,34016 Northeast Electric Road,97333,44.56599,-123.24514
 Tualatin Country Club,Tualatin,OR,(72.6/136/72),Private,0,9145 Southwest Tualatin Road,97062,45.387348,-122.770462
 Vernonia Golf Club,Vernonia,OR,(67.6/119/68),Public,0,Timber Road East,97064,45.844669,-123.238075
@@ -3989,12 +3989,12 @@ Lewistown CC - Lewistown Country Club,Lewistown,PA,(72.3/124/72),Private,0,306 C
 Liberty Forge Golf Course,Mechanicsburg,PA,(59.8/103/63),Public,0,3840 Lisburn Road,17055,40.175316,-76.928085
 Ligonier Country Club,Ligonier,PA,(71.0/124/70),Private,0,725 Fairway Lane,15658,40.209251,-79.252441
 Linden Hall,Dawson,PA,(72.0/128/73),Unknown,0,Linden Hall Road,15428,40.067856,-79.69635
-Lindenwood Golf Club - Blue,McMurray,PA,(35.8/136/36),Unknown,0,,,,40.247833,-80.134842
-Lindenwood Golf Club - Gold,McMurray,PA,(35.4/128/36),Unknown,0,,,,40.247833,-80.134842
-Lindenwood Golf Club - Gold/Blue Rotation,McMurray,PA,(71.2/132/72),Unknown,0,,,,40.247833,-80.134842
-Lindenwood Golf Club - Red,McMurray,PA,(37.0/128/36),Unknown,0,,,,40.247833,-80.134842
-Lindenwood Golf Club - Red/Blue Rotation,McMurray,PA,(72.8/132/72),Unknown,0,,,,40.247833,-80.134842
-Lindenwood Golf Club - Red/Gold Rotation,McMurray,PA,(72.4/128/72),Unknown,0,,,,40.247833,-80.134842
+Lindenwood Golf Club - Blue,McMurray,PA,(35.8/136/36),Unknown,0,,,40.247833,-80.134842
+Lindenwood Golf Club - Gold,McMurray,PA,(35.4/128/36),Unknown,0,,,40.247833,-80.134842
+Lindenwood Golf Club - Gold/Blue Rotation,McMurray,PA,(71.2/132/72),Unknown,0,,,40.247833,-80.134842
+Lindenwood Golf Club - Red,McMurray,PA,(37.0/128/36),Unknown,0,,,40.247833,-80.134842
+Lindenwood Golf Club - Red/Blue Rotation,McMurray,PA,(72.8/132/72),Unknown,0,,,40.247833,-80.134842
+Lindenwood Golf Club - Red/Gold Rotation,McMurray,PA,(72.4/128/72),Unknown,0,,,40.247833,-80.134842
 Linfield National Golf Club,Linfield,PA,(68.1/121/71),Unknown,0,Glenmaura National Boulevard,18507,41.351715,-75.693428
 Llanerch Country Club - Alternate Routing,Havertown,PA,(73.6/140/71),Private,0,28 South Manoa Road,19083,39.971283,-75.315033
 Llanerch Country Club,Havertown,PA,(73.5/143/71),Private,0,28 South Manoa Road,19083,39.971283,-75.315033
@@ -4816,7 +4816,7 @@ Franklin Canyon GC,Hercules,CA,(71.5/131/72),Public,0,John Muir Parkway,94572,38
 Fremont Park GPC,Fremont,CA,(61.8/105/64),Private,0,39609 Stevenson Place,94539,37.557896,-121.957436
 Friendly Hills Country Club,Whittier,CA,(71.6/132/70),Private,0,8500 Villaverde Drive,90605,33.959415,-117.997002
 Fullerton Golf Club,Fullerton,CA,(65.7/115/67),Public,0,North Private Road,92835,33.904251,-117.926743
-Furnace Creek GC,Death Valley,CA,(70.4/123/70),Resort,0,,,,36.460087,-116.867172
+Furnace Creek GC,Death Valley,CA,(70.4/123/70),Resort,0,,,36.460087,-116.867172
 Gavilan GC,Gilroy,CA,(58.5/86/62),Public,0,5055 Santa Teresa Boulevard,95020,36.971889,-121.565315
 General Old Golf Course,Riverside,CA,(71.9/121/72),Unknown,0,16580 Village West Drive,92518,33.881718,-117.28746
 Gilroy GC,Gilroy,CA,(67.8/114/70),Unknown,0,5055 Santa Teresa Boulevard,95020,36.971889,-121.565315
@@ -5329,7 +5329,7 @@ Sunset Hills Country Club,Thousand Oaks,CA,(69.9/123/71),Private,0,4155 Erbes Ro
 Swallow's Nest GC,Sacramento,CA,(58.2/104/60),Private,0,,,,
 Swenson Park GC,Stockton,CA,(71.8/121/72),Public/Municipal,0,6803 Alexandria Place,95207,38.009869,-121.33934
 Table Mountain GC,Oroville,CA,(71.5/120/72),Unknown,0,1115 Wes Barrett Lane,95965,39.493553,-121.622986
-Tahoe City GC,Tahoe City,CA,(65.3/118/66),Public,0,,,,39.168018,-120.145515
+Tahoe City GC,Tahoe City,CA,(65.3/118/66),Public,0,,,39.168018,-120.145515
 Tahoe Donner GC,Truckee,CA,(74.2/134/72),Semi-Private,0,12798 Northwoods Boulevard,96161,39.35294,-120.232635
 Tahoe Paradise GC,South Lake Tahoe,CA,(62.5/111/66),Public,0,2977 US Highway 50,96150,38.855713,-120.013313
 Tahquitz Creek Golf Resort - Legend,Palm Springs,CA,(72.4/125/71),Resort,0,2010 Lawrence Crossley Road,92264,33.799038,-116.481628
@@ -5385,8 +5385,8 @@ The Santaluz Club,San Diego,CA,(73.7/136/71),Private,0,8293 Caminito Santaluz Ea
 The Saticoy Club,Somis,CA,(74.6/138/72),Unknown,0,4450 Clubhouse Drive,93066,34.272518,-119.108116
 The Springs at Borrego,Borrego Springs,CA,(69.2/116/72),Public,0,2255 Di Giorgio Road,92004,33.266361,-116.366112
 The Vineyard at Escondido,Escondido,CA,(71.2/128/70),Public/Municipal,0,5050 Arroyo Road,94550,37.624073,-121.756439
-The Vintage Club - Desert,Indian Wells,CA,(71.9/133/72),Private,0,,,,33.709038,-116.356911
-The Vintage Club - Mountain,Indian Wells,CA,(74.9/141/72),Private,0,,,,33.709038,-116.356911
+The Vintage Club - Desert,Indian Wells,CA,(71.9/133/72),Private,0,,,33.709038,-116.356911
+The Vintage Club - Mountain,Indian Wells,CA,(74.9/141/72),Private,0,,,33.709038,-116.356911
 The Welk Resort San Diego - The Fountains,Escondido,CA,(61.6/102/62),Unknown,0,8860 Lawrence Welk Drive,92026,33.230984,-117.14167
 Thunderbird Country Club,Rancho Mirage,CA,(72.8/133/71),Private,0,70612 Highway 111,92270,33.757252,-116.434875
 Tierra Oaks,Redding,CA,(GC at) - Tierra Oaks (GC at) (73.1/142/72),Private,0,19694 La Crescenta Drive,96003,40.671227,-122.326645
@@ -5981,7 +5981,7 @@ Deerfield Golf Club,Deerfield,IL,(72.8/133/72),Unknown,0,1201 Saunders Road,6001
 Deerpath Golf Course,Lake Forest,IL,(70.2/131/70),Public,0,500 Clover Avenue,60045,42.248932,-87.85923
 Downers Grove Golf Course,Downers Grove,IL,(72.4/133/72),Public,0,2420 Haddow Avenue,60515,41.797676,-88.042603
 Eagle Brook Country Club,Geneva,IL,(73.2/138/72),Private,0,2800 Midwest Road,60523,41.834995,-87.975082
-Eagle Creek Golf Course,Findlay,IL,(75.0/139/72),Public/Resort,0,,,,39.482433,-88.708717
+Eagle Creek Golf Course,Findlay,IL,(75.0/139/72),Public/Resort,0,,,39.482433,-88.708717
 Eagle Ridge Golf Course,Paris,IL,(72.2/129/72),Semi-Private,0,400 Eagle Ridge Drive,61036,42.401924,-90.337494
 Eagle Ridge Resort - East,Galena,IL,(33.0/118/34),Resort,0,400 Eagle Ridge Drive,61036,42.401924,-90.337494
 Eagle Ridge Resort - North,Galena,IL,(73.6/136/72),Resort,0,400 Eagle Ridge Drive,61036,42.401924,-90.337494
@@ -6533,7 +6533,7 @@ Thousand Acres Golf Club,Swanton,MD,(74.0/130/72),Semi-Private,0,1 Thousand Acre
 Turf Valley Resort - Hialeah,Ellicott City,MD,(72.4/137/71),Resort,0,2776 Turf Valley Golf Road,21042,39.297832,-76.886909
 Turf Valley Resort - Original,Ellicott City,MD,(73.3/136/71),Resort,0,2776 Turf Valley Golf Road,21042,39.297832,-76.886909
 United States Naval Academy Golf Club,Annapolis,MD,(73.7/131/70),Military,0,249 Greenbury Point Road,21402,38.99387,-76.459236
-VETERANS HOSPITAL GC,BALTIMORE,MD,(61.0/90/0),Unknown,,,,,
+VETERANS HOSPITAL GC,BALTIMORE,MD,(61.0/90/0),Unknown,0,,,,
 VFW GC,FREDERICK,MD,(68.7/126/70),Unknown,0,5519 South Renn Road,21703,39.371567,-77.483925
 WESTERN MARYLAND GC,BALTIMORE,MD,(64.0/100/0),Unknown,0,6100 North Charles Street,21212,39.374084,-76.62645
 WHISKEY CREEK GC,Ijamsville,MD,(73.4/134/72),Unknown,0,4804 Whiskey Court,21754,39.364498,-77.300095
@@ -6633,11 +6633,11 @@ Beekman Golf Course - Valley-Taconic,Hopewell Junction,NY,(71.8/124/72),Public,0
 Bellevue Country Club,Syracuse,NY,(71.4/131/71),Private,0,1901 Glenwood Avenue,13207,43.027805,-76.190178
 Bellport Golf Club,Bellport,NY,(71.5/135/71),Municipal,0,20 South Country Road,11713,40.753689,-72.947723
 Bergen Point Golf Club,West Babylon,NY,(73.3/131/71),Public/Municipal,0,697 Kirby Lane,11704,40.681835,-73.343781
-Bethpage State Park - Black,Farmingdale,NY,(77.5/155/71),Municipal,0,,,,40.743584,-73.455742
-Bethpage State Park - Blue,Farmingdale,NY,(72.3/130/72),Municipal,0,,,,40.743584,-73.455742
-Bethpage State Park - Green,Farmingdale,NY,(70.2/129/71),Municipal,0,,,,40.743584,-73.455742
-Bethpage State Park - Red,Farmingdale,NY,(74.4/133/70),Municipal,0,,,,40.743584,-73.455742
-Bethpage State Park - Yellow,Farmingdale,NY,(69.6/120/71),Municipal,0,,,,40.743584,-73.455742
+Bethpage State Park - Black,Farmingdale,NY,(77.5/155/71),Municipal,0,,,40.743584,-73.455742
+Bethpage State Park - Blue,Farmingdale,NY,(72.3/130/72),Municipal,0,,,40.743584,-73.455742
+Bethpage State Park - Green,Farmingdale,NY,(70.2/129/71),Municipal,0,,,40.743584,-73.455742
+Bethpage State Park - Red,Farmingdale,NY,(74.4/133/70),Municipal,0,,,40.743584,-73.455742
+Bethpage State Park - Yellow,Farmingdale,NY,(69.6/120/71),Municipal,0,,,40.743584,-73.455742
 Big Oak Golf Course,Geneva,NY,(69.2/117/70),Unknown,0,,,,
 Binghamton Country Club,Endwell,NY,(71.1/131/71),Private,0,1465 Robinson Hill Road,13760,42.123486,-76.006035
 Birch Run Golf Club,Allegany,NY,(68.2/128/70),Public,0,4130 Birch Run Road,14706,42.086742,-78.525513
@@ -9348,7 +9348,7 @@ TURNER HILL GOLF CLUB,IPSWICH,MA,(74.1/135/72),Private,0,1 Manor House Lane,0193
 TWIN HILLS COUNTRY CLUB,LONGMEADOW,MA,(72.8/128/71),Private,0,700 Wolf Swamp Road,01106,42.038185,-72.536278
 TWIN SPRINGS,BOLTON,MA,(65.6/122/68),Unknown,0,295 Wilder Road,01740,42.43898,-71.645485
 TYNGSBORO COUNTRY CLUB,TYNGSBORO,MA,(67.0/116/67),Public,0,80 Pawtucket Boulevard,01879,42.668755,-71.408073
-UNICORN GOLF CLUB,STONEHAM,MA,(70.4/122/70),Public/Municipal,0,,,,42.484131,-71.110825
+UNICORN GOLF CLUB,STONEHAM,MA,(70.4/122/70),Public/Municipal,0,,,42.484131,-71.110825
 USGA Test Facility - '16 SWA,Wellesley,MA,(72.0/129/72),Unknown,0,294 Wellesley Avenue,02481,42.300865,-71.259895
 USGA Test Facility - USGA 9 H,Wellesley,MA,(42.7/153/41),Unknown,0,294 Wellesley Avenue,02481,42.300865,-71.259895
 USGA Test Facility - USGA Forest Course,Wellesley,MA,(82.3/152/72),Unknown,0,294 Wellesley Avenue,02481,42.300865,-71.259895
@@ -10196,7 +10196,7 @@ NorthBrook Golf and Grill,Luxemburg,WI,(70.1/126/71),Semi-Private,0,736 North Ma
 Northern Bay Resort,Arkdale,WI,(74.7/132/72),Resort,0,1844 20th Avenue,54613,43.989635,-89.955635
 Northwood Golf Club,Rhinelander,WI,(72.7/135/72),Public,0,3131 Golf Course Road,54501,45.61684,-89.485619
 Oak Grove Golf Course,Necedah,WI,(64.6/112/66),Public,0,600 Lakeview Court,54646,44.022087,-90.079651
-Oak Hills Golf Course,Oak Creek,WI,(29.5/99/31),Public,0,,,,42.85611,-87.912788
+Oak Hills Golf Course,Oak Creek,WI,(29.5/99/31),Public,0,,,42.85611,-87.912788
 Oak Ridge Golf Course,Milton,WI,(68.3/112/70),Public,0,1136 East Bowers Lake Road,53563,42.787121,-88.930099
 Oakwood Park Golf Course,Franklin,WI,(73.7/128/72),Public/Municipal,0,8032 West Oakwood Road,53132,42.858147,-88.016762
 Oconomowoc Golf Club,Oconomowoc,WI,(71.4/129/70),Private,0,W360N5261 Brown Street,53066,43.117489,-88.461258
@@ -10495,8 +10495,8 @@ Lawton Municipal Golf Course,Lawton,OK,(70.7/111/71),Private,0,4504 West Gore Bo
 Lew Wentz Golf Course,Ponca City,OK,(71.0/116/71),Public/Municipal,0,2805 L.A. Cann Drive,74604,36.734985,-97.021492
 Lindsay Municipal GC,Lindsay,OK,(71.3/117/71),Public/Municipal,0,12429 114th Street,73052,34.875084,-97.628937
 Links at Mustang,Mustang,OK,(34.2/125/35),Unknown,0,13500 South Mustang Road,73099,35.444084,-97.72464
-MANGUM CITY COURSE,MANGUM,OK,(66.0/106/70),Public/Municipal,0,,,,34.901386,-99.504845
-MANGUM CITY COURSE - MANGUM,MANGUM,OK,(66.5/113/70),Public/Municipal,0,,,,34.901386,-99.504845
+MANGUM CITY COURSE,MANGUM,OK,(66.0/106/70),Public/Municipal,0,,,34.901386,-99.504845
+MANGUM CITY COURSE - MANGUM,MANGUM,OK,(66.5/113/70),Public/Municipal,0,,,34.901386,-99.504845
 MEADOWBROOK COUNTRY CLUB,TULSA,OK,(72.6/131/71),Unknown,0,9300 East 81st Street,74133,36.046383,-95.872574
 MIAMI G. & C. C.,MIAMI,OK,(73.2/126/72),Public,0,1915 Cleveland Street,74354,36.889122,-94.856865
 MOORE GOLF & ATHLETIC CLUB,MOORE,OK,(73.3/131/72),Public,0,1100 Belmar Boulevard,73071,35.294071,-97.426636
@@ -11301,7 +11301,7 @@ Old Trail Golf Club,Crozet,VA,(72.5/142/72),Public,0,5494 Golf Drive,22932,38.05
 Olde Mill,Laurel Fork,VA,(75.1/145/72),Public/Resort,0,2258 Stone Mountain Road,24352,36.687481,-80.520218
 Ole Monterey Golf Club,Roanoke,VA,(72.2/130/71),Public,0,201 Tinker Creek Lane Northeast,24019,37.303074,-79.92038
 Orchard Creek,Waynesboro,VA,(70.8/136/72),Unknown,0,,,,
-Packsaddle Ridge Golf Club,Keezletown,VA,(75.0/147/72),Public,0,,,,38.46611,-78.746117
+Packsaddle Ridge Golf Club,Keezletown,VA,(75.0/147/72),Public,0,,,38.46611,-78.746117
 Penderbrook Golf Club,Fairfax,VA,(70.6/133/71),Semi-Private,0,3704 Golf Trail Lane,22033,38.872421,-77.358856
 Pendleton Golf Club,Ladysmith,VA,(74.2/134/72),Unknown,0,19435 Jefferson Davis Highway,22546,37.994267,-77.506142
 Pete Dye River Course of Virginia Tech,Radford,VA,(77.5/145/72),Semi-Private,0,8400 River Course Drive,24141,37.151569,-80.532654
@@ -11478,7 +11478,7 @@ Mauna Lani Resorts - South Course,Kohala Coast,HI,(73.1/128/72),Resort,0,68-1050
 Mid-Pacific Country Club - Mid-Pacific Country Club,Kailua,HI,(73.5/131/72),Private,0,266 Kaelepulu Drive,96734,21.391361,-157.718994
 Mililani Golf Club,Mililani,HI,(71.8/125/72),Public,0,95-154 Kuahelani Avenue,96789,21.453339,-158.022507
 Moanalua Golf Club,Honolulu,HI,(69.2/120/72),Semi-Private,0,1250 Ala Aolani Street,96819,21.362225,-157.897659
-Nanea Golf Club,Kailua-Kona,HI,(75.7/133/73),Unknown,0,,,,19.785128,-155.962128
+Nanea Golf Club,Kailua-Kona,HI,(75.7/133/73),Unknown,0,,,19.785128,-155.962128
 Navy Marine Golf Club,Honolulu,HI,(73.1/120/72),Military,0,1010 Valkenburgh Street,96818,21.344595,-157.927673
 Oahu Country Club,Honolulu,HI,(70.9/130/71),Private,0,1690 Ala Pu'umalu Street,96818,21.353781,-157.907257
 Olomana Golf Links,Waimanalo,HI,(70.7/127/72),Public,0,41-363 Saddle City Road,96795,21.354614,-157.725235
@@ -13566,7 +13566,7 @@ Glen Eagle GC,Syracuse,UT,(73.0/128/72),Public,0,3176 West 1700 South,84075,41.0
 Glenmoor GC,South Jordan,UT,(73.0/127/72),Public,0,9811 South 4800 West,84009,40.572895,-112.005249
 Glenwild CC,Park City,UT,(74.9/146/71),Private,0,7558 Glenwild Drive,84098,40.741096,-111.530022
 Golf The Round,Salt Lake City,UT,(61.4/93/66),Public/Municipal,0,2400 Country Club Drive,84109,40.718559,-111.822166
-Green River GC,Green River,UT,(71.6/126/72),Public/Municipal,,,,,
+Green River GC,Green River,UT,(71.6/126/72),Public/Municipal,0,,,,
 Green Spring GC,Washington,UT,(72.7/132/72),Public/Municipal,0,Fairway Drive,84780,37.139473,-113.525742
 Hidden Valley CC - Lakes/Valley,Sandy,UT,(72.8/131/72),Private,0,11820 Highland Drive,84092,40.5369,-111.83065
 Hidden Valley CC - Mountain/Lakes,Sandy,UT,(72.6/129/72),Private,0,11820 Highland Drive,84092,40.5369,-111.83065
@@ -13796,7 +13796,7 @@ Larchmont Golf Course,Missoula,MT,(73.1/125/72),Unknown,0,3219 Fort Missoula Roa
 Laurel Golf Club,Laurel,MT,(73.0/132/72),Private,0,1020 Golf Course Road,59044,45.680046,-108.802559
 Livingston Golf Course,Livingston,MT,(69.2/112/72),Public,0,40 View Vista Drive,59047,45.659683,-110.548241
 Madison Meadows Golf Course,Ennis,MT,(68.9/135/72),Public,0,108 Golf Course Drive,59729,45.360115,-111.748123
-Marian Hills Golf Course,Malta,MT,(71.4/127/72),Public,0,,,,48.311867,-107.884895
+Marian Hills Golf Course,Malta,MT,(71.4/127/72),Public,0,,,48.311867,-107.884895
 Marias Valley Golf & Country Club,Shelby,MT,(71.3/118/72),Semi-Private,0,174 Golf Course Road,59474,48.434216,-111.910255
 Meadow Lake Golf Course,Columbia Falls,MT,(72.2/129/72),Resort,0,720 Seminole Lane,59912,48.39262,-114.208977
 Meadow Lark Country Club,Great Falls,MT,(73.3/132/72),Private,0,300 Country Club Boulevard,59404,47.49279,-111.317368
