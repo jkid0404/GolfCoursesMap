@@ -265,79 +265,77 @@ function loadStoreData() {
         .then(response => response.text())
         .then(function (text) {
 
-            //Parse the Tab delimited file data into GeoJSON features.
-            var featuresUnplayedPublic = [];
-            var featuresUnplayedPrivate = [];
-            var featuresPlayed = [];
+        //Parse the Tab delimited file data into GeoJSON features.
+        var featuresUnplayedPublic = [];
+        var featuresUnplayedPrivate = [];
+        var featuresPlayed = [];
 
-            //Split the lines of the file.
-            var lines = text.split('\n');
+        //Split the lines of the file.
+        var lines = text.split('\n');
 
-            //Grab the header row.
-            var row = lines[0].split(',');
+        //Grab the header row.
+        var row = lines[0].split(',');
 
-            //Parse the header row and index each column, so that when our code for parsing each row is easier to follow.
-            var header = {};
-            var numColumns = row.length;
-            var i;
+        //Parse the header row and index each column, so that when our code for parsing each row is easier to follow.
+        var header = {};
+        var numColumns = row.length;
+        var i;
 
-            for (i = 0; i < row.length; i++) {
-                header[row[i].trim()] = i;
-            }
-        
-            //Skip the header row and then parse each row into a GeoJSON feature.
-            for (i = 1; i < lines.length; i++) {
-                row = lines[i].split(',');
+        for (i = 0; i < row.length; i++) {
+            header[row[i].trim()] = i;
+        }
+    
+        //Skip the header row and then parse each row into a GeoJSON feature.
+        for (i = 1; i < lines.length; i++) {
+            row = lines[i].split(',');
 
-                //Ensure that the row has the right number of columns.
-                if (row.length >= numColumns) {
-                    var longitude = parseFloat(row[header['Longitude']]);
-                    var latitude = parseFloat(row[header['Latitude']]);
-                    var played = row[header['Played']];
-                    var access = row[header['Access']];
-                    var feature = new atlas.data.Feature(new atlas.data.Point([longitude, latitude]), {
-                        Course: row[header['Course']],
-                        Address: row[header['Address']],
-                        City: row[header['City']],
-                        State: row[header['State']],
-                        Info: row[header['Info']],
-                        Access: access,
-                        ZIP: row[header['ZIP']],
-                        Played: played,
-                        CourseID: i - 1
-                    });
+            //Ensure that the row has the right number of columns.
+            if (row.length >= numColumns) {
+                var longitude = parseFloat(row[header['Longitude']]);
+                var latitude = parseFloat(row[header['Latitude']]);
+                var played = row[header['Played']];
+                var access = row[header['Access']];
+                var feature = new atlas.data.Feature(new atlas.data.Point([longitude, latitude]), {
+                    Course: row[header['Course']],
+                    Address: row[header['Address']],
+                    City: row[header['City']],
+                    State: row[header['State']],
+                    Info: row[header['Info']],
+                    Access: access,
+                    ZIP: row[header['ZIP']],
+                    Played: played,
+                    CourseID: i - 1
+                });
 
-                    if (played == 0) {
-                        if (access === 'Private') {
-                            featuresUnplayedPrivate.push(feature);
-                        } else {
-                            featuresUnplayedPublic.push(feature);
-                        }
+                if (played == 0) {
+                    if (access === 'Private') {
+                        featuresUnplayedPrivate.push(feature);
                     } else {
-                        featuresPlayed.push(feature);
+                        featuresUnplayedPublic.push(feature);
                     }
-                    featuresAll.push(feature);
+                } else {
+                    featuresPlayed.push(feature);
                 }
+                featuresAll.push(feature);
             }
+        }
 
-            //Add the features to the data source.
-            datasourceUnplayedPublic.add(featuresUnplayedPublic);
-            datasourceUnplayedPrivate.add(featuresUnplayedPrivate);
-            datasourcePlayed.add(featuresPlayed);
+        //Add the features to the data source.
+        datasourceUnplayedPublic.add(featuresUnplayedPublic);
+        datasourceUnplayedPrivate.add(featuresUnplayedPrivate);
+        datasourcePlayed.add(featuresPlayed);
 
-            //Initially update the list items.
-            updateListItems();
-        });
+        //Initially update the list items.
+        updateListItems();
+    });
 }
 
 function performSearch() {
     var query = String(document.getElementById('searchTbx').value).toLowerCase();
 
     var subSetFeatures = featuresAll.filter((feature) => String(feature.properties.Course).toLowerCase().includes(query));
-    console.log(subSetFeatures);
-
     if (subSetFeatures.length > 0) {
-        displayList(subSetFeatures, isFromMap = false);
+        displayList(subSetFeatures, isFromMap=false);
         } else {
             document.getElementById('listPanel').innerHTML = '<div class="statusMessage">Unable to find the location you searched for.</div>';
         } 
@@ -370,7 +368,7 @@ function setMapToUserLocation() {
     });
 }
 
-function updateListItems() {
+function updateListItems(courseIdToMarkPlayed=-1) {
     //Hide the center marker.
     centerMarker.setOptions({
         visible: false
@@ -401,17 +399,32 @@ function updateListItems() {
 
         //Get all the shapes that have been rendered in the bubble layer. 
         var listData = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayerUnPlayedPrivate, iconLayerUnPlayedPublic, iconLayerPlayed]);
-        displayList(listData, isFromMap = true);
+        displayList(listData, isFromMap=true, courseIdToMarkPlayed);
     }
 }
 
-function displayList(listData, isFromMap) {
+function displayList(listData, isFromMap, courseIdToMarkPlayed=-1) {
     var listPanel = document.getElementById('listPanel');
     var html = [], properties;
     listData.forEach(function (shape) {
         properties = isFromMap ? shape.getProperties() : shape.properties;
+        var isPlayed = properties.Played == 1;
 
-        html.push('<div class="listItem" onclick="itemSelected(\'', properties.CourseID, '\')"><div class="listItem-title">',
+        if (properties.CourseID == courseIdToMarkPlayed) {
+            shape.setProperties({
+                Course: properties.Course,
+                Address: properties.Address,
+                City: properties.City,
+                State: properties.State,
+                Info: properties.Info,
+                Access: properties.Access,
+                ZIP: properties.ZIP,
+                Played: 1,
+                CourseID: properties.CourseID
+            })
+        }
+
+        html.push('<div class="', (isPlayed ? 'listPlayedItem' : 'listItem'), '" onclick="itemSelected(\'', properties.CourseID, '\')"><div class="listItem-title">',
                 getCorrectFlagIconForList(properties),
                 properties['Course'],
                 '</div>',
@@ -421,14 +434,25 @@ function displayList(listData, isFromMap) {
                 '<br />',
 
                 //Convert the course info into a nicely formated time.
-                getCourseInfo(properties),
-                '</div>');
+                getCourseInfo(properties));
+
+        if (!isPlayed) {
+            html.push('<br />',
+                '<button id="markPlayedButton" onClick="markPlayed(', properties.CourseID, ')">Mark Played</button>');
+        }
+        html.push('</div>');
         });
         
         listPanel.innerHTML = html.join('');
 
         //Scroll to the top of the list panel in case the user has scrolled down.
         listPanel.scrollTop = 0;
+}
+
+function markPlayed(courseId) {
+    var feature = featuresAll[courseId];
+    feature.properties.Played = 1;
+    updateListItems(courseIdToMarkPlayed=courseId);
 }
 
 function getCorrectFlagIconForList(properties) {
