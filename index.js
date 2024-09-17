@@ -12,8 +12,9 @@ var playedIcon = 'images/RedFlag.png';
 //An array of country region ISO2 values to limit searches to.
 var countrySet = ['US'];      
 
-var map, popup, datasourceUnplayedPublic, datasourceUnplayedPrivate, datasourcePlayed, iconLayerUnPlayedPublic, iconLayerUnPlayedPrivate, iconLayerPlayed, centerMarker, searchURL;
-var listItemTemplate = '<div class="listItem" onclick="itemSelected(\'{id}\')"><div class="listItem-title">{title}</div>{city}<br />Open until {closes}<br />{distance} miles away</div>';
+var map, popup, datasourceUnplayedPublic, datasourceUnplayedPrivate, datasourcePlayed, iconLayerUnPlayedPublic, iconLayerUnPlayedPrivate, iconLayerPlayed, centerMarker;
+
+var featuresAll = [];
 
 function initialize() {
     //Initialize a map instance.
@@ -42,12 +43,6 @@ function initialize() {
 
     //Create a popup but leave it closed so we can update it and display it later.
     popup = new atlas.Popup();
-
-    //Use MapControlCredential to share authentication between a map control and the service module.
-    var pipeline = atlas.service.MapsURL.newPipeline(new atlas.service.MapControlCredential(map));
-
-    //Create an instance of the SearchURL client.
-    searchURL = new atlas.service.SearchURL(pipeline);
 
     //If the user presses the search button, geocode the value they passed in.
     document.getElementById('searchBtn').onclick = performSearch;
@@ -251,7 +246,8 @@ function initialize() {
 
             //Add a click event to the icon layer and show the shape that was clicked.
             map.events.add('click', [iconLayerUnPlayedPublic, iconLayerUnPlayedPrivate, iconLayerPlayed], function (e) {
-                showPopup(e.shapes[0]);
+                var shape = e.shapes[0];
+                showPopup(shape.getProperties(), shape.getCoordinates());
             });
 
             //Add an event to monitor when the map has finished moving.
@@ -308,6 +304,7 @@ function loadStoreData() {
                         Access: access,
                         ZIP: row[header['ZIP']],
                         Played: played,
+                        CourseID: i - 1
                     });
 
                     if (played == 0) {
@@ -319,6 +316,7 @@ function loadStoreData() {
                     } else {
                         featuresPlayed.push(feature);
                     }
+                    featuresAll.push(feature);
                 }
             }
 
@@ -333,27 +331,16 @@ function loadStoreData() {
 }
 
 function performSearch() {
-    var query = document.getElementById('searchTbx').value;
+    var query = String(document.getElementById('searchTbx').value).toLowerCase();
 
-    //Perform a fuzzy search on the users query.
-    searchURL.searchFuzzy(atlas.service.Aborter.timeout(3000), query, {
-        //Pass in the array of country ISO2 for which we want to limit the search to.
-        countrySet: countrySet,
-        view: 'Auto'
-    }).then(results => {
-        //Parse the response into GeoJSON so that the map can understand.
-        var data = results.geojson.getFeatures();
+    var subSetFeatures = featuresAll.filter((feature) => String(feature.properties.Course).toLowerCase().includes(query));
+    console.log(subSetFeatures);
 
-        if (data.features.length > 0) {
-            //Set the camera to the bounds of the results.
-            map.setCamera({
-                bounds: data.features[0].bbox,
-                padding: 40
-            });
+    if (subSetFeatures.length > 0) {
+        displayList(subSetFeatures, isFromMap = false);
         } else {
             document.getElementById('listPanel').innerHTML = '<div class="statusMessage">Unable to find the location you searched for.</div>';
         } 
-    });
 }
 
 function setMapToUserLocation() {
@@ -392,13 +379,12 @@ function updateListItems() {
     //Get the current camera/view information for the map.
     var camera = map.getCamera();
 
-    var listPanel = document.getElementById('listPanel');
-
     //Check to see if the user is zoomed out a lot. If they are, tell them to zoom in closer, perform a search or press the My Location button.
     if (camera.zoom < maxClusterZoomLevel) {
         //Close the popup as clusters may be displayed on the map. 
         //popup.close();
 
+        var listPanel = document.getElementById('listPanel');
         var html = [];
         html.push('<img class="listPlayedIcon" src="' + playedIcon + '">Played course</img>');
         html.push('<br />');
@@ -413,49 +399,25 @@ function updateListItems() {
             visible: true
         });
 
-        //List the ten closest locations in the side panel.
-        var html = [], properties;
-
-        /*
-            Generating HTML for each item that looks like this:
-         
-            <div class="listItem" onclick="itemSelected('id')">
-                <div class="listItem-title">1 Microsoft Way</div>
-                Redmond, WA 98052<br />
-                Open until 9:00 PM<br />
-                0.7 miles away
-            </div>
-         */
-
         //Get all the shapes that have been rendered in the bubble layer. 
-        var data = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayerUnPlayedPrivate, iconLayerUnPlayedPublic, iconLayerPlayed]);
+        var listData = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayerUnPlayedPrivate, iconLayerUnPlayedPublic, iconLayerPlayed]);
+        displayList(listData, isFromMap = true);
+    }
+}
 
-        //Create an index of the distances of each shape.
-        // var distances = {};
+function displayList(listData, isFromMap) {
+    var listPanel = document.getElementById('listPanel');
+    var html = [], properties;
+    listData.forEach(function (shape) {
+        properties = isFromMap ? shape.getProperties() : shape.properties;
 
-        // data.forEach(function (shape) {
-        //     if (shape instanceof atlas.Shape) {
-
-        //         //Calculate the distance from the center of the map to each shape and store in the index. Round to 2 decimals.
-        //         distances[shape.getId()] = Math.round(atlas.math.getDistanceTo(camera.center, shape.getCoordinates(), 'miles') * 100) / 100;
-        //     }
-        // });
-
-        // //Sort the data by distance.
-        // data.sort(function (x, y) {
-        //     return distances[x.getId()] - distances[y.getId()];
-        // });
-
-        data.forEach(function (shape) {
-            properties = shape.getProperties();
-
-            html.push('<div class="listItem" onclick="itemSelected(\'', shape.getId(), '\')"><div class="listItem-title">',
+        html.push('<div class="listItem" onclick="itemSelected(\'', properties.CourseID, '\')"><div class="listItem-title">',
                 getCorrectFlagIconForList(properties),
                 properties['Course'],
                 '</div>',
 
-                //Get a formatted address line 2 value
-                getAddressLine2(properties),
+                //Get a formatted address
+                getAddress(properties),
                 '<br />',
 
                 //Convert the course info into a nicely formated time.
@@ -467,7 +429,6 @@ function updateListItems() {
 
         //Scroll to the top of the list panel in case the user has scrolled down.
         listPanel.scrollTop = 0;
-    }
 }
 
 function getCorrectFlagIconForList(properties) {
@@ -497,7 +458,7 @@ function getCourseInfo(properties) {
 }
 
 //Creates an addressLine2 string consisting of Address, City, State, and ZIP.
-function getAddressLine2(properties) {
+function getAddress(properties) {
     var html = [properties['Address']];
     html.push('<br />');
     html.push(properties['City']);
@@ -509,20 +470,13 @@ function getAddressLine2(properties) {
     return html.join('');
 }
 
-//When a user clicks on a result in the side panel, look up the shape by its id value and show popup.
+//When a user clicks on a result in the side panel, look up the course by its id value and show popup.
 function itemSelected(id) {
-    //Get the shape from the data source using it's id. 
-    var shape = datasourceUnplayedPublic.getShapeById(id);
-    if (shape === null) {
-        shape = datasourceUnplayedPrivate.getShapeById(id);
-    }
-    if (shape === null) {
-        shape = datasourcePlayed.getShapeById(id);
-    }
-    showPopup(shape);
+    var feature = featuresAll[id];
+    var coordinates = feature.geometry.coordinates
+    showPopup(feature.properties, coordinates);
 
     //Center the map over the shape on the map.
-    var center = shape.getCoordinates();
     var offset;
 
     //If the map is less than 700 pixels wide, then the layout is set for small screens.
@@ -532,19 +486,20 @@ function itemSelected(id) {
     }
 
     map.setCamera({
-        center: center,
-        centerOffset: offset
+        center: coordinates,
+        centerOffset: offset,
+        zoom: 12,
+        view: 'Auto',
     });
 }
 
-function showPopup(shape) {
-    var properties = shape.getProperties();
+function showPopup(properties, coordinates) {
     var html = ['<div class="storePopup">'];
 
     html.push('<div class="popupTitle">',
         properties['Course'],
         '<div class="popupSubTitle">',
-        getAddressLine2(properties),
+        getAddress(properties),
         '</div></div><div class="popupContent">',
         getCourseInfo(properties),
     );
@@ -555,7 +510,7 @@ function showPopup(shape) {
     popup.setOptions({
         //Create a table from the properties in the feature.
         content:  html.join(''),
-        position: shape.getCoordinates()
+        position: coordinates
     });
 
     //Open the popup.
