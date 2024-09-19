@@ -3101,7 +3101,7 @@ Overlook Golf Course,Mount Vernon,WA,(61.4/93/62),Public,0,17648 State Route 9,9
 Palouse Ridge Golf Club,Pullman,WA,(75.4/140/72),Public,1,1232 Northeast Palouse Ridge Drive,99163,46.738331,-117.142242
 Peninsula Golf Club,Port Angeles,WA,(70.8/116/72),Semi-Private,0,824 East Lindberg Road,98362,48.098526,-123.396957
 Peninsula Golf Course,Long Beach,WA,(62.6/98/66),Public,1,2705 Pacific Avenue North,98631,46.372917,-124.053322
-Port Ludlow Golf Course,Port Ludlow,WA,(74.0/140/72),Public,0,641 Highland Drive,98365,47.906769,-122.692268
+Port Ludlow Golf Course,Port Ludlow,WA,(74.0/140/72),Public,1,641 Highland Drive,98365,47.906769,-122.692268
 Port Townsend Golf Club,Port Townsend,WA,(66.6/124/70),Public,0,1925 Blaine Street,98368,48.11549,-122.772141
 Quail Ridge Golf Course,Clarkston,WA,(69.5/127/71),Public,0,3600 Swallows Nest Drive,99403,46.369251,-117.077171
 Rainier Golf and Country Club,Seattle,WA,(70.5/133/72),Private,0,11133 Des Moines Memorial Drive South,98168,47.503628,-122.304688
@@ -3115,7 +3115,7 @@ Riviera Country Club,Anderson Island,WA,(57.8/89/58),Private,0,24437 Dockton Roa
 Rock Island Golf Course,Rock Island,WA,(74.1/127/72),Public,0,114 Saunders Road,98850,47.376766,-120.129662
 Rolling Hills Golf Club,Bremerton,WA,(68.8/124/70),Public,0,2500 Northeast McWilliams Road,98311,47.621346,-122.61702
 Royal City Public Golf Course,Royal City,WA,(69.8/116/71),Public,0,13702 Dodson Road South,99357,46.886044,-119.559753
-Royal Oaks Country Club,Vancouver,WA,(74.3/141/72),Private,0,3697 Northeast Royal Oak Drive,98662,45.649055,-122.581192
+Royal Oaks Country Club,Vancouver,WA,(74.3/141/72),Private,1,3697 Northeast Royal Oak Drive,98662,45.649055,-122.581192
 Sage Hills Golf Club,Warden,WA,(71.4/120/71),Public/Resort,0,10400 Sagehill Road Southeast,98857,46.933235,-119.131561
 Sahalee Country Club - East/South,Sammamish,WA,(74.6/138/72),Private,1,21200 Northeast Sahalee Country Club Drive,98074,47.635063,-122.057373
 Sahalee Country Club - South/North,Sammamish,WA,(74.6/138/72),Private,0,21200 Northeast Sahalee Country Club Drive,98074,47.635063,-122.057373
@@ -3354,7 +3354,7 @@ Creekside Golf Club,Salem,OR,(74.0/141/72),Semi-Private,0,6250 Club House Drive 
 Crestview Golf Club,Waldport,OR,(65.0/112/68),Public,0,1680 South Crestline Drive,97394,44.414433,-124.065269
 Crooked River Ranch Golf Club,Crooked River,OR,(67.4/116/71),Unknown,0,95 Nelson Way,97526,42.502808,-123.341034
 Cross Creek Golf Club,Dallas,OR,(72.9/123/72),Public,0,13939 Highway 22,97338,44.981144,-123.314987
-Crosswater Club,Sunriver,OR,(76.8/147/72),Unknown,0,17600 Canoe Camp Drive,97707,43.852768,-121.447182
+Crosswater Club,Sunriver,OR,(76.8/147/72),Unknown,1,17600 Canoe Camp Drive,97707,43.852768,-121.447182
 Dallas Golf Club,Dallas,OR,(60.2/100/62),Private,0,11805 Orrs Corner Road,97338,44.917843,-123.272896
 Desert Peaks Golf Club,Madras,OR,(69.0/107/72),Public,0,565 Northwest Adler Street,97741,44.657345,-121.144958
 Diamond Woods Golf Club,Monroe,OR,(74.6/140/72),Public,0,96040 Territorial Highway,97456,44.269085,-123.294975
@@ -3470,8 +3470,8 @@ Stewart Park Golf Club,Roseburg,OR,(70.6/123/70),Public/Municipal,0,1200 Northwe
 Stone Creek Golf Club,Oregon City,OR,(73.8/140/72),Public,1,14603 South Stoneridge Drive,97045,45.298306,-122.563141
 Stone Ridge Golf Club,Eagle Point,OR,(72.9/139/72),Public,0,610 East Antelope Road,97524,42.424591,-122.776604
 Summerfield Golf Club,Tigard,OR,(63.2/114/66),Semi-Private,0,10650 Southwest Summerfield Drive,97224,45.406116,-122.787399
-Sunriver Resort - Meadows,Sunriver,OR,(73.7/143/71),Unknown,0,17600 Center Drive,97707,43.873844,-121.44548
-Sunriver Resort - Woodlands,Sunriver,OR,(73.9/144/72),Unknown,0,17600 Center Drive,97707,43.873844,-121.44548
+Sunriver Resort - Meadows,Sunriver,OR,(73.7/143/71),Unknown,1,17600 Center Drive,97707,43.873844,-121.44548
+Sunriver Resort - Woodlands,Sunriver,OR,(73.9/144/72),Unknown,1,17600 Center Drive,97707,43.873844,-121.44548
 Sunset Bay Golf Course,Coos Bay,OR,(67.6/107/70),Public,0,62840 Cottell Lane,97420,43.326786,-124.368858
 Sunset Grove Golf Club,Forest Grove,OR,(68.2/109/72),Public,0,41615 Northwest Osterman Road,97116,45.562283,-123.100899
 Tetherow Golf Club,Bend,OR,(75.2/150/72),Private/Resort,0,61240 Southwest Skyline Ranch Road,97702,44.024208,-121.366043
@@ -4731,7 +4731,7 @@ Cypress Point Club,Pebble Beach,CA,(73.1/141/72),Private,0,3150 17 Mile Drive,93
 Cypress Ridge Golf Course,Arroyo Grande,CA,(73.0/133/72),Unknown,0,780 Cypress Ridge Parkway,93420,35.066082,-120.572838
 Dairy Creek GC,San Luis Obispo,CA,(71.0/129/72),Public,0,Dairy Creek Road,93405,35.333778,-120.731773
 DarkHorse GC,Auburn,CA,(74.7/139/72),Public,0,2277 Westville Trail,95614,38.90266,-120.995461
-David L. Baker Memorial Golf Course,Fountain Valley,CA,(58.3/95/62),Public,0,16801 Edinger Avenue,92708,33.73069,-117.943108
+David L. Baker Memorial Golf Course,Fountain Valley,CA,(58.3/95/62),Public,1,16801 Edinger Avenue,92708,33.73069,-117.943108
 Davis GC,Davis,CA,(63.7/107/67),Municipal,0,24454 Fairway Drive,95616,38.583523,-121.772514
 De Anza Country Club,Borrego Springs,CA,(72.1/127/72),Private,0,509 Fairway Lane,92004,33.289265,-116.385933
 De Laveaga GC,Santa Cruz,CA,(70.1/134/70),Private/Resort,0,495 Upper Park Road,95065,36.997616,-122.001106
@@ -4815,7 +4815,7 @@ Foxtail GC - South,Rohnert Park,CA,(71.9/125/71),Resort/Public,0,Golf Course Roa
 Franklin Canyon GC,Hercules,CA,(71.5/131/72),Public,0,John Muir Parkway,94572,38.006535,-122.215973
 Fremont Park GPC,Fremont,CA,(61.8/105/64),Private,0,39609 Stevenson Place,94539,37.557896,-121.957436
 Friendly Hills Country Club,Whittier,CA,(71.6/132/70),Private,0,8500 Villaverde Drive,90605,33.959415,-117.997002
-Fullerton Golf Club,Fullerton,CA,(65.7/115/67),Public,0,North Private Road,92835,33.904251,-117.926743
+Fullerton Golf Club,Fullerton,CA,(65.7/115/67),Public,1,North Private Road,92835,33.904251,-117.926743
 Furnace Creek GC,Death Valley,CA,(70.4/123/70),Resort,0,,,36.460087,-116.867172
 Gavilan GC,Gilroy,CA,(58.5/86/62),Public,0,5055 Santa Teresa Boulevard,95020,36.971889,-121.565315
 General Old Golf Course,Riverside,CA,(71.9/121/72),Unknown,0,16580 Village West Drive,92518,33.881718,-117.28746
@@ -4844,7 +4844,7 @@ Grizzly Ranch GC,Portola,CA,(75.0/143/72),Semi-Private,0,300 Club House Drive,96
 Hacienda Golf Club,La Habra Heights,CA,(74.1/137/71),Private,0,600 Church Hill Road,90631,33.96167,-117.947327
 Haggin Oaks GC - Arcade Creek,Sacramento,CA,(71.7/120/72),Public,0,3610 Fulton Avenue,95821,38.632278,-121.401115
 Haggin Oaks GC - MacKenzie,Sacramento,CA,(72.8/127/72),Public,0,3610 Fulton Avenue,95821,38.632278,-121.401115
-Half Moon Bay GL - Ocean,Half Moon Bay,CA,(72.5/132/72),Public,0,2 Miramontes Point Road,94019,37.434559,-122.440292
+Half Moon Bay GL - Ocean,Half Moon Bay,CA,(72.5/132/72),Public,1,2 Miramontes Point Road,94019,37.434559,-122.440292
 Half Moon Bay GL - Old,Half Moon Bay,CA,(74.3/135/72),Public,0,2 Miramontes Point Road,94019,37.434559,-122.440292
 Hansen Dam Municipal Golf Course,Pacoima,CA,(72.1/124/72),Public,0,11350 Glenoaks Boulevard,91331,34.277111,-118.415306
 Harbor Park Golf Course,Wilmington,CA,(69.4/117/72),Public,0,25860 Vermont Avenue,90710,33.790638,-118.292114
@@ -4933,7 +4933,7 @@ Lemoore GC,Lemoore,CA,(71.0/124/72),Public/Municipal,0,250 West Iona Avenue,9324
 Likely Links,Likely,CA,(72.7/124/72),Public,0,2515 Likely Place,96116,41.21722,-120.476074
 Lincoln Hills GC - Hills,Lincoln,CA,(72.5/131/72),Semi-Private,0,,,,
 Lincoln Hills GC - Orchard,Lincoln,CA,(73.3/127/72),Semi-Private,0,,,,
-Lincoln Park GC,San Francisco,CA,(65.9/110/68),Public,0,34th Avenue,94121,37.78204,-122.494682
+Lincoln Park GC,San Francisco,CA,(65.9/110/68),Public,1,34th Avenue,94121,37.78204,-122.494682
 Links Course at Paso Robles,Paso Robles,CA,(71.3/113/72),Public,0,Links Drive,93446,35.677212,-120.609856
 Little River Inn GC,Little River,CA,(68.2/120/71),Resort,0,7751 Shoreline Highway,95456,39.271458,-123.789597
 Lomas Santa Fe Country Club,Solana Beach,CA,(72.4/130/72),Private,0,1505 Lomas Santa Fe Drive,92075,32.995975,-117.23999
@@ -4951,7 +4951,7 @@ Los Verdes Golf & Country Club,Rancho Palos Verdes,CA,(72.0/124/71),Public,0,385
 Mace Meadows GC - Mace Meadow,Pioneer,CA,(70.0/126/72),Public,0,26490 Fairway Drive,95666,38.45528,-120.533936
 Madera GCC,Madera,CA,(71.9/128/72),Private,0,17750 Old Coach Road,92064,33.03492,-117.022453
 Madera Municipal GC,Madera,CA,(72.6/121/72),Private,0,23200 Avenue 17,93637,36.996445,-120.127434
-Maderas Golf Club,Poway,CA,(75.2/142/72),Public,0,17750 Old Coach Road,92064,33.03492,-117.022453
+Maderas Golf Club,Poway,CA,(75.2/142/72),Public,1,17750 Old Coach Road,92064,33.03492,-117.022453
 Manteca Park GC,Manteca,CA,(71.1/124/72),Public/Municipal,0,1050 North Union Road,95336,37.811119,-121.235245
 Marbella Country Club,San Juan Capistrano,CA,(72.5/135/70),Private,0,30800 Golf Club Drive,92675,33.514462,-117.653603
 Marin CC,Novato,CA,(71.9/134/72),Private,0,333 Biscayne Drive,94901,37.99617,-122.464897
@@ -4974,7 +4974,7 @@ Menlo CC,Woodside,CA,(72.7/133/71),Private,0,2350 Woodside Road,94062,37.442249,
 Merced GCC,Merced,CA,(71.4/132/72),Public,0,2300 Junipero Serra Boulevard,94015,37.695862,-122.471748
 Mesa Verde Country Club,Costa Mesa,CA,(73.0/132/71),Private,0,20382 Newport Boulevard,92627,33.666458,-117.893478
 Mesquite Golf Club,Palms Springs,CA,(69.9/123/71),Unknown,0,2700 East Mesquite Avenue,92264,33.808632,-116.515251
-Metropolitan GL,Oakland,CA,(73.5/129/72),Public,0,10051 Doolittle Drive,94621,37.720562,-122.192329
+Metropolitan GL,Oakland,CA,(73.5/129/72),Public,1,10051 Doolittle Drive,94621,37.720562,-122.192329
 Micke Grove GL,Lodi,CA,(71.8/128/72),Public,0,11401 North Micke Grove Road,95240,38.070511,-121.268997
 Mile Square Golf Course,Fountain Valley,CA,(72.2/127/72),Public,1,10412 Warner Avenue,92708,33.716248,-117.947037
 Mill Valley GC,Mill Valley,CA,(61.9/111/64),Public,0,280 Buena Vista Avenue,94941,37.909607,-122.538155
@@ -13183,7 +13183,7 @@ Desert Trails GC - Sun City West - Desert Trails GC - Sun City West,Sun City Wes
 Dobson Ranch Golf Course,Mesa,AZ,(71.1/123/72),Public/Municipal,0,West Lindner Avenue,85202,33.374626,-111.878426
 Dorado Golf Club,Tucson,AZ,(58.9/92/62),Public,0,42660 West Rancho El Dorado Parkway,85138,33.075172,-112.026833
 Douglas Golf & Social Club,Douglas,AZ,(71.4/126/71),Private,0,3050 Andrew Douglass,86005,35.114883,-111.695267
-Dove Valley Ranch GC,Cave Creek,AZ,(73.1/133/72),Public,0,2221 North 19th Avenue,85023,33.619122,-112.10186
+Dove Valley Ranch GC,Cave Creek,AZ,(73.1/133/72),Public,1,2221 North 19th Avenue,85023,33.619122,-112.10186
 Duke at Rancho El Dorado: The,Maricopa,AZ,(72.7/128/72),Public,0,42660 West Rancho El Dorado Parkway,85138,33.075172,-112.026833
 Eagle Mountain GC,Fountain Hills,AZ,(71.4/134/71),Public,0,East Eagle Mountain Parkway,85268,33.576302,-111.759216
 Eagles Nest Golf Club,Goodyear,AZ,(72.5/129/72),Semi-Private,0,3645 North Clubhouse Drive,85395,33.487553,-112.389954
@@ -13227,7 +13227,7 @@ Golf Club of Estrella,Goodyear,AZ,(73.1/139/72),Public,1,11800 South Golf Club D
 Grand Canyon University Golf Course,Phoenix,AZ,(74.3/135/71),Public,1,7241 West Indian School Road,85033,33.494705,-112.215736
 Grandview GC - Sun City West - Grandview GC - Sun City West,Sun City West,AZ,(72.0/127/72),Private,0,14416 West Meeker Boulevard,85375,33.659073,-112.369247
 Granite Falls GC - North Course,Surprise,AZ,(71.4/122/72),Semi-Private,0,15955 West Clearview Boulevard,85374,33.654442,-112.403908
-Granite Falls GC - South Course,Surprise,AZ,(71.2/120/72),Semi-Private,0,15955 West Clearview Boulevard,85374,33.654442,-112.403908
+Granite Falls GC - South Course,Surprise,AZ,(71.2/120/72),Semi-Private,1,15955 West Clearview Boulevard,85374,33.654442,-112.403908
 Grayhawk - Raptor(F)/Talon(B),Scottsdale,AZ,(73.6/143/72),Public,0,8620 East Thompson Peak Parkway,85255,33.676926,-111.89727
 Grayhawk - Raptor(F)/Talon(F),Scottsdale,AZ,(73.5/140/72),Public,0,8620 East Thompson Peak Parkway,85255,33.676926,-111.89727
 Grayhawk - Raptor,Scottsdale,AZ,(74.2/140/72),Public,0,8620 East Thompson Peak Parkway,85255,33.676926,-111.89727
@@ -13246,7 +13246,7 @@ Ironwood Golf Course,Chandler,AZ,(63.4/103/67),Semi-Private,0,7131 West Ray Road
 Johnson Ranch: Golf Club at,San Tan Valley,AZ,(72.7/130/72),Unknown,0,30847 North Golf Club Drive,85143,33.159958,-111.565796
 Ken McDonald Golf Course,Tempe,AZ,(72.3/127/72),Public/Municipal,0,Western Canal Road,85283,33.356808,-111.935905
 Kierland GC - Acacia/Mesquite,Scottsdale,AZ,(72.5/127/72),Public,0,7920 East Osborn Road,85251,33.487598,-111.910667
-Kierland GC - Ironwood/Acacia,Scottsdale,AZ,(72.8/128/72),Public,0,7920 East Osborn Road,85251,33.487598,-111.910667
+Kierland GC - Ironwood/Acacia,Scottsdale,AZ,(72.8/128/72),Public,1,7920 East Osborn Road,85251,33.487598,-111.910667
 Kierland GC - Mesquite/Ironwood,Scottsdale,AZ,(73.1/127/72),Public,0,7920 East Osborn Road,85251,33.487598,-111.910667
 Kino Springs Golf Club,Nogales,AZ,(71.2/127/71),Semi-Private/Resort,0,15918 West Clear Canyon Drive,85374,33.66478,-112.403725
 Kokopelli Golf Club,Gilbert,AZ,(72.1/135/72),Unknown,0,1800 West Guadalupe Road,85233,33.365128,-111.829277
