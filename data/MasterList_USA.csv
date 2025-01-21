@@ -4882,7 +4882,7 @@ Indian Wells Country Club - Cove Course,Indian Wells,CA,(71.1/125/72),Resort,0,4
 Indian Wells Country Club - Old Course,Indian Wells,CA,(71.5/130/72),Resort,0,45891 Club Drive,92210,33.715023,-116.326782
 Indian Wells Golf Resort - Celebrity,Indian Wells,CA,(74.3/138/72),Resort,0,44500 Indian Wells Lane,92210,33.723721,-116.329857
 Indian Wells Golf Resort - Players,Indian Wells,CA,(75.4/140/72),Resort,1,44500 Indian Wells Lane,92210,33.723721,-116.329857
-Industry Hills Golf Club - The Babe,City of Industry,CA,(73.6/135/71),Resort,0,1 Industry Hills Parkway,91744,34.020161,-117.926834
+Industry Hills Golf Club - The Babe,City of Industry,CA,(73.6/135/71),Resort,1,1 Industry Hills Parkway,91744,34.020161,-117.926834
 Industry Hills Golf Club - The Ike,City of Industry,CA,(74.9/141/72),Resort,0,1 Industry Hills Parkway,91744,34.020161,-117.926834
 Ironwood Country Club - NORTH,Palm Desert,CA,(68.5/120/70),Private,0,73735 Irontree Drive,92260,33.688965,-116.378334
 Ironwood Country Club - SOUTH,Palm Desert,CA,(75.3/136/72),Private,0,73735 Irontree Drive,92260,33.688965,-116.378334
@@ -5010,21 +5010,12 @@ Monterey Peninsula CC - Shore,Pebble Beach,CA,(73.7/134/72),Private,0,23332 Pebb
 Monterey Pines GC,Monterey,CA,(68.7/117/70),Public/Military,0,Michael J. Smith Lane,93940,36.590359,-121.864441
 Moorpark Country Club - Canyon Crest/Creekside,Moorpark,CA,(73.0/134/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
 Moorpark Country Club - Canyon Crest/Ridgeline,Moorpark,CA,(73.1/133/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
-Moorpark Country Club - Creekside/Canyon Crest,Moorpark,CA,(73.0/134/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
 Moorpark Country Club - Creekside/Ridgeline,Moorpark,CA,(73.7/137/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
-Moorpark Country Club - Ridgeline/Canyon Crest,Moorpark,CA,(73.1/133/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
-Moorpark Country Club - Ridgeline/Creekside,Moorpark,CA,(73.7/137/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
 Moraga CC,Moraga,CA,(71.1/127/71),Private,0,6161 Moraga Avenue,92509,33.976696,-117.440956
 Morgan Creek GC,Roseville,CA,(73.4/135/72),Private,0,8791 Morgan Creek Lane,95747,38.738976,-121.347252
-Morgan Run Resort & Club - EAST 9,Rancho Santa Fe,CA,(70.2/124/72),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - East/North,Rancho Santa Fe,CA,(70.1/123/71),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - East/South,Rancho Santa Fe,CA,(71.1/126/72),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - NORTH 9,Rancho Santa Fe,CA,(70.0/121/70),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - North/East,Rancho Santa Fe,CA,(70.1/123/71),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - North/South,Rancho Santa Fe,CA,(71.0/125/71),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - SOUTH 9,Rancho Santa Fe,CA,(72.0/128/72),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - South/East,Rancho Santa Fe,CA,(71.1/126/72),Resort,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - South/North,Rancho Santa Fe,CA,(71.0/125/71),Resort,0,Via de la Valle,92091,32.990932,-117.208847
+Morgan Run Resort & Club - East/South,Rancho Santa Fe,CA,(71.1/126/72),Private,0,Via de la Valle,92091,32.990932,-117.208847
+Morgan Run Resort & Club - North/East,Rancho Santa Fe,CA,(70.1/123/71),Private,0,Via de la Valle,92091,32.990932,-117.208847
+Morgan Run Resort & Club - North/South,Rancho Santa Fe,CA,(71.0/125/71),Private,0,Via de la Valle,92091,32.990932,-117.208847
 Morongo Golf Club at Tukwet Canyon - CHAMPIONS,Beaumont,CA,(76.1/141/72),Public,0,36211 Champions Drive,92223,33.953934,-117.029579
 Morongo Golf Club at Tukwet Canyon - LEGENDS,Beaumont,CA,(75.8/140/72),Public,0,36211 Champions Drive,92223,33.953934,-117.029579
 Morro Bay Golf Course,Morro Bay,CA,(71.0/123/71),Public,0,Park View Drive,93442,35.353561,-120.840675
@@ -5039,7 +5030,7 @@ MountainGate Country Club - Lake/North,Los Angeles,CA,(72.4/132/72),Private,0,12
 MountainGate Country Club - North/South,Los Angeles,CA,(73.6/135/72),Private,0,12445 Mountain Gate Drive,90049,34.107185,-118.488708
 MountainGate Country Club - South/Lake,Los Angeles,CA,(74.0/135/72),Private,0,12445 Mountain Gate Drive,90049,34.107185,-118.488708
 Mt Whitney GC,Lone Pine,CA,(69.8/123/72),Unknown,0,2559 Lone Pine Golf Course Road,93545,36.577682,-118.066277
-Mt. Woodson Golf Club,Ramona,CA,(68.9/131/70),Public,0,16422 North Woodson Drive,92065,33.014511,-116.954681
+Mt. Woodson Golf Club,Ramona,CA,(68.9/131/70),Public,1,16422 North Woodson Drive,92065,33.014511,-116.954681
 Muroc Lake Golf Course,Edwards,CA,(72.8/127/72),Military,0,Edwards Air Force Station,93523,34.911179,-117.936295
 Napa GC at Kennedy Park,Napa,CA,(72.4/129/72),Public,0,2295 Streblow Drive,94558,38.269421,-122.276604
 Napa Valley CC,Napa,CA,(71.5/127/72),Public,0,3385 Hagen Road,94558,38.322849,-122.242798
@@ -5344,7 +5335,7 @@ The Country Club of Rancho Bernardo,San Diego,CA,(71.5/127/72),Private,0,16066 B
 The Crosby Club,Rancho Santa Fe,CA,(74.0/140/70),Private,0,17102 Bing Crosby Blvd,92127,33.0347642,-117.1581036
 The Crossings at Carlsbad,Carlsbad,CA,(72.8/135/72),Public,1,5900 The Crossings Drive,92008,33.129337,-117.307022
 The Farms Golf Club,Rancho Santa Fe,CA,(74.2/141/72),Private,0,8496 Saint Andrews Road,92067,32.985294,-117.176872
-The Golf Club at Rancho California,Murrieta,CA,(74.4/138/72),Public,0,38463 Members Club Drive,92563,33.56184,-117.146042
+The Golf Club at Rancho California,Murrieta,CA,(74.4/138/72),Public,1,38463 Members Club Drive,92563,33.56184,-117.146042
 The Golf Club at Terra Lago - NORTH,Indio,CA,(74.1/138/72),Unknown,0,84000 Terra Lago Parkway,92203,33.740646,-116.185959
 The Golf Club at Terra Lago - SOUTH,Indio,CA,(73.9/137/72),Unknown,0,84000 Terra Lago Parkway,92203,33.740646,-116.185959
 The Golf Club of California,Fallbrook,CA,(74.0/138/72),Semi-Private,0,2757 Gird Road,92028,33.342651,-117.190468
@@ -5383,7 +5374,7 @@ The Welk Resort San Diego - The Fountains,Escondido,CA,(61.6/102/62),Unknown,0,8
 Thunderbird Country Club,Rancho Mirage,CA,(72.8/133/71),Private,0,70612 Highway 111,92270,33.757252,-116.434875
 Tierra Oaks,Redding,CA,(GC at) - Tierra Oaks (GC at) (73.1/142/72),Private,0,19694 La Crescenta Drive,96003,40.671227,-122.326645
 Tierra Rejada Golf Club,Moorpark,CA,(73.8/136/72),Public,0,15187 Tierra Rejada Road,93021,34.268517,-118.847763
-Tierra del Sol,California City,CA,(72.3/130/72),Public/Municipal,0,4141 52nd Street,92105,32.750999,-117.083557
+Tierra del Sol,California City,CA,(72.3/130/72),Public/Municipal,0,10300 N Loop Blvd,93505,35.1301907,-117.9553885
 Tijeras Creek Golf Club,Rancho Santa Margarita,CA,(73.7/137/72),Public,1,29082 Tijeras Creek,92688,33.608967,-117.622223
 Tilden Park GC,Berkeley,CA,(71.6/130/70),Public,0,44 Bay Tree Lane,94563,37.888313,-122.24527
 Timber Creek GC - Lakes/Oaks,Roseville,CA,(71.4/129/72),Public,0,7050 Del Webb Blvd,95747,38.7772478,-121.3502931
