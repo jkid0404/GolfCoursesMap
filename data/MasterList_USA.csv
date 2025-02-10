@@ -4629,7 +4629,7 @@ Blythe Municipal Golf Course,Blythe,CA,(72.8/123/73),Unknown,0,3600 Quail Run Ro
 Bodega Harbour,Bodega Bay,CA,(71.8/131/70),Public,0,21295 Heron Dr,94923,38.3135592,-123.0292119
 Bonita Golf Course,Bonita,CA,(69.4/118/71),Unknown,0,3631 Bonita Road,91902,32.654408,-117.045853
 Boulder Creek GCC&R,Boulder Creek,CA,(59.8/97/60),Resort,0,160 Hilton Drive,95006,37.15361,-122.161949
-Boulder Oaks Golf Club,Escondido,CA,(68.3/118/70),Semi-Private,1,3101 Hidden Oaks Lane,92027,33.116688,-117.007286
+Boulder Oaks Golf Club,Escondido,CA,(68.3/118/70),Semi-Private,1,10333 Meadow Glen Way E,92026,33.2149575,-117.1112959
 Boulder Ridge,San Jose,CA,(GC at) - Boulder Ridge (GC at) (73.2/138/72),Private,0,1000 Old Quarry Road,95120,37.233891,-121.85685
 Boundary Oak GC,Walnut Creek,CA,(73.8/134/72),Public,0,3800 Valley Vista Road,94598,37.923836,-121.99659
 Braemar Country Club - Masters/US Open,Tarzana,CA,(71.3/133/71),Private,0,4001 Reseda Boulevard,91356,34.142914,-118.540855
@@ -4659,7 +4659,7 @@ Butte Creek CC,Chico,CA,(73.5/134/72),Private,0,175 Estates Drive,95928,39.68250
 Calabasas Country Club,Calabasas,CA,(71.8/130/72),Private,0,4515 Park Entrada,91302,34.1427917,-118.661577
 California Country Club,Whittier,CA,(72.7/129/72),Private,0,Coleford Avenue,91746,34.038158,-118.015182
 California GC of SF,South San Francisco,CA,(74.6/139/72),Private,0,El Camino Real,94080,37.649807,-122.438293
-California Oaks Golf Course,Murrieta,CA,(66.3/121/70),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
+California Oaks Golf Course,Murrieta,CA,(66.3/121/70),Public,0,40603 Colony Dr,92562,33.5752933,-117.2098549
 Callippe Preserve GC,Pleasanton,CA,(73.3/139/72),Municipal,0,8530 Clubhouse Drive,94566,37.626312,-121.860519
 Camarillo Springs Golf Course,Camarillo,CA,(73.1/130/72),Public,0,791 Camarillo Springs Road,93012,34.201492,-118.987793
 Cameron Park CC,Cameron Park,CA,(72.0/126/72),Private,0,3210 Royal Drive,95682,38.663101,-120.982277
@@ -4712,7 +4712,7 @@ Costa Mesa Golf & Country Club - Los Lagos,Costa Mesa,CA,(71.2/126/72),Public,1,
 Costa Mesa Golf & Country Club - Mesa Linda,Costa Mesa,CA,(66.5/117/70),Public,1,20382 Newport Boulevard,92627,33.666458,-117.893478
 Coto de Caza Golf & Racquet Club - NORTH,Coto de Caza,CA,(75.6/143/72),Private,0,25291 Vista del Verde,92679,33.595783,-117.580795
 Coto de Caza Golf & Racquet Club - SOUTH,Coto de Caza,CA,(73.8/137/72),Private,0,25291 Vista del Verde,92679,33.595783,-117.580795
-Cottonwood Golf Club - Ivanhoe,El Cajon,CA,(72.0/123/72),Public,0,3121 Willow Glen Drive,92019,32.748913,-116.910904
+Cottonwood Golf Club - Ivanhoe,El Cajon,CA,(72.0/123/72),Public,1,3121 Willow Glen Drive,92019,32.748913,-116.910904
 Coyote Creek GC - Tournament,San Jose,CA,(74.2/138/72),Unknown,0,1 Coyote Creek Golf Drive,95037,37.193092,-121.701729
 Coyote Creek GC - Valley,San Jose,CA,(74.0/132/72),Unknown,0,1 Coyote Creek Golf Drive,95037,37.193092,-121.701729
 Coyote Hills Golf Course,Fullerton,CA,(72.1/134/70),Public,1,1442 Masters Drive,92831,33.898903,-117.905281
@@ -4831,7 +4831,7 @@ Goose Creek Golf Club,Mira Loma,CA,(73.1/131/71),Public,0,11418 68th Street,9175
 Graeagle Meadows GC,Graeagle,CA,(72.3/127/72),Semi-Private,0,6720 State Highway 89,96103,39.761681,-120.60965
 Granite Bay GC,Granite Bay,CA,(74.2/138/71),Private,0,Park View Drive,93442,35.353561,-120.840675
 Grape Ranch GC,Palo Cedro,CA,(69.8/118/72),Semi-Private,0,Service Road,93446,35.648796,-120.620453
-Gray's Crossing,Truckee,CA,(GC at) - Gray's Crossing (GC at) (74.3/140/72),Unknown,0,5900 The Crossings Drive,92008,33.129337,-117.307022
+Gray's Crossing,Truckee,CA,(GC at) - Gray's Crossing (GC at) (74.3/140/72),Unknown,0,11406 Henness Rd,96161,39.3496308,-120.1684444
 Green Hills CC,Millbrae,CA,(70.7/138/71),Private,0,500 Ludeman Lane,94030,37.60511,-122.406364
 Green River Golf Club,Corona,CA,(71.7/125/72),Unknown,0,5215 Green River Road,92880,33.872887,-117.672623
 Green Tree Golf Course,Victorville,CA,(72.0/127/72),Public,0,14173 Green Tree Boulevard,92395,34.508492,-117.31955
@@ -4978,13 +4978,12 @@ Micke Grove GL,Lodi,CA,(71.8/128/72),Public,0,11401 North Micke Grove Road,95240
 Mile Square Golf Course,Fountain Valley,CA,(72.2/127/72),Public,1,10412 Warner Avenue,92708,33.716248,-117.947037
 Mill Valley GC,Mill Valley,CA,(61.9/111/64),Public,0,280 Buena Vista Avenue,94941,37.909607,-122.538155
 Miramar Memorial Golf Course,San Diego,CA,(72.0/124/72),Military,0,19926 Anderson Avenue,92145,32.884762,-117.137978
+Mission Bay Golf Course,San Diego,CA,(53.4/73/58),Public,1,2702 N Mission Bay Dr,92109,32.7988798,-117.2197244
 Mission Hills Country Club - ARNOLD PALMER Course,Rancho Mirage,CA,(72.7/132/72),Private,0,34600 Mission Hills Drive,92270,33.798492,-116.43364
 Mission Hills Country Club - DINAH SHORE Tournament Course,Rancho Mirage,CA,(75.3/142/72),Private,0,34600 Mission Hills Drive,92270,33.798492,-116.43364
 Mission Hills Country Club - PETE DYE CHALLENGE Course,Rancho Mirage,CA,(73.8/142/72),Private,0,34600 Mission Hills Drive,92270,33.798492,-116.43364
 Mission Hills GC,Hayward,CA,(57.6/87/60),Municipal,0,275 Industrial Parkway,94544,37.626949,-122.050217
 Mission Hills North,Rancho Mirage,CA,(73.4/134/72),Private,0,34600 Mission Hills Drive,92270,33.798492,-116.43364
-Mission Lakes Country Club - BACK 9,Desert Hot Springs,CA,(Played Twice) (74.6/127/72),Semi-Private,0,64631 Augusta Avenue,92240,33.98645,-116.534012
-Mission Lakes Country Club - FRONT 9,Desert Hot Springs,CA,(Played Twice) (70.2/126/70),Semi-Private,0,64631 Augusta Avenue,92240,33.98645,-116.534012
 Mission Lakes Country Club,Desert Hot Springs,CA,(72.4/127/71),Semi-Private,0,64631 Augusta Avenue,92240,33.98645,-116.534012
 Mission Trails Golf Course,San Diego,CA,(68.9/119/71),Public/Municipal,1,7380 Golfcrest Place,92119,32.801281,-117.037636
 Mission Viejo Country Club,Mission Viejo,CA,(75.1/142/72),Private,0,Mission Viejo Golf Course,92691,33.580471,-117.663971
@@ -4995,16 +4994,9 @@ Monarch Beach Golf Links,Dana Point,CA,(71.9/130/70),Resort,0,50 Monarch Beach R
 Monarch Dunes Golf Club - OLD Course,Nipomo,CA,(73.1/135/71),Public,0,1606 Trilogy Parkway,93444,35.031624,-120.551712
 Montebello Golf Course,Montebello,CA,(71.2/122/71),Public/Municipal,0,901 Via San Clemente,90640,34.027592,-118.131889
 Montecito Club,Santa Barbara,CA,(72.3/132/71),Private,0,495 Valley Club Road,93108,34.433968,-119.616013
-Monterey Country Club - East/East,Palm Desert,CA,(68.8/120/70),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
 Monterey Country Club - East/South,Palm Desert,CA,(69.0/121/71),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
 Monterey Country Club - East/West,Palm Desert,CA,(69.6/123/71),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
-Monterey Country Club - Rain Course,Palm Desert,CA,(67.0/117/69),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
-Monterey Country Club - South/East,Palm Desert,CA,(69.0/121/71),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
-Monterey Country Club - South/South,Palm Desert,CA,(69.2/122/72),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
 Monterey Country Club - South/West,Palm Desert,CA,(69.8/124/72),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
-Monterey Country Club - West/East,Palm Desert,CA,(69.6/123/71),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
-Monterey Country Club - West/South,Palm Desert,CA,(69.8/124/72),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
-Monterey Country Club - West/West,Palm Desert,CA,(70.4/125/72),Private,0,260 Avenida Del Sol,92260,33.749012,-116.386353
 Monterey Peninsula CC - Dunes,Pebble Beach,CA,(74.6/140/72),Private,0,23332 Pebble Beach Lane,95366,37.745762,-121.105919
 Monterey Peninsula CC - Shore,Pebble Beach,CA,(73.7/134/72),Private,0,23332 Pebble Beach Lane,95366,37.745762,-121.105919
 Monterey Pines GC,Monterey,CA,(68.7/117/70),Public/Military,0,Michael J. Smith Lane,93940,36.590359,-121.864441
@@ -5044,10 +5036,7 @@ Newport Beach Golf Course,Newport Beach,CA,(54.5/81/59),Public,1,1107 Jamboree R
 North Kern Golf Course,Bakersfield,CA,(71.7/124/72),Public,0,Quality Road,93308,35.520367,-119.115395
 North Ranch Country Club - Lakes/Oaks,Westlake Village,CA,(75.0/139/72),Private,0,Country Club Road,91362,34.192291,-118.80735
 North Ranch Country Club - Lakes/Valley,Westlake Village,CA,(74.9/140/71),Private,0,Country Club Road,91362,34.192291,-118.80735
-North Ranch Country Club - Oaks/Lakes,Westlake Village,CA,(75.0/139/72),Private,0,Country Club Road,91362,34.192291,-118.80735
 North Ranch Country Club - Oaks/Valley,Westlake Village,CA,(73.9/138/71),Private,0,Country Club Road,91362,34.192291,-118.80735
-North Ranch Country Club - Valley/Lakes,Westlake Village,CA,(74.9/140/71),Private,0,Country Club Road,91362,34.192291,-118.80735
-North Ranch Country Club - Valley/Oaks,Westlake Village,CA,(73.9/138/71),Private,0,Country Club Road,91362,34.192291,-118.80735
 North Ridge CC,Fair Oaks,CA,(73.4/137/72),Private,0,7600 Madison Avenue,95628,38.662434,-121.284309
 Northstar at Tahoe GC,Truckee,CA,(73.0/140/72),Resort,0,168 Basque Drive,96161,39.291538,-120.11731
 Northwood GC,Monte Rio,CA,(69.4/118/72),Unknown,0,19420 Highway 116,95462,38.477791,-122.998215
@@ -5063,12 +5052,9 @@ Oakmont Country Club,Glendale,CA,(74.5/139/71),Private,0,3100 Country Club Drive
 Oakmont GC - Sugarloaf,Santa Rosa,CA,(The Club at) (61.7/102/63),Unknown,0,7025 Oakmont Drive,95409,38.432102,-122.592896
 Oakmont GC - Valley of the Moon Club,Santa Rosa,CA,(70.8/130/72),Unknown,0,7025 Oakmont Drive,95409,38.432102,-122.592896
 Oakmoore GC,Stockton,CA,(70.8/133/71),Private,0,Sanguinetti Lane,95205,37.994556,-121.270706
-Oaks North Golf Course - East/North,San Diego,CA,(56.5/88/60),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
-Oaks North Golf Course - East/South,San Diego,CA,(56.8/91/60),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
-Oaks North Golf Course - North/East,San Diego,CA,(56.5/88/60),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
-Oaks North Golf Course - North/South,San Diego,CA,(57.3/92/60),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
-Oaks North Golf Course - South/East,San Diego,CA,(56.8/91/60),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
-Oaks North Golf Course - South/North,San Diego,CA,(57.3/92/60),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
+Oaks North Golf Course - East/North,San Diego,CA,(56.5/88/60),Public,0,12602 Oaks N Dr,92128,33.0338025,-117.0591959
+Oaks North Golf Course - East/South,San Diego,CA,(56.8/91/60),Public,1,12602 Oaks N Dr,92128,33.0338025,-117.0591959
+Oaks North Golf Course - North/South,San Diego,CA,(57.3/92/60),Public,0,12602 Oaks N Dr,92128,33.0338025,-117.0591959
 Oceanside Golf Course,Oceanside,CA,(71.8/125/72),Private,0,821 Douglas Drive,92058,33.252003,-117.321815
 Ojai Valley Inn & Spa,Ojai,CA,(71.0/131/70),Unknown,0,820 Country Club Road,93023,34.438644,-119.255081
 Old Brockway GC,Kings Beach,CA,(71.4/134/72),Unknown,0,400 Brassie Avenue,96148,39.239147,-120.032227
@@ -5142,11 +5128,7 @@ Rancho La Quinta Country Club - JONES,La Quinta,CA,(73.5/132/72),Private,0,49650
 Rancho La Quinta Country Club - PATE,La Quinta,CA,(73.7/134/72),Private,0,49650 Eisenhower Drive,92253,33.687244,-116.307922
 Rancho Las Palmas Country Club - North/South,Rancho Mirage,CA,(69.2/124/71),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
 Rancho Las Palmas Country Club - North/West,Rancho Mirage,CA,(69.1/122/71),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
-Rancho Las Palmas Country Club - Rain Course,Rancho Mirage,CA,(67.2/116/68),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
-Rancho Las Palmas Country Club - South/North,Rancho Mirage,CA,(69.2/124/71),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
 Rancho Las Palmas Country Club - South/West,Rancho Mirage,CA,(70.1/121/70),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
-Rancho Las Palmas Country Club - West/North,Rancho Mirage,CA,(69.1/122/71),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
-Rancho Las Palmas Country Club - West/South,Rancho Mirage,CA,(70.1/121/70),Resort,0,50905 Medina Way,92270,33.740227,-116.39859
 Rancho Maria Golf Club,Santa Maria,CA,(70.5/124/72),Public,0,1950 Casmalia Road,93455,34.872208,-120.4832
 Rancho Murieta CC - North,Rancho Murieta,CA,(73.4/140/72),Private,0,7000 Alameda Drive,95683,38.495491,-121.08989
 Rancho Murieta CC - South,Rancho Murieta,CA,(73.4/133/72),Private,0,7000 Alameda Drive,95683,38.495491,-121.08989
@@ -5166,8 +5148,8 @@ Redwood Canyon GC,Castro Valley,CA,(68.0/116/71),Public,0,Brandon Trail,94546,37
 Redwood Empire GCC,Fortuna,CA,(69.7/128/72),Private,0,390 Country Club Drive,95540,40.566994,-124.107635
 Reserve at Spanos Park GC,Stockton,CA,(73.8/133/72),Semi-Private,0,5591 West Eight Mile Road,95219,38.057766,-121.385986
 Richmond CC,Richmond,CA,(72.0/127/72),Private,0,1 Markovich Lane,94806,37.984852,-122.350594
-Ridge Creek,Dinuba,CA,(74.6/125/72),Municipal,0,8797 Circle Ridge Drive,92026,33.254993,-117.144577
-Ridge,Auburn,CA,(The) - Ridge (The) (73.4/144/71),Public,0,2020 Golf Course Road,95602,38.948101,-121.077591
+Ridge Creek,Dinuba,CA,(74.6/125/72),Municipal,0,3018 Ridge Creek Dr,93618,36.5416752,-119.4343872
+Ridge,Auburn,CA,(73.4/144/71),Public,0,2020 Golf Course Road,95602,38.948101,-121.077591
 Ridgemark GCC - Ridgemark,Hollister,CA,(72.5/128/72),Semi-Private,0,605 Ridgemark Drive,95023,36.814987,-121.364105
 Rio Bend Golf Course,El Centro,CA,(61.2/101/64),Public,0,1601 Sunset Drive,92243,32.76733,-115.693558
 Rio Bravo Country Club,Bakersfield,CA,(73.5/133/72),Private,0,15200 Casa Club Drive,93306,35.40263,-118.835159
@@ -5180,7 +5162,6 @@ River Oaks GC,Ceres,CA,(Ceres) - River Oaks GC (Ceres) (59.4/98/62),Public,0,Gol
 River Oaks GC,Nicolaus,CA,(Nicolaus) - River Oaks GC (Nicolaus) (70.9/125/71),Public,0,Golf Links Drive,95326,37.6124,-120.931664
 River Ridge Golf Club - VICTORIA LAKES,Oxnard,CA,(72.1/129/72),Municipal,0,2401 West Vineyard Avenue,93036,34.228973,-119.202538
 River Ridge Golf Club - VINEYARD,Oxnard,CA,(73.1/130/72),Municipal,0,2401 West Vineyard Avenue,93036,34.228973,-119.202538
-River View Golf Club - Rain Course,Santa Ana,CA,(59.6/96/58),Public,0,1800 West 22nd Street,92706,33.76527,-117.892876
 River View Golf Club,Santa Ana,CA,(68.4/120/70),Public,1,1800 West 22nd Street,92706,33.76527,-117.892876
 Rivers Edge Golf Course,Needles,CA,(70.4/116/71),Public,0,Marina Drive,92363,34.847321,-114.603065
 Riverside GC,Fresno,CA,(71.9/130/72),Private,0,5399 East Salerno Drive,93727,36.777424,-119.708305
@@ -5216,10 +5197,7 @@ San Ramon GC,San Ramon,CA,(71.4/128/72),Public,0,24157 San Vicente Road,92065,33
 San Vicente Resort & Golf Club,Ramona,CA,(73.7/135/72),Resort,0,24157 San Vicente Road,92065,33.002781,-116.805923
 Sand Canyon Country Club - Desert/Mountain,Santa Clarita,CA,(73.8/141/71),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
 Sand Canyon Country Club - Desert/Valley,Santa Clarita,CA,(74.9/145/72),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
-Sand Canyon Country Club - Mountain/Desert,Santa Clarita,CA,(73.8/141/71),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
 Sand Canyon Country Club - Mountain/Valley,Santa Clarita,CA,(73.3/139/71),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
-Sand Canyon Country Club - Valley/Desert,Santa Clarita,CA,(74.9/145/72),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
-Sand Canyon Country Club - Valley/Mountain,Santa Clarita,CA,(73.3/139/71),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
 Sandpiper Golf Course,Goleta,CA,(75.0/135/72),Unknown,0,7925 Hollister Avenue,93117,34.43084,-119.907204
 Santa Ana Country Club,Santa Ana,CA,(73.7/133/72),Unknown,0,20382 Newport Boulevard,92627,33.666458,-117.893478
 Santa Anita Golf Course,Arcadia,CA,(70.4/121/71),Public,0,405 South Santa Anita Avenue,91006,34.134617,-118.03141
@@ -5396,7 +5374,7 @@ Turlock GCC,Turlock,CA,(72.5/130/72),Private,0,10526 Golf Link Road,95380,37.442
 Tustin Ranch Golf Club,Tustin,CA,(73.6/133/72),Public,1,Township Drive,92782,33.740261,-117.783775
 Twain Harte GCC,Twain Harte,CA,(58.3/96/61),Public,0,22783 Placer Drive,95383,38.035221,-120.234673
 Twin Creeks GC,Salinas,CA,(58.8/90/62),Unknown,0,1551 Beacon Hill Drive,93905,36.697807,-121.617508
-Twin Oaks Golf Course,San Marcos,CA,(71.9/129/72),Public,0,108 Del Roy Drive,92069,33.166199,-117.16124
+Twin Oaks Golf Course,San Marcos,CA,(71.9/129/72),Public,0,1425 N Twin Oaks Valley Rd,92069,33.1648428,-117.161442
 Ukiah GC,Ukiah,CA,(69.1/133/70),Municipal,0,1011 Maple Avenue,95482,39.156643,-123.221992
 Upland Hills Country Club,Upland,CA,(67.1/119/70),Semi-Private,0,1233 Upland Hills Drive North,91784,34.124123,-117.635193
 Valencia Country Club,Valencia,CA,(74.7/139/72),Public,0,27201 Tourney Road,91355,34.417385,-118.576881
