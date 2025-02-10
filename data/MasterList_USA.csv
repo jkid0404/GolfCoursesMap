@@ -4736,7 +4736,7 @@ De Anza Country Club,Borrego Springs,CA,(72.1/127/72),Private,0,509 Fairway Lane
 De Laveaga GC,Santa Cruz,CA,(70.1/134/70),Private/Resort,0,495 Upper Park Road,95065,36.997616,-122.001106
 DeBell Golf Club,Burbank,CA,(69.0/120/71),Public,0,1500 East Walnut Avenue,91501,34.206295,-118.304993
 Deep Cliff GC,Cupertino,CA,(58.6/91/60),Public,0,10675 Club House Lane,95014,37.312485,-122.065712
-Del Mar Country Club,Rancho Santa Fe,CA,(75.8/145/72),Private,0,14942 Via de la Valle,92014,32.984238,-117.218193
+Del Mar Country Club,Del Mar,CA,(75.8/145/72),Private,0,6001 Clubhouse Dr,92014,32.9776976,-117.1977607
 Del Monte GC,Monterey,CA,(71.6/131/72),Resort,0,1108 Sylvan Road,93940,36.592327,-121.870796
 Del Norte GC,Crescent City,CA,(69.1/116/71),Semi-Private,0,3420 Kings Valley Road,95531,41.808205,-124.137527
 Del Paso CC,Sacramento,CA,(74.1/135/71),Private,0,3333 Marconi Avenue,95821,38.617867,-121.387657
@@ -4752,11 +4752,8 @@ Desert Horizons Country Club,Indian Wells,CA,(72.0/127/72),Private,0,44975 Saint
 Desert Island Country Club,Rancho Mirage,CA,(71.9/128/72),Private/Resort,0,950 Island Drive,92270,33.772011,-116.411873
 Desert Princess Country Club - Cielo/Lagos,Cathedral City,CA,(72.4/128/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
 Desert Princess Country Club - Cielo/Vista,Cathedral City,CA,(73.2/130/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
-Desert Princess Country Club - Lagos/Cielo,Cathedral City,CA,(72.4/128/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
 Desert Princess Country Club - Lagos/Vista,Cathedral City,CA,(72.8/129/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
 Desert Princess Country Club - Old Course,Cathedral City,CA,(72.6/128/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
-Desert Princess Country Club - Vista/Cielo,Cathedral City,CA,(73.2/130/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
-Desert Princess Country Club - Vista/Lagos,Cathedral City,CA,(72.8/129/72),Private/Resort,0,28601 East Portales Drive,92234,33.841125,-116.47612
 Desert Springs JW Marriott Resort & Spa - PALM,Palm Desert,CA,(72.7/132/72),Resort,0,39699 Desert Springs Drive,92260,33.755562,-116.361664
 Desert Springs JW Marriott Resort & Spa - VALLEY,Palm Desert,CA,(72.0/131/72),Resort,1,39699 Desert Springs Drive,92260,33.755562,-116.361664
 Desert Willow Golf Resort - Firecliff,Palm Desert,CA,(74.1/141/72),Resort,0,40999 Resorter Boulevard,92211,33.7533,-116.318695
@@ -4800,9 +4797,9 @@ Encinitas Ranch Golf Course,Encinitas,CA,(71.2/127/72),Public,0,1275 Leucadia Bo
 Escalon GC,Escalon,CA,(56.8/80/54),Public,0,17051 Escalon-Bellota Rd,95320,37.8074497,-120.9999427
 Escena Golf Club,Palm Springs,CA,(74.3/131/72),Public,1,1100 Clubhouse View Drive,92262,33.839199,-116.495598
 Eureka GC,Eureka,CA,(67.5/113/70),Public,0,4750 Fairway Drive,95503,40.758469,-124.168556
-Fairbanks Ranch Country Club - Lakes to Ocean,Rancho Santa Fe,CA,(74.4/132/72),Private,0,14942 Via de la Valle,92014,32.984238,-117.218193
-Fairbanks Ranch Country Club - Ocean to Valley,Rancho Santa Fe,CA,(74.5/133/72),Private,0,14942 Via de la Valle,92014,32.984238,-117.218193
-Fairbanks Ranch Country Club - Valley to Lakes,Rancho Santa Fe,CA,(74.9/132/72),Private,0,14942 Via de la Valle,92014,32.984238,-117.218193
+Fairbanks Ranch Country Club - Lakes to Ocean,Rancho Santa Fe,CA,(74.4/132/72),Private,0,15150 San Dieguito Rd,92067,92014,32.9767766,-117.2138817
+Fairbanks Ranch Country Club - Ocean to Valley,Rancho Santa Fe,CA,(74.5/133/72),Private,0,15150 San Dieguito Rd,92067,92014,32.9767766,-117.2138817
+Fairbanks Ranch Country Club - Valley to Lakes,Rancho Santa Fe,CA,(74.9/132/72),Private,0,15150 San Dieguito Rd,92067,92014,32.9767766,-117.2138817
 Fairgrounds GC,Santa Rosa,CA,(57.4/101/58),Public,0,1350 Bennett Valley Road,95404,38.432831,-122.702148
 Fairmount Golf Course,Riverside,CA,(70.0/117/72),Public,0,4099 Lawn Bowl,92501,33.998577,-117.378365
 Fall River Valley GCC,Fall River Mills,CA,(74.3/129/72),Public,0,24750 Country Club Drive,96028,40.996761,-121.451614
@@ -5005,9 +5002,9 @@ Moorpark Country Club - Canyon Crest/Ridgeline,Moorpark,CA,(73.1/133/72),Semi-Pr
 Moorpark Country Club - Creekside/Ridgeline,Moorpark,CA,(73.7/137/72),Semi-Private,0,Championship Drive,93021,34.3046,-118.897964
 Moraga CC,Moraga,CA,(71.1/127/71),Private,0,6161 Moraga Avenue,92509,33.976696,-117.440956
 Morgan Creek GC,Roseville,CA,(73.4/135/72),Private,0,8791 Morgan Creek Lane,95747,38.738976,-121.347252
-Morgan Run Resort & Club - East/South,Rancho Santa Fe,CA,(71.1/126/72),Private,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - North/East,Rancho Santa Fe,CA,(70.1/123/71),Private,0,Via de la Valle,92091,32.990932,-117.208847
-Morgan Run Resort & Club - North/South,Rancho Santa Fe,CA,(71.0/125/71),Private,0,Via de la Valle,92091,32.990932,-117.208847
+La Valle Coastal Club - East/South,Rancho Santa Fe,CA,(71.1/126/72),Private,0,5690 Cancha de Golf,92091,32.990853,-117.2117387
+La Valle Coastal Club - North/East,Rancho Santa Fe,CA,(70.1/123/71),Private,0,5690 Cancha de Golf,92091,32.990853,-117.2117387
+La Valle Coastal Club - North/South,Rancho Santa Fe,CA,(71.0/125/71),Private,0,5690 Cancha de Golf,92091,32.990853,-117.2117387
 Morongo Golf Club at Tukwet Canyon - CHAMPIONS,Beaumont,CA,(76.1/141/72),Public,0,36211 Champions Drive,92223,33.953934,-117.029579
 Morongo Golf Club at Tukwet Canyon - LEGENDS,Beaumont,CA,(75.8/140/72),Public,0,36211 Champions Drive,92223,33.953934,-117.029579
 Morro Bay Golf Course,Morro Bay,CA,(71.0/123/71),Public,0,Park View Drive,93442,35.353561,-120.840675
@@ -5199,7 +5196,7 @@ Sand Canyon Country Club - Desert/Mountain,Santa Clarita,CA,(73.8/141/71),Semi-P
 Sand Canyon Country Club - Desert/Valley,Santa Clarita,CA,(74.9/145/72),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
 Sand Canyon Country Club - Mountain/Valley,Santa Clarita,CA,(73.3/139/71),Semi-Private,0,Robinson Ranch Road,91387,34.412109,-118.404587
 Sandpiper Golf Course,Goleta,CA,(75.0/135/72),Unknown,0,7925 Hollister Avenue,93117,34.43084,-119.907204
-Santa Ana Country Club,Santa Ana,CA,(73.7/133/72),Unknown,0,20382 Newport Boulevard,92627,33.666458,-117.893478
+Santa Ana Country Club,Santa Ana,CA,(73.7/133/72),Private,0,20382 Newport Boulevard,92627,33.666458,-117.893478
 Santa Anita Golf Course,Arcadia,CA,(70.4/121/71),Public,0,405 South Santa Anita Avenue,91006,34.134617,-118.03141
 Santa Barbara Golf Club,Santa Barbara,CA,(69.4/123/70),Public/Municipal,0,126 East Haley Street,93101,34.418571,-119.693672
 Santa Maria Country Club,Santa Maria,CA,(71.3/127/72),Private,0,505 West Waller Lane,93455,34.905384,-120.440865
@@ -5308,8 +5305,8 @@ The Bridges at Rancho Santa Fe,Rancho Santa Fe,CA,(73.9/139/71),Private,0,18550 
 The Club at Morningside - Alternate Course,Rancho Mirage,CA,(71.8/128/71),Unknown,0,39033 Johnar Boulevard,92270,33.763458,-116.432045
 The Club at Morningside,Rancho Mirage,CA,(72.9/131/72),Unknown,0,39033 Johnar Boulevard,92270,33.763458,-116.432045
 The Country Club at Soboba Springs,San Jacinto,CA,(75.3/140/72),Public/Resort,0,1020 Soboba Road,92583,33.800209,-116.931671
-The Country Club of Rancho Bernardo - Alternate Course,San Diego,CA,(70.9/126/71),Private,0,16066 Bernardo Heights Parkway,92128,33.005489,-117.071754
-The Country Club of Rancho Bernardo,San Diego,CA,(71.5/127/72),Private,0,16066 Bernardo Heights Parkway,92128,33.005489,-117.071754
+The Country Club of Rancho Bernardo - Alternate Course,San Diego,CA,(70.9/126/71),Private,0,12280 Greens East Rd,92128,33.0315078,-117.0674043
+The Country Club of Rancho Bernardo,San Diego,CA,(71.5/127/72),Private,0,12280 Greens East Rd,92128,33.0315078,-117.0674043
 The Crosby Club,Rancho Santa Fe,CA,(74.0/140/70),Private,0,17102 Bing Crosby Blvd,92127,33.0347642,-117.1581036
 The Crossings at Carlsbad,Carlsbad,CA,(72.8/135/72),Public,1,5900 The Crossings Drive,92008,33.129337,-117.307022
 The Farms Golf Club,Rancho Santa Fe,CA,(74.2/141/72),Private,0,8496 Saint Andrews Road,92067,32.985294,-117.176872
