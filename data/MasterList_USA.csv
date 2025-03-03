@@ -4570,7 +4570,7 @@ Avondale Golf Club,Palm Desert,CA,(72.7/131/72),Private,0,75800 Avondale Drive,9
 Azusa Greens Country Club,Azusa,CA,(69.1/118/70),Public,0,991 West Sierra Madre Avenue,91702,34.14254,-117.92054
 Bailey Creek GC,Lake Almanor,CA,(72.7/129/72),Public,0,433 Durkin Drive,96137,40.291359,-121.140106
 Bakersfield Country Club,Bakersfield,CA,(72.6/131/72),Private,0,7001 Stockdale Highway,93309,35.354233,-119.078583
-Balboa Park Golf Club - 18 Hole Course,San Diego,CA,(71.2/125/72),Public/Municipal,0,2600 Golf Course Drive,92102,32.724648,-117.137207
+Balboa Park Golf Club - 18 Hole Course,San Diego,CA,(71.2/125/72),Public/Municipal,1,2600 Golf Course Drive,92102,32.724648,-117.137207
 Balboa Park Golf Club - 9 Hole Course,San Diego,CA,(60.2/94/64),Public/Municipal,0,2600 Golf Course Drive,92102,32.724648,-117.137207
 Barbara Worth Golf Resort,Holtville,CA,(71.5/124/71),Resort,0,2050 Country Club Drive,92250,32.800308,-115.419655
 Barona Creek Golf Club,Lakeside,CA,(73.8/140/71),Resort,0,Harry Hertzberg Way,92040,32.940571,-116.87104
@@ -4613,15 +4613,9 @@ BlackRock GC,Cobb,CA,(62.8/110/66),Public/Resort,0,14255 Snead Road,95426,38.849
 Blackberry Farm GC,Cupertino,CA,(57.0/93/58),Unknown,0,22100 Stevens Creek Boulevard,95014,37.323009,-122.059395
 Blackhawk CC - Falls,Danville,CA,(72.7/135/72),Private,0,3650 Country Club Place,94506,37.809822,-121.890427
 Blackhawk CC - Lakeside,Danville,CA,(73.4/140/72),Private,0,3650 Country Club Place,94506,37.809822,-121.890427
-Blacklake Golf Resort - CANYON 9,Nipomo,CA,(31.6/110/36),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
 Blacklake Golf Resort - Canyon/Lakes,Nipomo,CA,(71.3/125/72),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
 Blacklake Golf Resort - Canyon/Oaks,Nipomo,CA,(69.3/124/71),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
-Blacklake Golf Resort - LAKES 9,Nipomo,CA,(32.4/106/36),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
-Blacklake Golf Resort - Lakes/Canyon,Nipomo,CA,(71.3/125/72),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
 Blacklake Golf Resort - Lakes/Oaks,Nipomo,CA,(70.2/121/71),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
-Blacklake Golf Resort - OAKS 9,Nipomo,CA,(30.8/104/34),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
-Blacklake Golf Resort - Oaks/Canyon,Nipomo,CA,(69.3/124/71),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
-Blacklake Golf Resort - Oaks/Lakes,Nipomo,CA,(70.2/121/71),Public/Resort,0,Club House Lane,93444,35.050819,-120.54483
 Blue Rock Springs GC - East,Vallejo,CA,(70.1/129/70),Public,0,655 Columbus Parkway,94591,38.1236,-122.192169
 Blue Rock Springs GC - West,Vallejo,CA,(69.1/128/71),Public,0,655 Columbus Parkway,94591,38.1236,-122.192169
 Bluff Pointe GC,Fresno,CA,(58.4/90/58),Semi-Private,0,5399 East Salerno Drive,93727,36.777424,-119.708305
@@ -4987,7 +4981,7 @@ Mission Viejo Country Club,Mission Viejo,CA,(75.1/142/72),Private,0,Mission Viej
 Moffett Field,Sunnyvale,CA,(GC at) - Moffett Field (GC at) (71.6/122/72),Unknown,0,Macon Road,94035,37.419956,-122.04023
 Monarch Bay GC - Marina,San Leandro,CA,(58.8/89/60),Public,0,13820 Monarch Bay Drive,94577,37.693363,-122.184929
 Monarch Bay GC - Tony Lema,San Leandro,CA,(73.8/132/71),Public,0,13820 Monarch Bay Drive,94577,37.693363,-122.184929
-Monarch Beach Golf Links,Dana Point,CA,(71.9/130/70),Resort,0,50 Monarch Beach Resort North,92629,33.48328,-117.717964
+Monarch Beach Golf Links,Dana Point,CA,(71.9/130/70),Resort,1,50 Monarch Beach Resort North,92629,33.48328,-117.717964
 Monarch Dunes Golf Club - OLD Course,Nipomo,CA,(73.1/135/71),Public,0,1606 Trilogy Parkway,93444,35.031624,-120.551712
 Montebello Golf Course,Montebello,CA,(71.2/122/71),Public/Municipal,0,901 Via San Clemente,90640,34.027592,-118.131889
 Montecito Club,Santa Barbara,CA,(72.3/132/71),Private,0,495 Valley Club Road,93108,34.433968,-119.616013
@@ -5248,7 +5242,7 @@ Silverado Resort - North,Napa,CA,(74.8/141/72),Unknown,0,Club House Drive,94558,
 Silverado Resort - South,Napa,CA,(72.3/133/72),Unknown,1,Club House Drive,94558,38.34864,-122.264488
 Simi Hills Golf Course,Simi Valley,CA,(71.5/128/71),Public,0,5031 Alamo Street,93063,34.286232,-118.694771
 Singing Hills Golf Resort at Sycuan - Oak Glen,El Cajon,CA,(70.6/123/72),Resort,0,3007 Dehesa Rd,92019,32.7845055,-116.8861799
-Singing Hills Golf Resort at Sycuan - Willow Glen,El Cajon,CA,(72.3/128/72),Resort,0,3007 Dehesa Rd,92019,32.7845055,-116.8861799
+Singing Hills Golf Resort at Sycuan - Willow Glen,El Cajon,CA,(72.3/128/72),Resort,1,3007 Dehesa Rd,92019,32.7845055,-116.8861799
 Skyline Ranch Country Club,Valley Center,CA,(54.6/87/60),Private,0,27304 Conchita Road,92082,33.2094,-116.945137
 Skylinks at Long Beach,Long Beach,CA,(72.7/127/72),Public,0,4800 East Wardlow Road,90808,33.818741,-118.138481
 Snowcreek GC,Mammoth Lakes,CA,(70.2/128/70),Unknown,0,4 Fairway Drive,93546,37.63113,-118.972305
@@ -5398,7 +5392,7 @@ Western Hills Country Club,Chino,CA,(72.6/131/72),Unknown,0,Fairway Drive,91709,
 Westin Rancho Mirage,Rancho Mirage,CA,(72.2/132/70),Resort/Public,1,22 Colonial Drive,92270,33.797527,-116.41526
 Westlake Golf Course,Westlake Village,CA,(62.7/105/66),Unknown,0,4812 Lakeview Canyon Road,91361,34.14999,-118.81871
 Westridge Golf Club,La Habra,CA,(71.9/133/72),Public,1,1302 South La Habra Hills Drive,90631,33.911659,-117.967064
-Whispering Lakes Golf Club,Ontario,CA,(71.0/120/71),Public,0,1919 East Riverside Drive,91761,34.0196,-117.60955
+Whispering Lakes Golf Club,Ontario,CA,(71.0/120/71),Public,1,1919 East Riverside Drive,91761,34.0196,-117.60955
 Whitehawk Ranch GC,Clio,CA,(72.6/136/71),Resort,0,758 Whitehawk Drive,96106,39.716888,-120.548668
 Whitney Oaks GC,Rocklin,CA,(74.3/139/71),Semi-Private,0,2305 Clubhouse Drive,95765,38.824009,-121.24192
 Whittier Narrows Golf Course - Mountain/River,Rosemead,CA,(69.4/119/70),Public,0,8640 Rush Street,91770,34.0518,-118.075706
@@ -5409,7 +5403,7 @@ Wild Wings GC,Woodland,CA,(69.4/125/72),Public,0,18540 Wildwing Drive,95695,38.6
 Wildhawk GC,Sacramento,CA,(71.2/124/72),Public,0,9425 Jackson Road,95826,38.532566,-121.348305
 Wildhorse GC,Davis,CA,(72.8/134/72),Public,0,24454 Fairway Drive,95616,38.583523,-121.772514
 William Land Park GC,Sacramento,CA,(66.6/118/68),Unknown,0,1327 17th Avenue,95822,38.537376,-121.499176
-Willowbrook Golf Course,Lakeside,CA,(68.5/123/72),Public,0,11905 Riverside Dr,92040,32.8695371,-117.0844948
+Willowbrook Golf Course,Lakeside,CA,(68.5/123/72),Public,1,11905 Riverside Dr,92040,32.8622416,-116.9384901
 Willowick Golf Course,Santa Ana,CA,(68.4/113/71),Public,1,3102 Willowick Drive,92703,33.749634,-117.910301
 Wilshire Country Club,Los Angeles,CA,(71.9/133/71),Private,0,301 North Rossmore Avenue,90004,34.077068,-118.327194
 Winchester CC,Meadow Vista,CA,(75.1/145/72),Private,0,3030 Legends Drive,95722,38.989491,-121.047623
