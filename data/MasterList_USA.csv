@@ -470,7 +470,7 @@ Verdict Ridge G&CC,Denver,NC,(74.8/149/72),Unknown,0,,,35.531952,-81.030357
 Vineland GC,Whiteville,NC,(69.9/125/72),Unknown,0,2950 Bill Hooks Road,28472,34.420555,-78.765099
 Vineyard Golf at White Lake,Elizabethtown,NC,(72.3/132/72),Unknown,0,4723 US Highway 701 North,28337,34.649265,-78.534058
 Wade Hampton GC,Cashiers,NC,(75.7/146/72),Private,0,20 Whisper Fade Road,28717,35.092167,-83.071419
-Wakefield Plantation - CC at - Championship Course,Raleigh,NC,(75.3/136/71),Private,0,12613 Village Springs Road,27614,35.957489,-78.559547
+Wakefield Plantation CC - Championship Course,Raleigh,NC,(75.3/136/71),Private,0,12613 Village Springs Road,27614,35.957489,-78.559547
 Walnut Creek CC,Goldsboro,NC,(73.8/136/72),Private,0,601 Lakeshore Drive,27534,35.307243,-77.871887
 Warrenton GC,Warrenton,NC,(68.3/129/72),Semi-Private,0,129 19th Hole Drive,27589,36.386475,-78.12088
 Warrior GC,China Grove,NC,(72.4/132/71),Public,0,1150 Lake Wright Road,28023,35.583801,-80.637047
@@ -576,8 +576,8 @@ Daytona Golf Club,Dayton,MN,(69.7/127/72),Public,0,14681 Lawndale Lane North,553
 Deacon's Lodge,Nisswa,MN,(74.1/142/72),Unknown,0,,,46.5000439,-94.2972252
 Deer Run Golf Club,Victoria,MN,(70.8/129/71),Public,0,1617 Woodstone Drive,55386,44.848175,-93.659042
 Dellwood Country Club,Dellwood,MN,(74.9/140/72),Private,0,29 Highway 96 East,55110,45.096081,-92.975746
-Detroit CC - Lakeview - Detroit CC - Lakeview,Detroit Lakes,MN,(61.7/106/64),Semi-Private,0,24608 County Highway 22,56501,46.760597,-95.889633
-Detroit CC - Pine to Palm - Detroit CC - Pine to Palm,Detroit Lakes,MN,(70.0/129/71),Semi-Private,0,24608 County Highway 22,56501,46.760597,-95.889633
+Detroit CC - Lakeview,Detroit Lakes,MN,(61.7/106/64),Semi-Private,0,24608 County Highway 22,56501,46.760597,-95.889633
+Detroit CC - Pine to Palm,Detroit Lakes,MN,(70.0/129/71),Semi-Private,0,24608 County Highway 22,56501,46.760597,-95.889633
 Dodge Country Club,Dodge Center,MN,(70.1/120/72),Unknown,0,18187 County Highway 34,55927,44.040535,-92.875038
 Double Eagle Golf and Grille - Gold,Eagle Bend,MN,(37.5/136/37),Semi-Private,0,31886 County Road 3,56446,46.090374,-95.042259
 Double Eagle Golf and Grille - Green,Eagle Bend,MN,(36.5/140/36),Semi-Private,0,31886 County Road 3,56446,46.090374,-95.042259
@@ -783,7 +783,7 @@ Pipestone Country Club,Pipestone,MN,(72.0/121/72),Semi-Private,0,8th Avenue Sout
 Pokegama Golf Course,Grand Rapids,MN,(70.8/132/71),Public,0,3105 Golf Course Road,55744,47.213589,-93.576759
 Pomme de Terre Golf Club,Morris,MN,(71.0/137/72),Semi-Private,0,24860 State Highway 9,56267,45.546932,-95.86924
 Prairie Ridge Golf Course,Janesville,MN,(73.2/128/72),Unknown,0,2000 North Main Street,56048,44.127266,-93.707863
-Prairie View Community Golf Course - Reversible - Prairie View Community Golf Course - Reversible,Brooten,MN,(69.3/125/72),Semi-Private,0,923 Crow Lake Street,56316,45.495377,-95.118179
+Prairie View Community Golf Course - Reversible,Brooten,MN,(69.3/125/72),Semi-Private,0,923 Crow Lake Street,56316,45.495377,-95.118179
 Prestwick Golf Club,Woodbury,MN,(73.8/135/72),Unknown,0,9555 Wedgewood Drive,55125,44.898018,-92.911926
 Princeton Golf Course,Princeton,MN,(71.8/128/71),Public,0,305 Golf Club Road,55371,45.563499,-93.578003
 Proctor Golf Club,Proctor,MN,(31.1/108/33),Public/Municipal,0,71 North 3rd Avenue,55810,46.741726,-92.224106
@@ -924,7 +924,7 @@ Beloit Country Club,Beloit,KS,(69.1/123/70),Private,0,3167 Hallie Trail,67420,39
 Bentwood Golf Course,Ulysses,KS,(70.6/121/72),Public,0,,,37.580796,-101.358041
 Berkshire Golf & Fitness,Topeka,KS,(70.4/121/70),Semi-Private,0,3720 Southwest 45th Street,66610,38.985966,-95.723915
 Big Creek Golf Club,Wakeeney,KS,(70.8/116/70),Semi-Private,0,24061 J Road,67672,39.000916,-99.895699
-Brookridge Golf and Fitness - Brookridge Golf and Fitness - West Links,Overland Park,KS,(64.8/111/68),Private,0,8223 West 103rd Street,66212,38.942078,-94.682343
+Brookridge Golf and Fitness - West Links,Overland Park,KS,(64.8/111/68),Private,0,8223 West 103rd Street,66212,38.942078,-94.682343
 Brookridge Golf and Fitness,Overland Park,KS,(72.3/129/71),Private,0,8223 West 103rd Street,66212,38.942078,-94.682343
 Buffalo Dunes Golf Course,Garden City,KS,(73.9/129/72),Public/Municipal,0,North US Highway 83,67846,37.876339,-100.865471
 Burning Tree Golf Course,De Soto,KS,(67.2/108/70),Public,0,7908 166th Street,66012,38.984493,-94.964668
@@ -1557,8 +1557,8 @@ Chapel Hills Golf Course,Ashtabula,OH,(69.9/119/72),Public,0,3381 Austinburg Roa
 Chenoweth Golf Course,Akron,OH,(69.7/127/71),Public,0,523 Nome Avenue,44320,41.095047,-81.570992
 Chillicothe Country Club - Chillicothe CC,Chillicothe,OH,(70.6/130/72),Private,0,284 North Woodbridge Avenue,45601,39.33683,-83.004654
 Chillicothe Jaycee Golf Course,Chillicothe,OH,(72.1/126/72),Private,0,T 1260 Serv,45601,39.369492,-83.0522
-Chippewa Golf Club - Curtice - Chippewa Golf Club,Curtis,OH,(71.0/128/71),Unknown,0,,,39.654427,-83.815892
-Chippewa Golf Club - Doylestown - Chippewa Golf Club,Doylestown,OH,(71.8/122/71),Public,0,12147 Shank Road,44230,40.947601,-81.657227
+Chippewa Golf Club,Curtis,OH,(71.0/128/71),Unknown,0,,,39.654427,-83.815892
+Chippewa Golf Club,Doylestown,OH,(71.8/122/71),Public,0,12147 Shank Road,44230,40.947601,-81.657227
 Cincinnati Country Club,Cincinnati,OH,(70.7/130/70),Private,0,2348 Grandin Road,45208,39.128902,-84.45459
 Circling Hills Golf Course,Harrison,OH,(69.4/124/71),Public,0,10813 Carolina Trace Road,45030,39.279415,-84.79641
 ClearCreek-The Practice Center - ClearCreek-The Practice Center,Franklin,OH,(57.4/85/56),Public,0,63 Gaynor Court,45005,39.567451,-84.298691
@@ -1659,7 +1659,7 @@ Highland Meadows Golf Club - Combo Tees,Sylvania,OH,(69.0/128/71),Private,0,7455
 Highland Meadows Golf Club,Sylvania,OH,(73.6/140/71),Private,0,7455 Erie Street,43560,41.718182,-83.723671
 Highland Park Golf Course,Highland Hills,OH,(Blue) (71.8/120/71),Public,0,23230 Green Road,44122,41.463276,-81.516998
 Highland Park Golf Course,Highland Hills,OH,(Red) (69.8/116/71),Public,0,23230 Green Road,44122,41.463276,-81.516998
-Hillcrest Golf Club - Hillcrest Golf Club - Findlay,Findlay,OH,(73.7/125/71),Semi-Private,0,800 Springwood,45840,41.074223,-83.664917
+Hillcrest Golf Club,Findlay,OH,(73.7/125/71),Semi-Private,0,800 Springwood,45840,41.074223,-83.664917
 Hillsboro Elks Golf Club,Hillsboro,OH,(70.1/119/72),Semi-Private,0,7354 State Route 138,45133,39.197121,-83.631134
 Hinckley Hills Golf Course,Hinckley,OH,(71.1/124/72),Public,0,279 State Road,44233,41.269196,-81.712654
 Hocking Hills Golf Club,Logan,OH,(69.1/126/71),Semi-Private,0,Winton Court,43138,39.658447,-82.461983
@@ -1723,8 +1723,8 @@ Marion Country Club,Marion,OH,(72.3/128/71),Private,0,2415 Club House Lane,43302
 Marysville Golf Club,Marysville,OH,(70.5/123/72),Private,0,13683 State Route 38,43040,40.199524,-83.378128
 Maumee Bay Resort,Oregon,OH,(74.5/135/72),Resort,0,1750 Maumee Bay State Park,43616,41.684895,-83.369301
 Mayfair Country Club,Uniontown,OH,(70.3/133/71),Public,0,3506 Chadwick Drive,44685,40.968678,-81.44207
-Mayfield Sand Ridge Club - Mayfield - Mayfield Sand Ridge Club - Mayfield,South Euclid,OH,(72.6/132/71),Unknown,0,,,41.522718,-81.519448
-Mayfield Sand Ridge Club - Sand Ridge - Mayfield Sand Ridge Club - Sand Ridge,CHARDON,OH,(75.8/141/72),Unknown,0,12114 Mayfield Road,44024,41.531139,-81.204285
+Mayfield Sand Ridge Club - Mayfield,South Euclid,OH,(72.6/132/71),Unknown,0,,,41.522718,-81.519448
+Mayfield Sand Ridge Club - Sand Ridge,CHARDON,OH,(75.8/141/72),Unknown,0,12114 Mayfield Road,44024,41.531139,-81.204285
 Meadow Links and Golf Academy,Cincinnati,OH,(61.2/109/62),Public,0,10999 Mill Road,45240,39.276581,-84.544586
 Meadowbrook at Clayton,Clayton,OH,(71.9/131/72),Public,0,Golf Course Road,45322,39.837521,-84.296326
 Medallion Club - Meadows-Preserve,Westerville,OH,(73.3/136/72),Private,0,5000 Club Drive,43082,40.16811,-82.890274
@@ -2120,8 +2120,8 @@ CURRIE MUNICIPAL GC - WEST,MIDLAND,MI,(74.0/131/72),Public,0,1305 Soper Street,4
 CUSTER GREENS - Custer Greens,Battle Creek,MI,(30.7/110/32),Municipal,0,5049 Armstrong Road,49037,42.343567,-85.291786
 DAVISON CC,DAVISON,MI,(73.2/135/72),Private,0,9512 Fairway Drive,48423,43.002144,-83.517334
 DEARBORN CC,DEARBORN,MI,(73.5/133/72),Private,0,800 North Military Street,48124,42.317745,-83.254944
-DETROIT GC - DETROIT GC - NORTH,DETROIT,MI,(73.8/131/72),Private,0,1391 West 7 Mile Road,48203,42.431286,-83.118294
-DETROIT GC - DETROIT GC - SOUTH,DETROIT,MI,(69.4/126/68),Private,0,1391 West 7 Mile Road,48203,42.431286,-83.118294
+DETROIT GC - NORTH,DETROIT,MI,(73.8/131/72),Private,0,1391 West 7 Mile Road,48203,42.431286,-83.118294
+DETROIT GC - SOUTH,DETROIT,MI,(69.4/126/68),Private,0,1391 West 7 Mile Road,48203,42.431286,-83.118294
 DEVIL'S RIDGE GOLF CLUB,OXFORD,MI,(71.0/129/72),Public,1,2550 Metamora Road,48371,42.864399,-83.28949
 DIAMOND SPRINGS GC,HAMILTON,MI,(73.0/137/72),Public,0,,,44.032213,-84.667372
 DREAM,WEST BRANCH,MI,(73.8/136/72),Public,0,5266 Dream Drive,48661,44.280052,-84.339172
@@ -2170,8 +2170,8 @@ FIREFLY GOLF LINKS,CLARE,MI,(69.1/129/72),Unknown,0,7795 South Clare Avenue,4861
 FLINT ELKS GOLF CLUB,GRAND BLANC,MI,(73.1/133/72),Private,0,7177 East Maple Avenue,48439,42.961586,-83.567451
 FLINT GC,FLINT,MI,(72.6/133/72),Private,0,,,43.00992,-83.685109
 FLUSHING VALLEY G & CC,FLUSHING,MI,(72.3/135/71),Unknown,0,1128 East Main Street,48433,43.063362,-83.830956
-FOREST AKERS GOLF COURSE - FOREST AKERS GC - EAST,LANSING,MI,(70.5/127/72),Public,1,3509 Forest Road,48910,42.704727,-84.500923
-FOREST AKERS GOLF COURSE - FOREST AKERS GC - WEST,LANSING,MI,(75.3/141/72),Public,0,3509 Forest Road,48910,42.704727,-84.500923
+FOREST AKERS GOLF COURSE - EAST,LANSING,MI,(70.5/127/72),Public,1,3509 Forest Road,48910,42.704727,-84.500923
+FOREST AKERS GOLF COURSE - WEST,LANSING,MI,(75.3/141/72),Public,0,3509 Forest Road,48910,42.704727,-84.500923
 FOREST DUNES GC,ROSCOMMON,MI,(75.2/146/72),Public,1,6423 Arroyo Way,48653,44.592247,-84.531792
 FOREST DUNES GC - THE LOOP - BLACK,ROSCOMMON,MI,(71.5/125/70),Public,1,6423 Arroyo Way,48653,44.592247,-84.531792
 FOREST DUNES GC - THE LOOP - RED,ROSCOMMON,MI,(72.3/126/70),Public,1,6423 Arroyo Way,48653,44.592247,-84.531792
@@ -2387,8 +2387,8 @@ OAK RIDGE GC - MARSH OAKS COURSE,LENOX,MI,(72.5/133/72),Unknown,0,,,42.749042,-8
 OAK RIDGE GC - OLD OAKS COURSE,LENOX,MI,(71.1/123/71),Unknown,0,,,42.749042,-82.802226
 OAK RIDGE GOLF CLUB,MUSKEGON,MI,(70.6/131/72),Unknown,0,,,43.2342259,-86.2465608
 OAKHURST G & CC,CLARKSTON,MI,(74.4/144/72),Private,0,7000 Oakhurst Lane,48348,42.743065,-83.347839
-OAKLAND HILLS CC - OAKLAND HILLS CC - NORTH,BLOOMFIELD HILLS,MI,(74.6/138/70),Private,1,3856 West Maple Road,48301,42.545086,-83.271713
-OAKLAND HILLS CC - OAKLAND HILLS CC - SOUTH,BLOOMFIELD HILLS,MI,(77.0/145/72),Private,0,3856 West Maple Road,48301,42.545086,-83.271713
+OAKLAND HILLS CC - NORTH,BLOOMFIELD HILLS,MI,(74.6/138/70),Private,1,3856 West Maple Road,48301,42.545086,-83.271713
+OAKLAND HILLS CC - SOUTH,BLOOMFIELD HILLS,MI,(77.0/145/72),Private,0,3856 West Maple Road,48301,42.545086,-83.271713
 OAKLAND UNIVERSITY GOLF & LEARNING CENTER - KATKE COUSINS GC,ROCHESTER,MI,(76.0/143/72),Unknown,1,100 Golf View Lane,48309,42.67292,-83.195259
 OAKLAND UNIVERSITY GOLF & LEARNING CENTER - R & S SHARF COURSE,ROCHESTER,MI,(74.6/144/72),Unknown,0,100 Golf View Lane,48309,42.67292,-83.195259
 OAKS AT KINCHELOE,KINCHELOE,MI,(74.5/130/73),Public/Municipal,0,5 Cypress Lane,49788,46.276176,-84.456337
@@ -2666,7 +2666,7 @@ Coakley-Russo Golf Course - Coakley-Russo Golf Course,Basking Ridge,NJ,(71.9/119
 Cobblestone Creek Country Club,Lawrence Township,NJ,(71.0/135/70),Unknown,0,,,40.2988489,-74.7303632
 Colonia Country Club,Colonia,NJ,(71.3/133/72),Private,0,30 Sandalwood Lane,07067,40.589252,-74.303513
 Colonial Terrace Golf Course,Wanamassa,NJ,(65.2/119/66),Unknown,0,,,40.233924,-74.032354
-Colts Neck Golf Club - Colts Neck Golf Club - The,Colts Neck,NJ,(70.7/130/71),Private,0,2 Country Club Lane,07722,40.299088,-74.182434
+Colts Neck Golf Club,Colts Neck,NJ,(70.7/130/71),Private,0,2 Country Club Lane,07722,40.299088,-74.182434
 Concordia Golf Club,Monroe Township,NJ,(70.4/127/71),Semi-Private,0,95 Clubhouse Drive,08831,40.314308,-74.447311
 Copper Hill Country Club,Flemington,NJ,(72.1/135/72),Unknown,0,,,40.512133,-74.859132
 Cranbury Golf Club,West Windsor,NJ,(68.8/126/71),Semi-Private,0,49 Southfield Road,08550,40.277828,-74.592056
@@ -2755,8 +2755,8 @@ Jumping Brook Country Club,Neptune,NJ,(72.8/138/72),Private,0,210 Champions Driv
 KBSC,Liberty Corner,NJ,(71.9/131/72),Unknown,0,,,40.66495,-74.577637
 Knickerbocker Country Club,Tenafly,NJ,(72.8/135/72),Private,0,,,40.927156,-73.966755
 Knob Hill Golf Club,Manalapan,NJ,(71.6/135/70),Unknown,0,103 Shinnecock Drive,07726,40.261715,-74.374733
-Knoll Country Club - Knoll Country Club - East,Parsippany,NJ,(68.2/123/70),Semi-Private,0,909 Parsippany Boulevard,07054,40.87336,-74.423042
-Knoll Country Club - Knoll Country Club - West,Parsippany,NJ,(73.3/133/70),Semi-Private,0,909 Parsippany Boulevard,07054,40.87336,-74.423042
+Knoll Country Club - East,Parsippany,NJ,(68.2/123/70),Semi-Private,0,909 Parsippany Boulevard,07054,40.87336,-74.423042
+Knoll Country Club - West,Parsippany,NJ,(73.3/133/70),Semi-Private,0,909 Parsippany Boulevard,07054,40.87336,-74.423042
 LBI National Golf & Resort,Little Egg Harbor,NJ,(72.9/142/72),Public/Resort,0,99 Clubhouse Drive,08087,39.62347,-74.333031
 Lake Mohawk GC,Sparta,NJ,(70.8/136/70),Private,0,24 White Deer Plaza,07871,41.03149,-74.640495
 Lakewood Country Club,LAKEWOOD,NJ,(71.4/129/72),Public/Municipal,0,145 Country Club Drive,08701,40.110493,-74.247574
@@ -3177,8 +3177,8 @@ Blackfoot Golf Course,Blackfoot,ID,(71.4/120/72),Public,0,2929 Teeples Drive,832
 Blue Lakes Country Club,Twin Falls,ID,(71.7/132/72),Private,0,,,42.563181,-114.460278
 Boise Ranch Golf Course,Boise,ID,(70.7/125/71),Public,0,12347 West Medalist Drive,83709,43.54512,-116.336258
 Bronze Buffalo Ranch at Teton Springs,Victor,ID,(75.0/139/72),Unknown,0,18 Headwater Drive,83455,43.573322,-111.108841
-Bryden Canyon Golf Course - Bryden Canyon Golf Course - Blue Course,Lewiston,ID,(69.3/125/72),Public,0,801 O'Conner Road,83501,46.381546,-117.025246
-Bryden Canyon Golf Course - Bryden Canyon Golf Course - Green Course,Lewiston,ID,(69.1/124/71),Public,0,801 O'Conner Road,83501,46.381546,-117.025246
+Bryden Canyon Golf Course - Blue Course,Lewiston,ID,(69.3/125/72),Public,0,801 O'Conner Road,83501,46.381546,-117.025246
+Bryden Canyon Golf Course - Green Course,Lewiston,ID,(69.1/124/71),Public,0,801 O'Conner Road,83501,46.381546,-117.025246
 CDA National Reserve,Coeur D'Alene,ID,(74.6/137/72),Unknown,0,,,47.5298306,-116.8760755
 Canyon Springs Golf Course,Twin Falls,ID,(71.2/123/72),Public,0,Canyon Springs Road,83301,42.605846,-114.47789
 Caribou Highlands Golf Course,Grace,ID,(65.2/105/70),Public,0,Gibson Lane,83241,42.607563,-111.788673
@@ -3254,7 +3254,7 @@ Scotch Pines Golf Course,Payette,ID,(70.5/120/72),Unknown,0,,,44.072608,-116.935
 Shadow Valley Golf Course,Boise,ID,(69.4/121/72),Unknown,0,4513 North Horseshoe Bend Road,83714,43.745235,-116.297279
 Shoshone Golf Club,Osburn,ID,(69.4/125/72),Unknown,0,,,47.505929,-115.999649
 Silver Sage Golf Course,Mountain Home AFB,ID,(71.3/124/72),Military,0,Silver Sage,83648,43.048687,-115.844162
-Spurwing - The Club - The Club at Spurwing,Meridian,ID,(74.8/137/72),Private,0,,,43.610115,-116.391569
+Spurwing,Meridian,ID,(74.8/137/72),Private,0,,,43.610115,-116.391569
 St. Maries Golf Course,St. Maries,ID,(67.6/119/70),Unknown,0,107 Golf Course Road,83861,47.314667,-116.536926
 Stoneridge Golf Club,Blanchard,ID,(71.4/127/71),Unknown,0,,,48.036497,-116.976316
 Sun Valley Resort - Trail Creek,Sun Valley,ID,(72.3/137/72),Resort,0,99 Badeyana Drive,83353,43.678585,-114.33136
@@ -3675,7 +3675,7 @@ Pleasant Valley Country Club,Little Rock,AR,(10 - 27) (73.9/141/71),Private,0,51
 Prairie Country Club,Crossett,AR,(70.7/119/72),Private,0,151 County Road 387,71635,33.175102,-91.89666
 RED APPLE INN & GOLF CLUB,Heber Springs,AR,(72.3/138/71),Resort,0,317 Club Drive,72543,35.496349,-92.107483
 RIDGEPOINTE COUNTRY CLUB,Jonesboro,AR,(73.4/142/72),Private,0,2510 Ridgepoint Drive,72404,35.811871,-90.769913
-ROLLING HILLS COUNTRY CLUB - Cabot - ROLLING HILLS COUNTRY CLUB - Cabot,Cabot,AR,(71.6/132/72),Private,0,271 Country Club Road,72023,34.934269,-91.980072
+ROLLING HILLS COUNTRY CLUB,Cabot,AR,(71.6/132/72),Private,0,271 Country Club Road,72023,34.934269,-91.980072
 Rebsamen Golf Course,Little Rock,AR,(74.0/131/72),Public/Municipal,0,4500 Rebsamen Park Road,72202,34.780609,-92.321968
 Red Martin Country Club,Gurdon,AR,(65.4/113/69),Private,0,1947 Highway 53 South,71743,33.874836,-93.142632
 Ridgecrest Country Club,Forrest City,AR,(71.8/118/70),Private,0,264 Saint Francis 310 Road,72335,35.060795,-90.767738
@@ -4318,8 +4318,8 @@ Elmwood Golf Course - 9 Hole Course,Pueblo,CO,(60.4/102/60),Public/Municipal,0,3
 Estes Park Golf Course,Estes Park,CO,(69.3/126/71),Public,0,1480 Golf Course Road,80517,40.362106,-105.498276
 Evergreen Golf Course,Evergreen,CO,(63.9/110/69),Public/Municipal,0,29614 Upper Bear Creek Road,80439,39.633686,-105.335571
 Flatirons Golf Course,Boulder,CO,(72.2/131/70),Unknown,0,5706 Arapahoe Avenue,80303,40.014572,-105.220497
-Flying Horse - The Club at - Flying Horse North - The Club at,Colorado Springs,CO,(73.4/140/72),Private/Resort,0,1847 Weiskopf Point,80921,39.019924,-104.792374
-Flying Horse - The Club at,Colorado Springs,CO,(74.4/149/72),Private/Resort,0,1847 Weiskopf Point,80921,39.019924,-104.792374
+Flying Horse - North,Colorado Springs,CO,(73.4/140/72),Private/Resort,0,1847 Weiskopf Point,80921,39.019924,-104.792374
+Flying Horse,Colorado Springs,CO,(74.4/149/72),Private/Resort,0,1847 Weiskopf Point,80921,39.019924,-104.792374
 Foothills Golf Course - Championship 18,Denver,CO,(71.6/127/72),Public,0,4791 South Carr Street,80235,39.642208,-105.098274
 Foothills Golf Course - Executive 9,Denver,CO,(30.5/98/31),Public,0,4791 South Carr Street,80235,39.642208,-105.098274
 Fort Collins Country Club,Fort Collins,CO,(73.5/136/71),Private,0,1509 Richards Lake Road,80524,40.624863,-105.048622
@@ -4354,8 +4354,8 @@ Hiwan Golf Club,Evergreen,CO,(72.6/144/70),Private,0,30671 Clubhouse Lane,80439,
 Hollydot Golf Course,Colorado City,CO,(71.5/126/71),Public,0,2 Bay Meadows,81019,37.956921,-104.825638
 Holyoke Golf Course,Holyoke,CO,(69.8/123/72),Public,0,415 East Carnahan Street,80734,40.586666,-102.296417
 Homestead Golf Course,Lakewood,CO,(63.3/115/65),Public/Municipal,0,,,39.710997,-105.088872
-Hyland Hills - The Courses at - Blue Course,Westminster,CO,(69.4/121/72),Public,0,Yates Street,80031,39.87114,-105.050339
-Hyland Hills - The Courses at - Gold Course,Westminster,CO,(73.9/138/72),Public,0,Yates Street,80031,39.87114,-105.050339
+Hyland Hills - Blue Course,Westminster,CO,(69.4/121/72),Public,0,Yates Street,80031,39.87114,-105.050339
+Hyland Hills - Gold Course,Westminster,CO,(73.9/138/72),Public,0,Yates Street,80031,39.87114,-105.050339
 Indian Hills Golf Course,Yuma,CO,(72.4/121/72),Public,0,200 Centennial Drive,80759,40.133717,-102.712952
 Indian Peaks Golf Course,Lafayette,CO,(72.6/131/72),Public,0,691 Indian Peaks Drive,80026,40.002457,-105.123688
 Indian Tree Golf Course,Arvada,CO,(71.6/125/70),Public,0,7555 Wadsworth Boulevard,80005,39.832382,-105.081619
@@ -4412,9 +4412,9 @@ Petteys Park - The Course at,Brush,CO,(70.4/119/72),Unknown,0,,,40.2553562,-103.
 Pine Creek Golf Club,Colorado Springs,CO,(73.3/145/72),Public,0,9850 Divot Trail,80920,38.973778,-104.775581
 Pinehurst Country Club - Maxwell Course,Denver,CO,(71.9/133/70),Private,0,6255 West Quincy Avenue,80235,39.638744,-105.066849
 Pinehurst Country Club - Pfluger 9,Denver,CO,(33.6/115/36),Private,0,6255 West Quincy Avenue,80235,39.638744,-105.066849
-Pinery Country Club - The - Lake Valley,Parker,CO,(71.7/138/72),Private,0,6900 North Pinery Parkway,80134,39.456535,-104.757072
-Pinery Country Club - The - Mountain Lake,Parker,CO,(71.8/137/72),Private,0,6900 North Pinery Parkway,80134,39.456535,-104.757072
-Pinery Country Club - The - Valley Mountain,Parker,CO,(72.7/140/72),Private,0,6900 North Pinery Parkway,80134,39.456535,-104.757072
+Pinery Country Club - Lake-Valley,Parker,CO,(71.7/138/72),Private,0,6900 North Pinery Parkway,80134,39.456535,-104.757072
+Pinery Country Club - Mountain-Lake,Parker,CO,(71.8/137/72),Private,0,6900 North Pinery Parkway,80134,39.456535,-104.757072
+Pinery Country Club - Valley-Mountain,Parker,CO,(72.7/140/72),Private,0,6900 North Pinery Parkway,80134,39.456535,-104.757072
 Plum Creek Golf Club,Castle Rock,CO,(73.7/147/72),Semi-Private,0,1100 East Plum Creek Parkway,80104,39.359558,-104.850891
 Pole Creek Golf Club - Meadow-Ranch,Tabernash,CO,(71.3/135/72),Public,0,894 County Road 513,80478,39.986694,-105.900749
 Pole Creek Golf Club - Ranch-Ridge,Tabernash,CO,(72.0/134/72),Public,0,894 County Road 513,80478,39.986694,-105.900749
@@ -4484,9 +4484,9 @@ Walnut Creek Golf Preserve,Westminster,CO,(74.7/133/72),Municipal,0,,,39.863513,
 Walsenburg Golf Course,Walsenburg,CO,(66.6/106/72),Public/Municipal,0,619 County Road 502,81089,37.616535,-104.823814
 Washington County Golf Club,Akron,CO,(68.7/111/72),Public,0,,,40.1592,-103.2086529
 Wellshire Golf Course,Denver,CO,(70.7/128/70),Municipal,0,3400 East Flora Place,80210,39.656895,-104.947884
-West Woods Golf Club - Cottonwood - Silo,Arvada,CO,(71.7/138/72),Public,0,6625 Quaker Street,80007,39.816429,-105.183952
-West Woods Golf Club - Silo - Sleeping Indian,Arvada,CO,(71.5/143/72),Public,0,6625 Quaker Street,80007,39.816429,-105.183952
-West Woods Golf Club - Sleeping Indian - Cottonwood,Arvada,CO,(72.2/136/72),Public,0,6625 Quaker Street,80007,39.816429,-105.183952
+West Woods Golf Club - Cottonwood-Silo,Arvada,CO,(71.7/138/72),Public,0,6625 Quaker Street,80007,39.816429,-105.183952
+West Woods Golf Club - Silo-Sleeping Indian,Arvada,CO,(71.5/143/72),Public,0,6625 Quaker Street,80007,39.816429,-105.183952
+West Woods Golf Club - Sleeping Indian-Cottonwood,Arvada,CO,(72.2/136/72),Public,0,6625 Quaker Street,80007,39.816429,-105.183952
 Willis Case Golf Course,Denver,CO,(69.0/121/70),Municipal,0,4611 West 50th Avenue,80212,39.787464,-105.046249
 Wray Country Club,Wray,CO,(67.5/121/70),Semi-Private,0,Airport Road,80758,40.095222,-102.231361
 Yampa Valley Golf Course,Craig,CO,(70.9/128/72),Public,0,,,40.5124037,-107.5472412
@@ -5525,9 +5525,9 @@ Bos Landen Golf  Resort,Pella,IA,(73.5/135/72),Unknown,0,2202 Bos Landen Drive,5
 Briarwood Golf Club,Ankeny,IA,(73.9/130/72),Private,0,3501 Northeast Trilein Drive,50021,41.759811,-93.593758
 Briggs Woods Golf Course,Webster City,IA,(71.5/121/72),Public,0,Des Moines Street,50595,42.478619,-93.827362
 Bright Grandview Golf Course,Des Moines,IA,(66.2/108/70),Public/Municipal,0,2944 Northwest 66th Avenue,50313,41.680408,-93.657768
-Brooks Golf Club - Blue - White,Okoboji,IA,(72.3/129/72),Public,0,1121 Brooks Park Drive,51355,43.389374,-95.129601
-Brooks Golf Club - White - Yellow,Okoboji,IA,(71.7/128/71),Public,0,1121 Brooks Park Drive,51355,43.389374,-95.129601
-Brooks Golf Club - Yellow - Blue,Okoboji,IA,(71.2/127/71),Public,0,1121 Brooks Park Drive,51355,43.389374,-95.129601
+Brooks Golf Club - Blue-White,Okoboji,IA,(72.3/129/72),Public,0,1121 Brooks Park Drive,51355,43.389374,-95.129601
+Brooks Golf Club - White-Yellow,Okoboji,IA,(71.7/128/71),Public,0,1121 Brooks Park Drive,51355,43.389374,-95.129601
+Brooks Golf Club - Yellow-Blue,Okoboji,IA,(71.2/127/71),Public,0,1121 Brooks Park Drive,51355,43.389374,-95.129601
 Brookside Golf Course,Kingsley,IA,(69.0/118/72),Semi-Private,0,104 Highway 140,51028,42.583084,-95.971542
 Brown Deer Golf Club,Coralville,IA,(71.4/133/71),Semi-Private,0,1900 Country Club Drive,52241,41.698654,-91.56575
 Buena Vista University Golf Course at Lake Creek Country Club,Storm Lake,IA,(72.8/126/72),Unknown,0,1 Club House Drive,50588,42.665462,-95.263634
@@ -5679,7 +5679,7 @@ River Bend Golf Course,Story City,IA,(68.6/105/72),Public,0,720 Forest Avenue,50
 River Ridge Golf Club,Independence,IA,(71.6/123/72),Semi-Private,0,,,42.467626,-91.891754
 River Valley Golf Course,Adel,IA,(72.0/124/72),Public,0,22927 Valley View Trail,50003,41.647861,-94.029381
 Rock Valley Golf Club,Rock Valley,IA,(71.0/124/72),Public,0,701 Golf Course Road,51247,43.193836,-96.30407
-Rosman Glendale - Shelby County Golf Course - Rosman Glendale - Shelby County Golf Course,Harlan,IA,(69.2/115/72),Public,0,1243 1600th Street,51537,41.732525,-95.328812
+Rosman Glendale - Shelby County Golf Course,Harlan,IA,(69.2/115/72),Public,0,1243 1600th Street,51537,41.732525,-95.328812
 Rustic Ridge Golf Course,Eldridge,IA,(69.8/113/72),Public,0,354 Country Club Court,52748,41.65086,-90.570587
 Saddleback Ridge Golf Course,Solon,IA,(71.6/127/72),Public,0,5128 180th Street Northeast,52333,41.801823,-91.426071
 Sheaffer Memorial Golf Course,Fort Madison,IA,(68.5/111/70),Public,0,1760 308th Avenue,52627,40.701881,-91.316078
@@ -5773,9 +5773,9 @@ Big Run Golf Club,Lockport,IL,(74.6/142/72),Public,0,13700 Smith Road,60441,41.6
 Billy Caldwell Golf Course,Chicago,IL,(69.8/118/70),Unknown,0,6112 North Caldwell Avenue,60646,41.992207,-87.755783
 Biltmore Country Club,N. Barrington,IL,(73.1/134/71),Unknown,0,225 Biltmore Drive,60010,42.204754,-88.13533
 Bittersweet Golf Club,Gurnee,IL,(73.3/137/72),Unknown,0,875 Almond Road,60031,42.372902,-87.983765
-Black Sheep Golf Club - Holes 1 - 18,Sugar Grove,IL,(75.2/142/72),Private,0,Seavey Road,60119,41.829723,-88.434952
+Black Sheep Golf Club - Holes 1-18,Sugar Grove,IL,(75.2/142/72),Private,0,Seavey Road,60119,41.829723,-88.434952
 Black Sheep Golf Club - Holes 1-9 & 19-27,Sugar Grove,IL,(73.9/139/72),Private,0,Seavey Road,60119,41.829723,-88.434952
-Black Sheep Golf Club - Holes 10 - 27,Sugar Grove,IL,(75.1/140/72),Private,0,Seavey Road,60119,41.829723,-88.434952
+Black Sheep Golf Club - Holes 10-27,Sugar Grove,IL,(75.1/140/72),Private,0,Seavey Road,60119,41.829723,-88.434952
 Blackberry Oaks Golf Course,Bristol,IL,(71.3/132/72),Public,0,Kennedy Road,60512,41.687702,-88.406303
 Blackstone Golf Club,Marengo,IL,(73.1/139/72),Public,0,9708 Saint Andrew's Drive,60152,42.188408,-88.540031
 Bliss Creek Golf Club,Aurora,IL,(68.2/122/70),Unknown,0,,,41.75527,-88.309507
@@ -5788,9 +5788,9 @@ Bonnie Dundee Golf Club,Carpentersville,IL,(68.8/118/69),Public,0,South Kennedy 
 Boone Creek - Prairie / Creekside,McHenry,IL,(69.6/119/71),Public,0,,,42.344597,-88.27339
 Boone Creek - Valley / Creekside,McHenry,IL,(68.8/121/70),Public,0,,,42.344597,-88.27339
 Boone Creek - Valley / Prairie,McHenry,IL,(69.4/121/71),Public,0,,,42.344597,-88.27339
-Boulder Ridge Country Club - North - South,Lake in The Hills,IL,(73.6/136/72),Private,0,,,42.190299,-88.383744
-Boulder Ridge Country Club - North - West,Lake in The Hills,IL,(73.1/137/72),Private,0,,,42.190299,-88.383744
-Boulder Ridge Country Club - South - West,Lake in The Hills,IL,(73.5/138/72),Private,0,,,42.190299,-88.383744
+Boulder Ridge Country Club - North-South,Lake in The Hills,IL,(73.6/136/72),Private,0,,,42.190299,-88.383744
+Boulder Ridge Country Club - North-West,Lake in The Hills,IL,(73.1/137/72),Private,0,,,42.190299,-88.383744
+Boulder Ridge Country Club - South-West,Lake in The Hills,IL,(73.5/138/72),Private,0,,,42.190299,-88.383744
 Bow Lake Golf Course,Barry,IL,(67.2/117/68),Public,0,Township Highway 177,62312,39.698532,-91.029205
 Bowes Creek Country Club,Elgin,IL,(73.4/142/71),Public,0,1125 Bowes Creek Boulevard,60124,42.002098,-88.378395
 Brae Loch Golf Club,Grayslake,IL,(68.2/121/70),Public,0,33600 North US Highway 45,60030,42.350555,-88.003899
@@ -6000,7 +6000,7 @@ Lansing Country Club,Lansing,IL,(64.0/105/67),Private,0,Wentworth Avenue,60438,4
 Lawrence County Country Club,Lawrenceville,IL,(71.3/132/72),Semi-Private,0,1000 Country Club Road,62439,38.729767,-87.721893
 LeRoy Country Club,Leroy,IL,(67.6/114/71),Public,0,,,42.447542,-88.803307
 Ledges Golf Course,Roscoe,IL,(72.1/132/72),Public/Municipal,0,7063 McCurry Road,61073,42.444271,-88.979095
-Lena Golf Club - Wolf Hollow - Lena Golf Club - Wolf Hollow,Lena,IL,(71.0/124/71),Unknown,0,6546 North Shippee Road,61048,42.393852,-89.813866
+Lena Golf Club - Wolf Hollow,Lena,IL,(71.0/124/71),Unknown,0,6546 North Shippee Road,61048,42.393852,-89.813866
 Lick Creek Golf Course,Pekin,IL,(73.7/140/72),Unknown,0,Lick Creek Golf Course,61554,40.587109,-89.614189
 Lincoln Elks Golf Club,Lincoln,IL,(68.8/120/71),Semi-Private,0,1 Pebble Beach Drive,62656,40.139881,-89.403465
 Lincoln Greens Golf Course,Springfield,IL,(72.3/123/72),Public,0,700 Lincoln Greens Lane,62712,39.747204,-89.594887
@@ -6446,9 +6446,9 @@ American Classic Club,Lewes,DE,(31.4/113/34),Semi-Private,0,,,38.772886,-75.1406
 Back Creek G C,Middletown,DE,(74.4/129/71),Public,0,103 Back Creek Drive,19709,39.497456,-75.760475
 Bayside Resort G C,Selbyville,DE,(77.0/149/72),Unknown,0,,,38.46041,-75.2212
 Baywood Greens G C,Long Neck,DE,(73.3/142/72),Public,0,,,38.619056,-75.149427
-Bear Trap Dunes G C - Black - Grizzly,Ocean View,DE,(72.6/131/72),Public,0,37197 Lord Baltimore Lane,19970,38.53595,-75.103256
-Bear Trap Dunes G C - Grizzly - Kodiak,Ocean View,DE,(71.8/125/72),Public,0,37197 Lord Baltimore Lane,19970,38.53595,-75.103256
-Bear Trap Dunes G C - Kodiak - Black,Ocean View,DE,(72.4/135/72),Public,0,37197 Lord Baltimore Lane,19970,38.53595,-75.103256
+Bear Trap Dunes G C - Black-Grizzly,Ocean View,DE,(72.6/131/72),Public,0,37197 Lord Baltimore Lane,19970,38.53595,-75.103256
+Bear Trap Dunes G C - Grizzly-Kodiak,Ocean View,DE,(71.8/125/72),Public,0,37197 Lord Baltimore Lane,19970,38.53595,-75.103256
+Bear Trap Dunes G C - Kodiak-Black,Ocean View,DE,(72.4/135/72),Public,0,37197 Lord Baltimore Lane,19970,38.53595,-75.103256
 Bidermann G C - Bidermann Golf Club,Greenville,DE,(73.4/133/72),Unknown,0,,,39.7749027,-75.5947655
 Cripple Creek C C,Dagsboro,DE,(72.4/132/71),Private,0,,,38.549978,-75.246155
 Deerfield GC - Deerfield Golf Club,Newark,DE,(71.0/131/70),Public,0,513 Thompson Station Road,19711,39.721272,-75.748619
@@ -6644,9 +6644,9 @@ Eagle Crest Golf Club,Clifton Park,NY,(72.6/127/72),Public,0,Eagle Crest Golf Cl
 Eagle Vale Golf Club,Fairport,NY,(72.8/135/72),Public,0,403 Watson Road,14450,43.117317,-77.43219
 East Aurora Country Club,East Aurora,NY,(71.6/131/71),Private,0,300 Girdle Road,14052,42.783794,-78.604538
 East Hampton Golf Club,East Hampton,NY,(71.8/139/71),Private,0,244 Abrahams Path,11937,40.990074,-72.162552
-Edison Club - The - 1 OVER 2,Rexford,NY,(71.8/129/72),Unknown,0,891 Riverview Road,12148,42.854763,-73.88295
-Edison Club - The - 1 OVER 3,Rexford,NY,(72.9/132/72),Unknown,0,891 Riverview Road,12148,42.854763,-73.88295
-Edison Club - The - 2 OVER 3,Rexford,NY,(72.7/133/72),Unknown,0,891 Riverview Road,12148,42.854763,-73.88295
+Edison Club - 1 OVER 2,Rexford,NY,(71.8/129/72),Unknown,0,891 Riverview Road,12148,42.854763,-73.88295
+Edison Club - 1 OVER 3,Rexford,NY,(72.9/132/72),Unknown,0,891 Riverview Road,12148,42.854763,-73.88295
+Edison Club - 2 OVER 3,Rexford,NY,(72.7/133/72),Unknown,0,891 Riverview Road,12148,42.854763,-73.88295
 Eisenhower Park Golf Course - Blue,East Meadow,NY,(68.3/117/72),Municipal,0,Park Boulevard,11554,40.73349,-73.572845
 Eisenhower Park Golf Course - Red,East Meadow,NY,(74.5/137/72),Municipal,0,Park Boulevard,11554,40.73349,-73.572845
 Eisenhower Park Golf Course - White,East Meadow,NY,(73.1/127/72),Municipal,0,Park Boulevard,11554,40.73349,-73.572845
@@ -7420,7 +7420,7 @@ Redbud Springs Golf Club,Kosciusko,MS,(68.9/115/71),Private,0,Irving Road,39090,
 Reunion Golf & Country Club,Madison,MS,(75.9/142/72),Private,0,Greensward Drive,39110,32.512131,-90.184845
 River Bend Links,Tunica Resorts,MS,(73.0/128/72),Unknown,0,,,34.846247,-90.294518
 River Birch Golf Club,Amory,MS,(73.3/121/72),Semi-Private,0,820 Highway 278 West,38821,33.978115,-88.49942
-Rolling Hills CC - Crystal Springs - Rolling Hills,Crystal Springs,MS,(70.7/120/72),Private,0,22145 Highway 51,39059,31.953695,-90.380959
+Rolling Hills CC,Crystal Springs,MS,(70.7/120/72),Private,0,22145 Highway 51,39059,31.953695,-90.380959
 Shadow Ridge Golf Course,Hattiesburg,MS,(74.1/133/72),Semi-Private,0,,,31.3264636,-89.2896615
 Sharkey Country Club,Rolling Fork,MS,(68.8/122/71),Private,0,248 Sunflower River Road,39159,32.974121,-90.781746
 Shell Landing Golf Club,Gautier,MS,(73.3/140/72),Public,0,3499 Shell Landing Boulevard,39553,30.387426,-88.676613
@@ -7521,8 +7521,8 @@ Candler Park Golf Course,Atlanta,GA,(30.4/100/31),Public,0,586 Candler Park Driv
 Canongate 1 Golf Club - Lee Course,Sharpsburg,GA,(71.8/132/72),Private,0,873 Shaw Road,30277,33.47588,-84.65657
 Canongate 1 Golf Club - Roquemore Course,Sharpsburg,GA,(70.9/130/72),Private,0,873 Shaw Road,30277,33.47588,-84.65657
 Canton Golf Club,Canton,GA,(69.9/122/71),Private,0,599 Golf Course Road,30114,34.230526,-84.475555
-Capital City Club - Brookhaven - Capital City Club - Brookhaven,Atlanta,GA,(72.5/142/70),Private,0,53 West Brookhaven Drive Northeast,30319,33.863026,-84.350548
-Capital City Club - Crabapple - Capital City Club - Crabapple,Woodstock,GA,(75.7/145/72),Private,0,Earny Road,30188,34.128067,-84.365875
+Capital City Club - Brookhaven,Atlanta,GA,(72.5/142/70),Private,0,53 West Brookhaven Drive Northeast,30319,33.863026,-84.350548
+Capital City Club - Crabapple,Woodstock,GA,(75.7/145/72),Private,0,Earny Road,30188,34.128067,-84.365875
 Cartersville Country Club,Cartersville,GA,(74.3/139/72),Private,0,1310 Country Club Road,30121,34.216377,-84.808296
 Cateechee Golf Club,Hartwell,GA,(71.4/134/71),Semi-Private,0,140 Cateechee Trail,30643,34.323368,-82.913918
 Cedar Lake Golf Club,Loganville,GA,(71.0/122/73),Public,0,1816 Jakes Cove,30052,33.764683,-83.920799
@@ -7572,7 +7572,7 @@ Currahee Club,Toccoa,GA,(76.1/151/72),Private,0,374 Locust Street,30577,34.57659
 Cuscowilla on Lake Oconee,Eatonton,GA,(73.3/139/70),Private,0,,,33.3255313,-83.3878935
 Dalton Golf & Country Club,Dalton,GA,(74.2/135/72),Private,0,165 Country Club Way,30721,34.804245,-84.954117
 Dawson Country Club,Dawson,GA,(70.4/129/72),Semi-Private,0,Graves Station Road Southwest,39842,31.769451,-84.457535
-Deer Trail Country Club - Barnesville - Deer Trail Country Club - Barnesville,Barnesville,GA,(71.0/121/72),Private,0,1349 Highway 341 South,30204,33.015408,-84.130394
+Deer Trail Country Club,Barnesville,GA,(71.0/121/72),Private,0,1349 Highway 341 South,30204,33.015408,-84.130394
 Dogwood Golf Club,Austell,GA,(71.3/125/72),Semi-Private,0,4207 Flint Hill Road,30106,33.851406,-84.6325
 Donalsonville Country Club,Donalsonville,GA,(70.7/121/71),Semi-Private,0,6107 State Highway 39,39845,30.969349,-84.882011
 Double Oaks Golf Club,Commerce,GA,(71.3/128/72),Public,0,Club Drive,30530,34.183395,-83.394081
@@ -7827,7 +7827,7 @@ Whitewater Creek CC,Fayetteville,GA,(73.5/143/72),Private,0,Tralee Drive,30215,3
 Willow Lake Golf Club,Metter,GA,(70.2/129/71),Semi-Private,0,555 West Willow Lake Drive,30439,32.414845,-82.073326
 Windermere Golf Club,Cumming,GA,(72.6/137/71),Private,0,5000 Davis Love Drive,30041,34.137665,-84.124931
 Windstone Golf Club,Ringgold,GA,(72.2/135/72),Private,0,Windstone Drive,30736,34.986328,-85.111839
-Wolf Creek Golf Club - Atlanta - Wolf Creek Golf Club - Atlanta,Atlanta,GA,(73.1/142/72),Semi-Private,0,2690 Union Road Southwest,30331,33.681759,-84.580101
+Wolf Creek Golf Club,Atlanta,GA,(73.1/142/72),Semi-Private,0,2690 Union Road Southwest,30331,33.681759,-84.580101
 Woodland Hills Golf Club,Cartersville,GA,(69.6/125/71),Semi-Private,0,205 Summit Ridge Drive Southeast,30120,34.096226,-84.83493
 Woodmont Golf & Country Club,Canton,GA,(72.9/139/72),Semi-Private,0,3111 Gaddis Road,30115,34.232178,-84.355392
 Woods Golf Course - Blue/Red,Cochran,GA,(70.5/123/72),Unknown,0,104 Woodland Trail Road,31014,32.355373,-83.337463
@@ -8576,7 +8576,7 @@ Amherst Country Club,Amherst,NH,(70.8/124/72),Public,0,72 Ponemah Road,03031,42.
 Androscoggin Valley Country Club,Gorham,NH,(68.2/115/70),Public,0,8 Main Street,03581,44.386753,-71.167664
 Angus Lea Golf Course,Hillsboro,NH,(62.3/104/66),Public,0,120 West Main Street,03244,43.109863,-71.90226
 Apple Hill Golf Club,E.Kingston,NH,(69.6/120/70),Unknown,0,69 East Road,03827,42.919262,-70.980568
-Atkinson Country Club - Atkinson Country Club - Par 3,Atkinson,NH,(25.1/80/27),Resort,0,85 Country Club Drive,03811,42.820652,-71.180748
+Atkinson Country Club - Par 3,Atkinson,NH,(25.1/80/27),Resort,0,85 Country Club Drive,03811,42.820652,-71.180748
 Atkinson Country Club,Atkinson,NH,(72.9/136/72),Resort,0,85 Country Club Drive,03811,42.820652,-71.180748
 Baker Hill Golf Club,Newbury,NH,(75.5/147/72),Private,0,90 Baker Hill Road,03255,43.371479,-72.025658
 Bald Peak Colony Club,Melvin Village,NH,(71.6/129/71),Private,0,,,43.68901,-71.304194
@@ -8641,9 +8641,9 @@ North Conway Country Club,North Conway,NH,(71.6/127/71),Semi-Private,0,76 Norcro
 Oak Hill Golf Course,Meredith,NH,(63.4/97/68),Unknown,0,185 Pease Road,03253,43.620514,-71.508789
 Owl's Nest Golf Club,Campton,NH,(72.2/135/72),Semi-Private/Resort,0,,,43.851755,-71.640033
 Passaconaway Country Club,Litchfield,NH,(72.8/129/71),Public,0,12 Midway Avenue,03052,42.866428,-71.480247
-Pease Golf Course - Back - Blue,Portsmouth,NH,(70.9/122/71),Public,0,,,43.0649061,-70.7670908
-Pease Golf Course - Front - Back,Portsmouth,NH,(70.1/120/71),Public,0,,,43.0649061,-70.7670908
-Pease Golf Course - Front - Blue,Portsmouth,NH,(71.0/123/72),Public,0,,,43.0649061,-70.7670908
+Pease Golf Course - Back-Blue,Portsmouth,NH,(70.9/122/71),Public,0,,,43.0649061,-70.7670908
+Pease Golf Course - Front-Back,Portsmouth,NH,(70.1/120/71),Public,0,,,43.0649061,-70.7670908
+Pease Golf Course - Front-Blue,Portsmouth,NH,(71.0/123/72),Public,0,,,43.0649061,-70.7670908
 Pease Golf Course - Spring,Portsmouth,NH,(70.8/122/71),Public,0,,,43.0649061,-70.7670908
 Pembroke Pines Country Club,Pembroke,NH,(72.2/132/72),Public,0,41 Whittemore Road,03275,43.163155,-71.482277
 Pheasant Ridge Golf Club,Gilford,NH,(70.9/117/71),Public,0,123 Country Club Road,03249,43.523239,-71.442574
@@ -9562,7 +9562,7 @@ Hulman Links,Terre Haute,IN,(76.6/140/72),Municipal,0,990 North Chamberlain Stre
 Huntingburg Country Club,Huntingburg,IN,(68.7/125/70),Unknown,0,772 West 3rd Street,47542,38.297699,-86.972191
 Idle Creek Golf Course,Terre Haute,IN,(69.6/125/71),Public,0,5353 Eldridge Road,47802,39.401798,-87.356964
 Indian Lake Country Club,Indianapolis,IN,(69.0/128/71),Private,0,10502 East 75th Street,46236,39.89101,-85.980278
-Innsbrook Country Club - Innsbrook CC - Black,Merrillville,IN,(72.3/136/70),Private,0,6650 Taft Street,46410,41.497669,-87.365051
+Innsbrook Country Club - Black,Merrillville,IN,(72.3/136/70),Private,0,6650 Taft Street,46410,41.497669,-87.365051
 Innsbrook Country Club,Merrillville,IN,(71.3/134/72),Private,0,6650 Taft Street,46410,41.497669,-87.365051
 Ironwood Golf Club - Lakes/Ridge,Fishers,IN,(73.3/138/72),Unknown,0,10759 Sawgrass Drive,46037,39.945534,-85.975868
 Ironwood Golf Club - Ridge/Valley,Fishers,IN,(72.6/138/72),Unknown,0,10759 Sawgrass Drive,46037,39.945534,-85.975868
@@ -9726,8 +9726,8 @@ Walnut Creek Golf Course - Club Run,Marion,IN,(71.1/127/71),Public,0,7453 East 4
 Walnut Creek Golf Course,Marion,IN,(73.1/129/72),Public,0,7453 East 400 South,46953,40.495014,-85.532654
 West Chase Golf Club,Brownsburg,IN,(72.0/128/71),Semi-Private,0,20 Hollaway Boulevard,46112,39.866768,-86.433014
 West Lafayette Golf and Country Club,West Lafayette,IN,(70.4/120/72),Semi-Private,0,Elks Country Club,47906,40.470757,-86.96711
-Western Hills CC - Salem - Western Hills CC - Salem,Salem,IN,(67.2/122/70),Unknown,0,2045 Country Club Road,47167,38.596397,-86.14193
-Western Hills Country Club- Mt Vernon - Western Hills Country Club- Mt Vernon,Mt Vernon,IN,(69.2/136/71),Unknown,0,1725 Country Club Road,47620,37.9291,-87.92099
+Western Hills CC,Salem,IN,(67.2/122/70),Unknown,0,2045 Country Club Road,47167,38.596397,-86.14193
+Western Hills Country Club,Mt Vernon,IN,(69.2/136/71),Unknown,0,1725 Country Club Road,47620,37.9291,-87.92099
 Westwood Golf Club,Scottsburg,IN,(70.2/128/70),Public,0,136 Westavia Boulevard,47170,38.68766,-85.801292
 Westwood Golf Club,New Castle,IN,(New Castle) - Westwood Golf Club (New Castle) (70.1/117/70),Public,0,1713 West Country Club Drive,47362,39.920574,-85.418739
 Whispering Creek Golf Club,New Haven,IN,(72.4/124/72),Unknown,0,9850 Paul Stemmler Parkway,46774,41.080761,-85.010483
@@ -10136,11 +10136,9 @@ Thornberry Creek at Oneida - Iroquois,Oneida,WI,(69.3/120/72),Public,0,4470 Nort
 Timber Ridge,Minocqua,WI,(73.5/134/72),Public,0,Timber Ridge Road,54548,45.82336,-89.745682
 Timber Terrace,Chippewa Falls,WI,(68.0/121/68),Public,0,1179 Pumphouse Road,54729,44.943714,-91.368797
 Trapp River GC,Wausau,WI,(70.6/129/73),Unknown,0,T11592 County Road WW,54403,45.072063,-89.568771
-Trappers Turn - Arbor - Canyon,Wisconsin Dells,WI,(72.5/136/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
-Trappers Turn - Canyon - Arbor,Wisconsin Dells,WI,(72.5/136/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
-Trappers Turn - Canyon - Lake,Wisconsin Dells,WI,(73.0/139/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
-Trappers Turn - Lake - Arbor,Wisconsin Dells,WI,(73.1/138/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
-Trappers Turn - Lake - Canyon,Wisconsin Dells,WI,(73.0/139/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
+Trappers Turn - Arbor-Canyon,Wisconsin Dells,WI,(72.5/136/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
+Trappers Turn - Canyon-Lake,Wisconsin Dells,WI,(73.0/139/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
+Trappers Turn - Lake-Arbor,Wisconsin Dells,WI,(73.1/138/72),Public,0,Trapers Turn Drive,53965,43.633305,-89.797394
 Trempealeau Mountain Golf Club,Trempealeau,WI,(71.8/129/71),Public,0,Golf Road,54661,44.036972,-91.438339
 Tribute Golf Course,Wausau,WI,(68.2/122/70),Semi-Private,0,,,44.960789,-89.630165
 Trout Lake Golf Club,Arbor Vitae,WI,(71.2/129/72),Public,0,2699 US Highway 51 North,54568,45.976639,-89.699203
@@ -10489,9 +10487,9 @@ Golden Hills Golf & Country Club,Lexington,SC,(71.8/136/71),Semi-Private,0,122 H
 Golf Club at Briars Creek - The,John's Island,SC,(75.5/150/72),Unknown,0,Charles Freer Lane,29455,32.636063,-80.084068
 Golf Club at Hilton Head Lakes - The,Hardeeville,SC,(75.7/140/72),Public,0,1941 Wiregrass Way,29927,32.325806,-81.013435
 Golf Club at Indigo Run - The,Hilton Head Island,SC,(74.0/138/72),Private,0,106 North Sea Pines Drive,29928,32.126629,-80.791161
-Golf Club at Wescott Plantation - the - Black Robin / Oak Forest,N. Charleston,SC,(74.0/134/72),Unknown,0,158 Cusabee Trail,29404,32.906006,-80.057808
-Golf Club at Wescott Plantation - the - Burn Kill / Black Robin,N. Charleston,SC,(74.3/140/72),Unknown,0,158 Cusabee Trail,29404,32.906006,-80.057808
-Golf Club at Wescott Plantation - the - Oak Forest / Burn Kill,N. Charleston,SC,(73.9/135/72),Unknown,0,158 Cusabee Trail,29404,32.906006,-80.057808
+Golf Club at Wescott Plantation - Black Robin-Oak Forest,N. Charleston,SC,(74.0/134/72),Unknown,0,158 Cusabee Trail,29404,32.906006,-80.057808
+Golf Club at Wescott Plantation - Burn Kill-Black Robin,N. Charleston,SC,(74.3/140/72),Unknown,0,158 Cusabee Trail,29404,32.906006,-80.057808
+Golf Club at Wescott Plantation - Oak Forest-Burn Kill,N. Charleston,SC,(73.9/135/72),Unknown,0,158 Cusabee Trail,29404,32.906006,-80.057808
 Governors Run Golf Club,Lamar,SC,(73.2/141/72),Public,0,,,34.17041,-80.064262
 Grande Dunes Members Club,Myrtle Beach,SC,(73.8/136/71),Unknown,0,1554 Casita Lane,29579,33.781479,-78.802872
 Grande Dunes Resort Club,Myrtle Beach,SC,(76.9/145/72),Unknown,0,1554 Casita Lane,29579,33.781479,-78.802872
@@ -10629,7 +10627,7 @@ River Oaks Golf Club - Fox / Otter,Myrtle Beach,SC,(72.8/138/72),Public,0,835 Ri
 River Oaks Golf Club - Otter / Bear,Myrtle Beach,SC,(73.5/141/72),Public,0,835 River Oaks Drive,29579,33.727226,-78.915993
 RiverTowne Country Club,Mt. Pleasant,SC,(75.0/145/72),Unknown,0,1074 Cinder Street,29464,32.841164,-79.82444
 Riverton Pointe Golf & Country Club,Hardeeville,SC,(75.3/141/72),Resort,0,,,32.281658,-81.074333
-Rock Golf Club & Resort - the - Rock Golf Club & Resort,Pickens,SC,(70.3/129/72),Resort,0,305 Whispering Falls Drive,29671,35.000481,-82.762688
+Rock Golf Club & Resort,Pickens,SC,(70.3/129/72),Resort,0,305 Whispering Falls Drive,29671,35.000481,-82.762688
 Rock Hill Country Club,Rock Hill,SC,(73.2/139/72),Private,0,600 Country Club Drive,29730,34.88504,-81.045204
 Rolling Green Golf Club - 1-9 - 10-18,Easley,SC,(68.1/123/70),Semi-Private,0,364 Hester Store Road,29640,34.919899,-82.583473
 Rolling Green Golf Club - 10-18 - 19-27,Easley,SC,(68.7/123/70),Semi-Private,0,364 Hester Store Road,29640,34.919899,-82.583473
@@ -10706,8 +10704,8 @@ Williston Country Club,Williston,SC,(68.5/127/72),Semi-Private,0,234 Fairway Dri
 Willow Creek Golf Club,Greer,SC,(71.8/140/72),Unknown,0,203 Sandy Run Drive,29651,34.809074,-82.142189
 Windermere Club - The,Columbia,SC,(73.5/140/72),Unknown,0,301 Club Ridge Road,29045,34.125546,-80.821266
 Windsor at Walhalla,Walhalla,SC,(72.9/137/72),Unknown,0,1310 Falcons Drive,29691,34.825394,-83.026978
-Wizard Golf Links - The - Man O'War Golf Club,Myrtle Beach,SC,(73.4/151/72),Public/Resort,0,Leeshire Boulevard,29579,33.771976,-78.964676
-Wizard Golf Links - The,Myrtle Beach,SC,(71.8/132/71),Public/Resort,0,Leeshire Boulevard,29579,33.771976,-78.964676
+Wizard Golf Links - Man O'War Golf Club,Myrtle Beach,SC,(73.4/151/72),Public/Resort,0,Leeshire Boulevard,29579,33.771976,-78.964676
+Wizard Golf Links ,Myrtle Beach,SC,(71.8/132/71),Public/Resort,0,Leeshire Boulevard,29579,33.771976,-78.964676
 Woodcreek Club - The,Elgin,SC,(73.6/150/72),Private,0,301 Club Ridge Road,29045,34.125546,-80.821266
 Woodfin Ridge Golf Club,Inman,SC,(74.6/139/72),Semi-Private,0,807 East Heathland Drive,29349,35.10059,-82.015312
 Woodlands Country Club,Columbia,SC,(72.2/132/72),Private,0,29 Valhalla Circle,29229,34.112316,-80.864563
@@ -11685,10 +11683,9 @@ Glen Lakes Country Club,Weeki Wachee,FL,(72.2/138/72),Unknown,0,7406 Saint Andre
 Gleneagles Country Club - LEGENDS - WEST,Delray Beach,FL,(74.2/146/72),Private,0,Legends Way,33446,26.441601,-80.164764
 Gleneagles Country Club - VICTORY - EAST,Delray Beach,FL,(70.5/137/71),Private,0,Legends Way,33446,26.441601,-80.164764
 Golden Eagle Golf & Country Club,Tallahassee,FL,(73.7/131/72),Private,0,2162 Golden Eagle Drive West,32312,30.59514,-84.237801
-Golden Ocala Golf & Equestrian Club - 1 - 10 Original Course,Ocala,FL,(75.1/142/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
-Golden Ocala Golf & Equestrian Club - 1 - 19,Ocala,FL,(75.6/141/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
-Golden Ocala Golf & Equestrian Club - 19 - 1,Ocala,FL,(75.6/141/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
-Golden Ocala Golf & Equestrian Club - 19 - 10,Ocala,FL,(75.5/138/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
+Golden Ocala Golf & Equestrian Club - 1-10 Original Course,Ocala,FL,(75.1/142/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
+Golden Ocala Golf & Equestrian Club - 1-19,Ocala,FL,(75.6/141/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
+Golden Ocala Golf & Equestrian Club - 19-10,Ocala,FL,(75.5/138/72),Semi-Private,0,8300 Northwest 29th Street Road,34482,29.21986,-82.256226
 Golf Club of the Everglades,Naples,FL,(75.1/137/72),Private,0,8825 Vanderbilt Beach Road,34120,26.244047,-81.662994
 Golf Hammock Country Club,Sebring,FL,(70.7/131/72),Resort,0,2200 Golf Hammock Drive,33872,27.478312,-81.507164
 Granada Golf Course,Coral Gables,FL,(69.6/116/72),Municipal,0,997 North Greenway Drive,33134,25.752827,-80.274628
@@ -12073,7 +12070,7 @@ Reunion Resort and Club - THE PALMER COURSE,Reunion,FL,(73.6/141/72),Private/Res
 Reunion Resort and Club - THE WATSON COURSE,Reunion,FL,(75.0/136/72),Private/Resort,0,,,30.451038,-84.088539
 Rio Pinar Country Club,Orlando,FL,(73.9/130/72),Semi-Private,0,8623 El Prado,32825,28.525833,-81.267647
 Riomar Country Club,Vero Beach,FL,(69.4/126/70),Private,0,2109 Club Drive,32963,27.640385,-80.356407
-Ritz Carlton Golf Club - Orlando - Ritz Carlton Golf Club - Orlando,Orlando,FL,(73.7/134/72),Unknown,0,11248 Lakeshore Reserve Drive,32837,28.400295,-81.426697
+Ritz Carlton Golf Club,Orlando,FL,(73.7/134/72),Unknown,0,11248 Lakeshore Reserve Drive,32837,28.400295,-81.426697
 Ritz-Carlton Members Golf Club - Ritz-Carlton Members Golf Club,Sarasota,FL,(75.9/135/72),Unknown,0,7280 North Leewynn Drive,34240,27.318777,-82.423386
 River Greens Golf Course,Avon Park,FL,(69.6/125/72),Unknown,0,233 Greensview Drive,33825,27.640612,-81.508644
 River Hall Country Club,Alva,FL,(74.1/133/72),Semi-Private,0,3500 River Hall Parkway,33920,26.694698,-81.683479
@@ -12086,7 +12083,7 @@ River Strand Golf & Country Club - TRIBUTARY/ESTUARY,Bradenton,FL,(73.2/141/72),
 Riverbend Country Club,Tequesta,FL,(62.6/115/64),Private,0,207 Country Club Drive,33469,26.968054,-80.109741
 Riverside Golf & Boating Resort,Ruskin,FL,(69.3/127/70),Unknown,0,2034 Pier Drive,33570,27.683527,-82.447044
 Riverwood Golf Club,Port Charlotte,FL,(74.8/139/72),Semi-Private,0,3121 Club Drive,33953,26.985981,-82.215385
-Riviera Country Club - Ormond Beach - Riviera Country Club - Ormond Beach,Ormond Beach,FL,(69.6/122/71),Unknown,0,500 Calle Grande Street,32174,29.259306,-81.056847
+Riviera Country Club,Ormond Beach,FL,(69.6/122/71),Unknown,0,500 Calle Grande Street,32174,29.259306,-81.056847
 Riviera Country Club,Coral Gables,FL,(70.9/125/71),Private,0,1155 Blue Road,33146,25.726822,-80.27578
 Rockledge Country Club,Rockledge,FL,(70.9/124/71),Private,0,1675 South Fiske Boulevard,32955,28.334524,-80.742561
 Rocky Bayou Country Club,Niceville,FL,(73.0/133/72),Private,0,600 Golf Course Drive,32578,30.528858,-86.44606
@@ -12240,7 +12237,7 @@ Tequesta Country Club,Tequesta,FL,(73.6/132/71),Unknown,0,207 Country Club Drive
 Terra Ceia Bay Country Club,Palmetto,FL,(61.2/111/62),Unknown,0,2802 Terra Ceia Bay Boulevard,34221,27.538664,-82.583557
 The Amelia Island Club at Long Point,Amelia Island,FL,(73.1/137/72),Unknown,0,,,30.6070419,-81.4528094
 The Bear's Club,Jupiter,FL,(76.2/151/72),Private,0,103 Villa Drive,33477,26.890173,-80.086624
-The Boca Raton - Harborside Course - Harborside Course,Boca Raton,FL,(70.8/135/71),Resort,0,5400 Champion Boulevard,33496,26.42065,-80.127342
+The Boca Raton - Harborside Course,Boca Raton,FL,(70.8/135/71),Resort,0,5400 Champion Boulevard,33496,26.42065,-80.127342
 The Breakers Ocean Course,Palm Beach,FL,(67.8/126/70),Private/Resort,0,1550 Flagler Parkway,33411,26.700392,-80.19101
 The Breakers Rees Jones Course,West Palm Beach,FL,(74.8/146/72),Unknown,0,1550 Flagler Parkway,33411,26.700392,-80.19101
 The Bridges at Springtree Golf Club,Sunrise,FL,(60.9/102/62),Unknown,0,,,26.1692076,-80.2937136
@@ -12334,8 +12331,8 @@ The Meadows Country Club - HIGHLANDS COURSE,Sarasota,FL,(72.3/129/72),Private,0,
 The Meadows Country Club - MEADOWS - INNER LOOP,Sarasota,FL,(73.8/126/72),Private,0,,,27.336517,-82.5385652
 The Meadows Country Club - MEADOWS COURSE,Sarasota,FL,(72.2/130/72),Private,0,,,27.336517,-82.5385652
 The Moorings Country Club,Naples,FL,(58.7/83/63),Unknown,0,5 Wedge Drive,34103,26.175949,-81.805458
-The Moorings Y&CC - Hawk's Nest - The Moorings Y&CC - Hawk's Nest,Vero Beach,FL,(75.2/145/72),Private,0,100 Harbour Drive,32963,27.597338,-80.33886
-The Moorings Y&CC - Moorings - The Moorings Y&CC - Moorings,Vero Beach,FL,(62.0/102/64),Private,0,100 Harbour Drive,32963,27.597338,-80.33886
+The Moorings Y&CC - Hawk's Nest,Vero Beach,FL,(75.2/145/72),Private,0,100 Harbour Drive,32963,27.597338,-80.33886
+The Moorings Y&CC - Moorings,Vero Beach,FL,(62.0/102/64),Private,0,100 Harbour Drive,32963,27.597338,-80.33886
 The Naples Beach Hotel & Golf Club,Naples,FL,(73.1/135/71),Unknown,0,140 South Golf Drive,34102,26.155891,-81.807617
 The National Golf & Country Club at Ave Maria,Ave Maria,FL,(74.7/134/72),,0,6005 Anthem Parkway,34142,26.308867,-81.441872
 The Nest Golf Club - GATOR,Bonita Springs,FL,(73.7/130/73),Unknown,0,25250 Goldcrest Drive,34134,26.370316,-81.827591
@@ -12459,9 +12456,9 @@ Walt Disney World Golf - MAGNOLIA,Lake Buena Vista,FL,(76.0/141/72),Resort,0,210
 Walt Disney World Golf - OAK TRAIL,Lake Buena Vista,FL,(67.6/126/72),Resort,0,2100 Magnolia Palm Drive,32830,28.403202,-81.590675
 Walt Disney World Golf - PALM,Lake Buena Vista,FL,(73.7/137/72),Resort,0,2100 Magnolia Palm Drive,32830,28.403202,-81.590675
 Water Oak Country Club,Lady Lake,FL,(69.4/130/70),Semi-Private,0,125 Orange Boulevard,32159,28.93158,-81.919685
-Waterford Golf Club - GLENEAGLES - TURNBERRY,Venice,FL,(71.6/131/72),Semi-Private,0,1801 Harbor Drive South,34285,27.065037,-82.446678
-Waterford Golf Club - SAWGRASS - GLENEAGLES,Venice,FL,(71.5/131/72),Semi-Private,0,1801 Harbor Drive South,34285,27.065037,-82.446678
-Waterford Golf Club - TURNBERRY - SAWGRASS,Venice,FL,(72.5/129/72),Semi-Private,0,1801 Harbor Drive South,34285,27.065037,-82.446678
+Waterford Golf Club - GLENEAGLES-TURNBERRY,Venice,FL,(71.6/131/72),Semi-Private,0,1801 Harbor Drive South,34285,27.065037,-82.446678
+Waterford Golf Club - SAWGRASS-GLENEAGLES,Venice,FL,(71.5/131/72),Semi-Private,0,1801 Harbor Drive South,34285,27.065037,-82.446678
+Waterford Golf Club - TURNBERRY-SAWGRASS,Venice,FL,(72.5/129/72),Semi-Private,0,1801 Harbor Drive South,34285,27.065037,-82.446678
 Waterlefe Golf and River Club,Bradenton,FL,(73.9/146/72),Public,0,1018 Fish Hook Cove,34212,27.51589,-82.442223
 Wedgefield Golf Club,Orlando,FL,(72.4/134/72),Semi-Private,0,20550 Maxim Parkway,32833,28.511156,-81.07177
 Wedgewood Golf & Country Club,Lakeland,FL,(69.9/124/70),Public,0,7707 Carpenters Way,33809,28.096928,-81.963982
@@ -12679,7 +12676,7 @@ Boone Links - Brook & Lake,Florence,KY,(72.8/133/72),Public,0,19 Clubhouse Drive
 Boone Links - Brook & Ridge,Florence,KY,(69.2/125/70),Public,0,19 Clubhouse Drive,41042,39.011166,-84.683975
 Boone Links - Ridge & Lake,Florence,KY,(69.8/123/70),Public,0,19 Clubhouse Drive,41042,39.011166,-84.683975
 Boone's Trace National Golf Club,Richmond,KY,(73.2/136/72),Public,0,171 Gleneagles Boulevard,40475,37.887241,-84.364189
-Boots Randolph GC - Lake Barkley State Park - Boots Randolph Golf Course - Lake Barkley State Park,Cadiz,KY,(72.1/124/0),Unknown,0,2711 Blue Springs Road,42211,36.831821,-87.919434
+Boots Randolph GC - Lake Barkley State Park,Cadiz,KY,(72.1/124/0),Unknown,0,2711 Blue Springs Road,42211,36.831821,-87.919434
 Bowling Green Country Club,Bowling Green,KY,(73.3/128/72),Private,0,200 Indian Hills Drive,42103,36.994438,-86.403748
 Breckinridge County Community Center Golf Course,Hardinsburg,KY,(71.6/125/72),Semi-Private,0,798 South Highway 261,40143,37.769123,-86.458687
 Breckinridge Golf & Country Club,Morganfield,KY,(72.0/129/72),Semi-Private,0,Whitaker Way,42437,37.692905,-87.87764
@@ -12765,7 +12762,7 @@ Long Run Golf Course,Louisville,KY,(72.3/128/72),Public/Municipal,0,1511 Flat Ro
 Longview Golf Club,Georgetown,KY,(70.6/125/72),Semi-Private/Resort,0,3243 Frankfort Road,40324,38.208939,-84.658485
 Louisville Country Club,Louisville,KY,(72.9/131/72),Private,0,25 Country Club Road,40207,38.277821,-85.677094
 Madisonville Country Club & Golf Course,Madisonville,KY,(71.8/128/71),Semi-Private,0,105 Country Club Lane,42431,37.294533,-87.507813
-Mayfield - Graves Country Club - Mayfield - Graves Country Club,Mayfield,KY,(70.6/120/70),Private,0,134 Country Club Road,42066,36.743813,-88.656166
+Mayfield - Graves Country Club,Mayfield,KY,(70.6/120/70),Private,0,134 Country Club Road,42066,36.743813,-88.656166
 Maysville Country Club,Maysville,KY,(72.0/134/72),Semi-Private,0,1099 US Highway 68,41056,38.64016,-83.783997
 Midland Trail Golf Club,Louisville,KY,(72.5/124/72),Private,0,,,38.199374,-85.653528
 Miller Memorial Golf Course,Murray,KY,(72.6/134/71),Public,0,2714 Pottertown Road,42071,36.625046,-88.214218
@@ -12834,7 +12831,7 @@ University Club - Big Blue Course,Lexington,KY,(74.6/139/72),Semi-Private,0,4860
 University Club - Wildcat Course,Lexington,KY,(72.7/139/71),Semi-Private,0,4860 Leestown Road,40511,38.123558,-84.607765
 University of Louisville Golf Club,Simpsonville,KY,(75.6/140/72),Private,0,,,38.222394,-85.355279
 Valhalla Golf Club,Louisville,KY,(76.4/148/72),Private,0,102 Vieux Carre Drive,40223,38.245728,-85.574455
-Wasioto Winds - Pine Mountain State Park - Wasioto Winds - Pine Mountain State Park,Pineville,KY,(73.9/137/72),Municipal,0,143 Highway 190,40977,36.736656,-83.698563
+Wasioto Winds - Pine Mountain State Park,Pineville,KY,(73.9/137/72),Municipal,0,143 Highway 190,40977,36.736656,-83.698563
 Weissinger Hills Golf Course,Shelbyville,KY,(72.6/128/72),Public,0,Weissenger Clubhouse Road,40065,38.179951,-85.219658
 Western Hills Golf Course,Hopkinsville,KY,(73.7/133/72),Public/Municipal,0,1828 East 7th Street,42240,36.864788,-87.458305
 Wild Turkey Trace,Lawrenceburg,KY,(69.7/122/71),Semi-Private,0,1014 Fox Creek Road,40342,38.013821,-84.928642
@@ -12922,13 +12919,13 @@ Coyote Wash - The Links at,Wellton,AZ,(68.2/114/70),Public/Municipal,0,11821 Coy
 Crooked Tree Golf Course,Tucson,AZ,(72.5/133/72),Public,0,,,32.221878,-110.971225
 DC Ranch - The Country Club at,Scottsdale,AZ,(73.1/138/71),Private,0,9290 East Thompson Peak Parkway,85255,33.676853,-111.875107
 Dave White Golf Course,Casa Grande,AZ,(69.7/117/72),Public,0,2200 North Thornton Road,85122,32.914154,-111.774315
-Deer Valley GC - Sun City West - Deer Valley GC - Sun City West,Sun City West,AZ,(70.5/122/72),Private,0,13975 West Deer Valley Drive,85375,33.687637,-112.361801
+Deer Valley GC - Sun City West,Sun City West,AZ,(70.5/122/72),Private,0,13975 West Deer Valley Drive,85375,33.687637,-112.361801
 Del Lago Golf Club,Vail,AZ,(73.1/141/72),Public,0,14155 East Via Rancho del Lago,85641,32.054344,-110.693153
 Dell Urich GC,Tucson,AZ,(70.3/124/70),Public/Municipal,0,2500 South Western Way Circle,85713,32.192959,-111.087753
 Desert Canyon,Fountain Hills,AZ,(69.7/125/71),Unknown,0,10440 North Indian Wells Drive,85268,33.581596,-111.715508
 Desert Forest Golf Club,Carefree,AZ,(75.5/149/72),Private,0,36601 North Mule Train Road,85377,33.821655,-111.908554
 Desert Highlands GC,Scottsdale,AZ,(73.7/149/72),Private,0,,,33.494909,-111.926061
-Desert Hills GC - Green Valley - Desert Hills GC - Green Valley,Green Valley,AZ,(71.2/128/72),Private,0,1248 West Desert Hills Drive,85622,31.834206,-111.011917
+Desert Hills GC,Green Valley,AZ,(71.2/128/72),Private,0,1248 West Desert Hills Drive,85622,31.834206,-111.011917
 Desert Hills Municipal,Yuma,AZ,(72.2/121/72),Municipal,0,1245 West Desert Hills Drive,85365,32.660767,-114.633865
 Desert Mountain - Apache,Scottsdale,AZ,(73.9/135/72),Private,0,10339 East Rockaway Hills Drive,85262,33.857738,-111.858368
 Desert Mountain - Chiricahua,Scottsdale,AZ,(74.6/147/72),Private,0,10339 East Rockaway Hills Drive,85262,33.857738,-111.858368
@@ -12938,7 +12935,7 @@ Desert Mountain - Outlaw,Scottsdale,AZ,(73.5/147/72),Private,0,10339 East Rockaw
 Desert Mountain - Renegade,Scottsdale,AZ,(77.7/150/72),Private,0,10339 East Rockaway Hills Drive,85262,33.857738,-111.858368
 Desert Mountain - Seven,Scottsdale,AZ,(55.7/93/54),Private,0,10339 East Rockaway Hills Drive,85262,33.857738,-111.858368
 Desert Springs Golf Club,Surprise,AZ,(71.9/123/72),Semi-Private,0,15918 West Clear Canyon Drive,85374,33.66478,-112.403725
-Desert Trails GC - Sun City West - Desert Trails GC - Sun City West,Sun City West,AZ,(59.3/89/61),Private,0,22525 North Executive Way,85375,33.689167,-112.388321
+Desert Trails GC,Sun City West,AZ,(59.3/89/61),Private,0,22525 North Executive Way,85375,33.689167,-112.388321
 Dobson Ranch Golf Course,Mesa,AZ,(71.1/123/72),Public/Municipal,0,West Lindner Avenue,85202,33.374626,-111.878426
 Dorado Golf Club,Tucson,AZ,(58.9/92/62),Public,0,,,32.221878,-110.971225
 Douglas Golf & Social Club,Douglas,AZ,(71.4/126/71),Private,0,,,31.344475,-109.545532
@@ -12946,7 +12943,7 @@ Dove Valley Ranch GC,Cave Creek,AZ,(73.1/133/72),Public,1,,,33.832202,-111.95185
 Duke at Rancho El Dorado - The,Maricopa,AZ,(72.7/128/72),Public,0,42660 West Rancho El Dorado Parkway,85138,33.075172,-112.026833
 Eagle Mountain GC,Fountain Hills,AZ,(71.4/134/71),Public,0,East Eagle Mountain Parkway,85268,33.576302,-111.759216
 Eagles Nest Golf Club,Goodyear,AZ,(72.5/129/72),Semi-Private,0,3645 North Clubhouse Drive,85395,33.487553,-112.389954
-Echo Mesa GC - Sun City West - Echo Mesa GC - Sun City West,Sun City West,AZ,(60.6/96/60),Private,0,20349 North Echo Mesa Drive,85375,33.668671,-112.358391
+Echo Mesa GC,Sun City West,AZ,(60.6/96/60),Private,0,20349 North Echo Mesa Drive,85375,33.668671,-112.358391
 El Conquistador CC - Canada,Tucson,AZ,(71.7/133/72),Resort,0,10555 North La Canada Drive,85737,32.403633,-110.995911
 El Conquistador CC - Conquistador,Tucson,AZ,(72.2/129/71),Resort,0,10555 North La Canada Drive,85737,32.403633,-110.995911
 El Conquistador CC - Pusch Ridge,Tucson,AZ,(67.0/126/70),Resort,0,10555 North La Canada Drive,85737,32.403633,-110.995911
@@ -12960,7 +12957,7 @@ Estancia Club - The,Scottsdale,AZ,(74.0/147/72),Private,0,18921 North 102nd Stre
 Falcon Dunes GC,Waddell,AZ,(71.0/126/71),Military,0,15100 West Northern Avenue,85355,33.551529,-112.38559
 FireRock CC,Fountain Hills,AZ,(73.1/139/72),Private,0,16000 East Firerock Country Club Drive,85268,33.579159,-111.737335
 Flagstaff Ranch Golf Club,Flagstaff,AZ,(73.1/140/71),Private,0,3050 Andrew Douglass,86005,35.114883,-111.695267
-Foothills GC - Yuma - Foothills GC - Yuma,Yuma,AZ,(64.0/99/68),Public,0,14440 East 53rd Lane,85367,32.63076,-114.385178
+Foothills GC,Yuma,AZ,(64.0/99/68),Public,0,14440 East 53rd Lane,85367,32.63076,-114.385178
 Foothills Golf Club,Phoenix,AZ,(72.7/130/72),Public,1,11852 South Paiute Street,85044,33.339344,-111.982704
 Forest Highlands - Canyon,Flagstaff,AZ,(73.0/144/71),Private,0,3050 Andrew Douglass,86005,35.114883,-111.695267
 Forest Highlands - Meadow,Flagstaff,AZ,(74.3/143/72),Private,0,3050 Andrew Douglass,86005,35.114883,-111.695267
@@ -12977,12 +12974,12 @@ Gallery Golf Club - The North,Marana,AZ,(74.0/143/72),Private,0,14125 North Gall
 Gallery Golf Club - The South,Marana,AZ,(74.5/145/72),Private,0,14125 North Gallery Place,85658,32.463017,-111.079178
 Gold Canyon - Dinosaur Mountain,Gold Canyon,AZ,(71.5/144/70),Resort,0,6100 South Kings Ranch Road,85118,33.359905,-111.444641
 Gold Canyon - Sidewinder,Gold Canyon,AZ,(71.4/133/71),Resort,0,6100 South Kings Ranch Road,85118,33.359905,-111.444641
-Golf Club at Dove Mountain - The - Saguaro/Wild Burro,Marana,AZ,(73.9/145/72),Private,0,4949 West Heritage Club Boulevard,85658,32.449696,-111.071739
-Golf Club at Dove Mountain - The - Tortolita/Saguaro,Marana,AZ,(73.9/146/72),Private,0,4949 West Heritage Club Boulevard,85658,32.449696,-111.071739
-Golf Club at Dove Mountain - The - Wild Burro/Tortolita,Marana,AZ,(74.0/144/72),Private,0,4949 West Heritage Club Boulevard,85658,32.449696,-111.071739
+Golf Club at Dove Mountain - Saguaro/Wild Burro,Marana,AZ,(73.9/145/72),Private,0,4949 West Heritage Club Boulevard,85658,32.449696,-111.071739
+Golf Club at Dove Mountain - Tortolita/Saguaro,Marana,AZ,(73.9/146/72),Private,0,4949 West Heritage Club Boulevard,85658,32.449696,-111.071739
+Golf Club at Dove Mountain - Wild Burro/Tortolita,Marana,AZ,(74.0/144/72),Private,0,4949 West Heritage Club Boulevard,85658,32.449696,-111.071739
 Golf Club of Estrella,Goodyear,AZ,(73.1/139/72),Public,1,11800 South Golf Club Drive,85338,33.339092,-112.433617
 Grand Canyon University Golf Course,Phoenix,AZ,(74.3/135/71),Public,1,7241 West Indian School Road,85033,33.494705,-112.215736
-Grandview GC - Sun City West - Grandview GC - Sun City West,Sun City West,AZ,(72.0/127/72),Private,0,14416 West Meeker Boulevard,85375,33.659073,-112.369247
+Grandview GC,Sun City West,AZ,(72.0/127/72),Private,0,14416 West Meeker Boulevard,85375,33.659073,-112.369247
 Granite Falls GC - North Course,Surprise,AZ,(71.4/122/72),Semi-Private,0,15955 West Clearview Boulevard,85374,33.654442,-112.403908
 Granite Falls GC - South Course,Surprise,AZ,(71.2/120/72),Semi-Private,1,15955 West Clearview Boulevard,85374,33.654442,-112.403908
 Grayhawk - Raptor(F)/Talon(B),Scottsdale,AZ,(73.6/143/72),Public,0,8620 East Thompson Peak Parkway,85255,33.676926,-111.89727
@@ -13057,7 +13054,7 @@ Palo Verde CC- Sun Lakes - Palo Verde CC- Sun Lakes,Sun Lakes,AZ,(59.9/98/62),Pr
 Palo Verde GC,Phoenix,AZ,(57.4/80/60),Public/Municipal,0,6215 North 15th Avenue,85015,33.528065,-112.091171
 Papago Golf Course,Phoenix,AZ,(74.7/129/72),Public/Municipal,1,5595 East Moreland Street,85008,33.461464,-111.962166
 Payson Golf Course,Payson,AZ,(66.5/114/71),Public,0,S Clubhouse,85541,34.246124,-111.279716
-Pebblebrook GC - Sun City West - Pebblebrook GC - Sun City West,Sun City West,AZ,(70.0/120/72),Public,0,18818 North 128th Avenue,85375,33.652931,-112.333847
+Pebblebrook GC,Sun City West,AZ,(70.0/120/72),Public,0,18818 North 128th Avenue,85375,33.652931,-112.333847
 Peninsula de Cortes Golf Club,Puerto Penasco,AZ,(74.7/140/72),Unknown,0,,,36.192993,-109.426627
 Peoria Pines Golf & Restaurant,Peoria,AZ,(60.8/98/63),Private,0,19260 North Westbrook Parkway,85382,33.658752,-112.265373
 Phoenician,Scottsdale,AZ,(70.5/128/71),Resort,1,,,33.494909,-111.926061
@@ -13069,7 +13066,7 @@ Pinewood Country Club,Munds Park,AZ,(70.3/125/72),Semi-Private,0,395 East Pinewo
 Pinnacle Peak Country Club,Scottsdale,AZ,(74.0/132/72),Private,0,23006 North 86th Street,85255,33.695557,-111.894089
 Poston Butte Golf Club,Florence,AZ,(73.8/127/72),Public,0,,,33.023904,-111.387583
 Prescott Golf Club,Dewey,AZ,(71.0/127/72),Semi-Private,0,1046 North Bunker Place,86327,34.557701,-112.265358
-Preserve at Saddlebrooke - The - Preserve Golf Club,Tucson,AZ,(72.3/137/72),Public,0,66567 East Catalina Hills Drive,85739,32.549953,-110.855804
+Preserve at Saddlebrooke,Tucson,AZ,(72.3/137/72),Public,0,66567 East Catalina Hills Drive,85739,32.549953,-110.855804
 Pueblo El Mirage,El Mirage,AZ,(71.0/123/72),Semi-Private,1,11201 North El Mirage Road,85335,33.593372,-112.319206
 Pueblo del Sol GC,Sierra Vista,AZ,(73.5/131/72),Semi-Private,0,2770 Saint Andrew's Drive,85650,31.518614,-110.264702
 Quail Creek CC - Quail/Roadrunner,Green Valley,AZ,(72.1/132/72),Resort,0,2067 East Quail Crossing Boulevard,85614,31.892397,-110.942345
@@ -13112,7 +13109,7 @@ Skyline Country Club,Tucson,AZ,(69.2/126/71),Private,0,6750 North Dundedin Place
 Snowflake Golf Course - Snowflake GC West 9,Snowflake,AZ,(34.2/117/36),Municipal,0,90 North Country Club Drive,85937,34.510334,-110.121246
 Snowflake Golf Course,Snowflake,AZ,(67.9/118/72),Municipal,0,90 North Country Club Drive,85937,34.510334,-110.121246
 Springfield Golf Club,Chandler,AZ,(60.3/96/61),Resort,0,6495 South Saint Andrews Boulevard,85249,33.211842,-111.81913
-Stardust - Sun City West - Stardust - Sun City West,Sun City West,AZ,(60.3/94/60),Private,0,12702 West Ballad Drive,85375,33.672253,-112.333839
+Stardust,Sun City West,AZ,(60.3/94/60),Private,0,12702 West Ballad Drive,85375,33.672253,-112.333839
 Starfire Golf Club - Hawk/Mulligan,Scottsdale,AZ,(62.7/109/62),Semi-Private,0,7998 East Cholla Street,85260,33.58884,-111.909431
 Starfire Golf Club - King/Mulligan,Scottsdale,AZ,(63.5/108/64),Semi-Private,0,7998 East Cholla Street,85260,33.58884,-111.909431
 Starfire Golf Club - The King,Scottsdale,AZ,(68.8/124/70),Semi-Private,0,7998 East Cholla Street,85260,33.58884,-111.909431
@@ -13156,7 +13153,7 @@ Tonto Verde - Ranch Course,Rio Verde,AZ,(73.1/135/72),Semi-Private,0,18401 East 
 Torreon - Cabin Course,Show Low,AZ,(74.2/144/72),Private/Resort,0,3801 West Sugar Pine Way,85901,34.242317,-110.084038
 Torreon - Tower Course,Show Low,AZ,(73.0/142/72),Private/Resort,0,3801 West Sugar Pine Way,85901,34.242317,-110.084038
 Torres Blancas GC,Green Valley,AZ,(72.3/128/72),Public,0,3233 South Abrego Drive,85614,31.821743,-110.999901
-Trail Ridge - Sun City West - Trail Ridge - Sun City West,Sun City West,AZ,(71.2/128/72),Private,0,15104 West Whitewood Drive,85375,33.675602,-112.380829
+Trail Ridge,Sun City West,AZ,(71.2/128/72),Private,0,15104 West Whitewood Drive,85375,33.675602,-112.380829
 Tres Rios Golf Course at Estrella Mountain,Goodyear,AZ,(71.5/121/71),Public,0,Golf Course Drive,85338,33.378399,-112.38694
 Trilogy Golf Club @ Power Ranch,Gilbert,AZ,(71.5/130/71),Unknown,0,Ranch House Parkway,85298,33.259418,-111.695175
 Trilogy Golf Club @ Vistancia,Peoria,AZ,(73.6/135/72),Public,0,,,33.575086,-112.2373141
