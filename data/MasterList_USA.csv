@@ -1439,7 +1439,6 @@ Las Vegas National Golf Club,Las Vegas,NV,(73.2/134/71),Public,1,3581 Tioga Way,
 Legacy Golf Club,Henderson,NV,(74.4/143/72),Unknown,0,1570 West Horizon Ridge Parkway,89012,36.016754,-115.055725
 Los Prados Country Club,Las Vegas,NV,(65.6/110/70),Semi-Private,0,3000 South Joe W. Brown Drive,89109,36.1348,-115.149002
 Mojave Resort Golf Club,Laughlin,NV,(73.6/134/72),Unknown,0,Aha Macav Parkway,89029,35.022121,-114.647423
-Montreux Golf and Country Club - ALTERNATE COURSE,Reno,NV,(75.3/138/72),Private,0,18000 Bordeaux Drive,89511,39.364918,-119.828674
 Montreux Golf and Country Club,Reno,NV,(75.5/140/72),Private,0,18000 Bordeaux Drive,89511,39.364918,-119.828674
 Mountain Falls Golf Club,Pahrump,NV,(72.7/129/72),Public,0,4920 Clubhouse Drive,89061,36.147797,-115.92292
 Mountain View Golf Club,Battle Mountain,NV,(69.5/120/72),Public,0,,,40.61863,-116.888906
@@ -4616,7 +4615,6 @@ Camarillo Springs Golf Course,Camarillo,CA,(73.1/130/72),Public,0,791 Camarillo 
 Cameron Park CC,Cameron Park,CA,(72.0/126/72),Private,0,3210 Royal Drive,95682,38.663101,-120.982277
 Campus Commons GC,Sacramento,CA,(57.6/93/58),Public,0,Jedediah Smith Recreation Trail,95825,38.573456,-121.420326
 Candlewood Country Club,Whittier,CA,(70.5/128/70),Private,0,13952 Birdie Way,90604,33.931606,-118.035011
-Canyon Crest Country Club - Alternate Course,Riverside,CA,(71.7/129/71),Private,0,,,33.980534,-117.377025
 Canyon Crest Country Club,Riverside,CA,(73.0/131/72),Private,0,,,33.980534,-117.377025
 Canyon Lake Country Club,Canyon Lake,CA,(69.2/125/71),Semi-Private,0,32001 Railroad Canyon Road,92587,33.673004,-117.260178
 Canyon Lakes GC & Brewery,San Ramon,CA,(71.3/130/71),Public,0,640 Bollinger Canyon Way,94582,37.77029,-121.94986
@@ -4772,7 +4770,7 @@ Glen Ivy Golf Club,Glen Ivy,CA,(72.2/133/72),Semi-Private,0,,,33.763115,-117.488
 Glendora Country Club,Glendora,CA,(72.8/130/72),Private,0,310 South Amelia Avenue,91741,34.131771,-117.820465
 Gleneagles GC,San Francisco,CA,(73.0/132/74),Unknown,0,2100 Sunnydale Avenue,94134,37.714695,-122.425163
 Glenn GCC,Willows,CA,(70.7/121/72),Semi-Private,0,6232 County Road 39,95988,39.582352,-122.224113
-Goat Hill Park Golf Course,Oceanside,CA,(64.6/103/65),Unknown,0,4701 Leisure Village Way,92056,33.162388,-117.267921
+Goat Hill Park Golf Course,Oceanside,CA,(64.6/103/65),Public,1,2323 Goat Hill Dr,92054,33.1973925,-117.3607654
 Gold Hills CC,Redding,CA,(72.5/132/72),Semi-Private,0,1908 Gold Hills Drive,96003,40.635651,-122.3545
 Golden Era Golf Course,San Jacinto,CA,(69.4/122/72),Unknown,0,20509 Gilman Springs Road,92583,33.824909,-116.975822
 Goose Creek Golf Club,Mira Loma,CA,(73.1/131/71),Public,0,,,33.952834,-117.551124
@@ -5131,7 +5129,6 @@ San Gabriel Country Club,San Gabriel,CA,(72.2/133/71),Unknown,0,411 East Las Tun
 San Joaquin CC,Fresno,CA,(74.2/129/71),Private,0,7568 North Marks Avenue,93711,36.849022,-119.851097
 San Jose CC,San Jose,CA,(71.2/132/70),Public/Municipal,0,15600 Alum Rock Avenue,95127,37.385155,-121.8153
 San Jose Muni,San Jose,CA,(71.5/121/72),Public/Municipal,0,1560 Oakland Road,95131,37.378544,-121.895546
-San Juan Hills Golf Club - Alternate Course,San Juan Capistrano,CA,(70.0/125/70),Unknown,0,32120 San Juan Creek Road,92675,33.496433,-117.653702
 San Juan Hills Golf Club,San Juan Capistrano,CA,(71.1/127/71),Unknown,1,32120 San Juan Creek Road,92675,33.496433,-117.653702
 San Juan Oaks GC,Hollister,CA,(74.0/139/72),Public,0,,,36.852513,-121.402063
 San Luis Obispo Country Club,San Luis Obispo,CA,(74.0/134/72),Private,0,255 Country Club Drive,93401,35.212048,-120.625252
@@ -5212,7 +5209,7 @@ The Links at Lakehouse,Lake San Marcos,CA,(71.0/126/71),Unknown,0,1750 San Pablo
 Stanford University GC,Stanford,CA,(73.7/138/70),Unknown,0,80 Links Road,94305,37.421471,-122.184113
 Steele Canyon Golf Club - Canyon/Ranch,Jamul,CA,(73.5/138/71),Semi-Private,0,3199 Stonefield Drive,91935,32.74316,-116.894028
 Steele Canyon Golf Club - Ranch/Vineyard,Jamul,CA,(74.2/139/71),Semi-Private,0,3199 Stonefield Drive,91935,32.74316,-116.894028
-Steele Canyon Golf Club - Vineyard/Canyon,Jamul,CA,(72.3/136/70),Semi-Private,0,3199 Stonefield Drive,91935,32.74316,-116.894028
+Steele Canyon Golf Club - Vineyard/Canyon,Jamul,CA,(72.3/136/70),Semi-Private,1,3199 Stonefield Drive,91935,32.74316,-116.894028
 Sterling Hills Golf Club,Camarillo,CA,(73.3/133/71),Public,0,901 Sterling Hills Drive,93010,34.244419,-119.093346
 Stockdale Country Club,Bakersfield,CA,(71.2/125/71),Unknown,0,7001 Stockdale Highway,93309,35.354233,-119.078583
 Stockton GCC,Stockton,CA,(71.8/132/71),Private,0,3919 French Camp Road,95206,37.86116,-121.222878
@@ -5247,10 +5244,8 @@ Temecula Creek Golf Club - Creek/Stone House,Temecula,CA,(71.5/131/72),Resort,0,
 Temecula Creek Golf Club - Oaks/Creek,Temecula,CA,(72.1/127/72),Resort,0,44501 Rainbow Canyon Road,92592,33.466282,-117.129936
 Temecula Creek Golf Club - Stone House/Oaks,Temecula,CA,(72.2/131/72),Resort,0,44501 Rainbow Canyon Road,92592,33.466282,-117.129936
 The Bridges at Rancho Santa Fe,Rancho Santa Fe,CA,(73.9/139/71),Private,0,18550 Seven Bridges Road,92091,33.057095,-117.188522
-The Club at Morningside - Alternate Course,Rancho Mirage,CA,(71.8/128/71),Unknown,0,39033 Johnar Boulevard,92270,33.763458,-116.432045
 The Club at Morningside,Rancho Mirage,CA,(72.9/131/72),Unknown,0,39033 Johnar Boulevard,92270,33.763458,-116.432045
 The Country Club at Soboba Springs,San Jacinto,CA,(75.3/140/72),Public/Resort,0,1020 Soboba Road,92583,33.800209,-116.931671
-The Country Club of Rancho Bernardo - Alternate Course,San Diego,CA,(70.9/126/71),Private,0,12280 Greens East Rd,92128,33.0315078,-117.0674043
 The Country Club of Rancho Bernardo,San Diego,CA,(71.5/127/72),Private,0,12280 Greens East Rd,92128,33.0315078,-117.0674043
 The Crosby Club,Rancho Santa Fe,CA,(74.0/140/70),Private,0,,,33.022122,-117.193254
 The Crossings at Carlsbad,Carlsbad,CA,(72.8/135/72),Public,1,5900 The Crossings Drive,92008,33.129337,-117.307022
@@ -9785,7 +9780,6 @@ Black Bear Golf Club,Minong,WI,(69.9/116/72),Public,0,W7606 Nancy Lake Road,5485
 Black River Golf Club,Medford,WI,(72.0/128/72),Semi-Private,0,W5205 County Road O,54451,45.121326,-90.314079
 Blackhawk Country Club,Madison,WI,(70.3/128/72),Private,0,3602 Blackhawk Drive,53705,43.079437,-89.453819
 Blackstone Creek Golf Club,Germantown,WI,(73.0/129/71),Semi-Private,0,N112W17300 Mequon Road,53022,43.220966,-88.124794
-Blackwolf Run - Alternate Course,Kohler,WI,(75.6/141/72),Resort,0,1111 West Riverside Drive,53044,43.729118,-87.775139
 Blackwolf Run - Championship Course,Kohler,WI,(74.2/143/72),Resort,0,1111 West Riverside Drive,53044,43.729118,-87.775139
 Blackwolf Run - Meadow Valleys,Kohler,WI,(75.1/145/72),Resort,0,1111 West Riverside Drive,53044,43.729118,-87.775139
 Blackwolf Run - River,Kohler,WI,(76.2/151/72),Resort,0,1111 West Riverside Drive,53044,43.729118,-87.775139
