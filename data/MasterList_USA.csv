@@ -266,8 +266,8 @@ Meadowbrook GC - Rutherfordton,Rutherfordton,NC,(73.8/135/73),Public,0,1310 Mead
 Meadowlands GC - Calabash,Calabash,NC,(74.0/132/72),Unknown,0,1042 Meadowlands Trail,28467,33.926067,-78.599289
 Meadowlands GC - Winston-Salem,Winston-Salem,NC,(73.0/140/72),Semi-Private,0,3535 Winston Lake Road,27105,36.118752,-80.200974
 Methodist University GC,Fayetteville,NC,(72.6/143/71),Private,0,400 Lower Field Drive,28311,35.133289,-78.865425
-Mid Pines Club,Southern Pines,NC,(71.6/130/72),Resort,0,1010 Midland Road,28387,35.195057,-79.393692
-Mid South Club,Pinehurst,NC,(73.8/146/71),Unknown,0,,,35.193544,-79.473735
+Mid Pines Club,Southern Pines,NC,(71.6/130/72),Resort,1,1010 Midland Road,28387,35.195057,-79.393692
+Mid South Club,Pinehurst,NC,(73.8/146/71),Resort,1,,,35.193544,-79.473735
 Midland CC,Pinehurst,NC,(69.6/130/72),Unknown,0,410 Midland Drive,28374,35.206688,-79.432251
 Mill Creek GC - Mebane,Mebane,NC,(74.0/139/72),Semi-Private,0,2817 Barnett Road,27302,36.166229,-79.311249
 Mill Creek GC - Franklin,Franklin,NC,(68.6/130/72),Resort,0,337 Mill Creek Road,28734,35.170601,-83.46405
@@ -333,7 +333,7 @@ Pine Hollow GC,Clayton,NC,(71.9/134/71),Semi-Private,0,3633 Pine Hollow Drive,27
 Pine Island CC,Charlotte,NC,(70.9/137/71),Private,0,1701 Stoneyridge Drive,28214,35.297913,-80.967583
 Pine Knolls GC,Kernersville,NC,(70.6/123/72),Public,0,1100 Quail Hollow Road,27284,36.185791,-80.068909
 Pine Lake CC,Charlotte,NC,(72.9/138/72),Private,0,,,35.2237867,-80.8411413
-Pine Needles,Southern Pines,NC,(73.9/134/71),Resort,0,590 Central Drive,28387,35.200016,-79.386482
+Pine Needles,Southern Pines,NC,(73.9/134/71),Resort,1,590 Central Drive,28387,35.200016,-79.386482
 Pine Valley CC,Wilmington,NC,(71.7/133/72),Private,0,,,34.2367,-77.946197
 PineCrest CC,Lumberton,NC,(70.9/121/72),Semi-Private,0,64 Nigel Drive,28360,34.62711,-79.070244
 Pinehurst CC - No. 1,Pinehurst,NC,(68.4/118/70),Public,0,86 Pinewild Drive,28374,35.201946,-79.508591
@@ -454,7 +454,7 @@ Thistle GC - MacKay-Cameron,Sunset Beach,NC,(74.4/141/72),Public,0,1815 Old This
 Thistle GC - Stewart-MacKay,Sunset Beach,NC,(74.0/140/71),Public,0,1815 Old Thistle Downs Drive,28468,33.903492,-78.545143
 Tillery Tradition,Mt. Gilead,NC,(73.1/135/72),Unknown,0,173 Tradition Drive,27306,35.287048,-80.079536
 Timberlake GC,Clinton,NC,(71.2/136/71),Semi-Private,0,104 Pinehurst Lane,28328,35.017586,-78.27066
-Tobacco Road GC,Sanford,NC,(72.5/145/71),Unknown,0,371 Carolina Way,27332,35.287056,-79.053459
+Tobacco Road GC,Sanford,NC,(72.5/145/71),Public,1,371 Carolina Way,27332,35.287056,-79.053459
 Tradition GC,Charlotte,NC,(72.2/141/72),Municipal,0,,,35.2237867,-80.8411413
 Treyburn CC,Durham,NC,(74.3/139/72),Private,0,1 Old Trail Drive,27712,36.119667,-78.865257
 Trillium Links,Cashiers,NC,(71.5/140/72),Unknown,0,412 Links Drive,28717,35.142422,-83.135941
@@ -3105,7 +3105,7 @@ Skagit Golf & Country Club,Burlington,WA,(69.5/127/71),Private,1,16746 Country C
 Sky Ridge Golf Course,Sequim,WA,(70.7/125/72),Unknown,0,7147 Old Olympic Highway,98382,48.108639,-123.158615
 Skyline Golf Course,Cathlamet,WA,(63.7/115/71),Public,0,16 Randal Drive,98612,46.199387,-123.359818
 Snohomish Golf Club,Snohomish,WA,(72.0/125/72),Public,1,7910 147th Avenue Southeast,98290,47.92448,-122.034241
-Snoqualmie Falls Golf Course,Fall City,WA,(66.7/107/71),Public,0,35115 Southeast Fish Hatchery Road,98024,47.564671,-121.871292
+Snoqualmie Falls Golf Course,Fall City,WA,(66.7/107/71),Public,1,35115 Southeast Fish Hatchery Road,98024,47.564671,-121.871292
 St. John Golf & Country Club,St. John,WA,(66.6/105/70),Unknown,0,Lancaster Road,99171,47.091785,-117.589638
 Sudden Valley Golf & Country Club,Bellingham,WA,(71.3/128/72),Semi-Private,0,4 Clubhouse Circle,98229,48.712662,-122.326828
 Sun Country Golf Course,Cle Elum,WA,(68.2/119/71),Public,0,841 Saint Andrew's Drive,98922,47.188316,-121.05069
@@ -3350,7 +3350,7 @@ Greenlea Golf Course,Boring,OR,(58.2/84/62),Public,0,26690 Southeast Kelso Road,
 Gresham Golf Club,Gresham,OR,(68.8/120/72),Semi-Private,0,2155 Northeast Division Street,97030,45.504833,-122.411331
 Harbor Links Golf Club,Klamath Falls,OR,(69.0/119/71),Public,0,601 Harbor Isle Boulevard,97601,42.249798,-121.808083
 Heron Lakes - Great Blue Course,Portland,OR,(74.2/146/72),Public/Municipal,1,3500 North Victory Boulevard,97217,45.604698,-122.703415
-Heron Lakes - Greenback Course,Portland,OR,(72.0/132/72),Public/Municipal,0,3500 North Victory Boulevard,97217,45.604698,-122.703415
+Heron Lakes - Greenback Course,Portland,OR,(72.0/132/72),Public/Municipal,1,3500 North Victory Boulevard,97217,45.604698,-122.703415
 Hidden Valley Golf Course,Cottage Grove,OR,(64.9/116/70),Public,0,West Woodson Place,97424,43.804184,-123.060493
 Highlands Golf Club,Gearhart,OR,(59.0/91/62),Public,0,,,46.024168,-123.920453
 Hood River Golf & Country Club,Hood River,OR,(69.8/129/71),Public,0,1850 Country Club Road,97031,45.669083,-121.586342
@@ -3368,7 +3368,7 @@ LakeRidge Golf Club,Lakeview,OR,(69.9/122/72),Public,0,19096 Lake Ridge Road,976
 Langdon Farms Golf Club,Aurora,OR,(73.7/133/71),Public,0,,,45.231609,-122.755369
 Laurel Hill Golf Club,Gold Hill,OR,(60.2/103/62),Unknown,0,,,42.434593,-123.0533692
 Laurelwood Golf Course,Eugene,OR,(70.6/131/70),Public,0,1695 East 27th Avenue,97403,44.030609,-123.06839
-Lost Tracks Golf Club,Bend,OR,(73.1/135/72),Public,0,60205 Sunset View Drive,97702,43.989376,-121.310379
+Lost Tracks Golf Club,Bend,OR,(73.1/135/72),Public,1,60205 Sunset View Drive,97702,43.989376,-121.310379
 Mallard Creek Golf Course,Lebanon,OR,(73.8/137/72),Public,0,32059 Bellinger Scale Road,97355,44.522549,-122.796005
 Manzanita Links,Manzanita,OR,(61.4/108/64),Public,0,908 Lakeview Drive,97130,45.711109,-123.936211
 Marker 40 Golf Club,Boardman,OR,(60.0/103/62),Unknown,0,78873 Toms Camp Road,97818,45.826427,-119.770149
@@ -3393,7 +3393,7 @@ Oak Knoll Golf Club Salem,Independence,OR,(69.8/125/72),Public,0,,,44.851125,-12
 Oak Knoll Golf Course Ashland,Ashland,OR,(69.9/122/71),Public,0,Oak Knoll Drive,97520,42.180717,-122.655663
 Oakway Golf Club,Eugene,OR,(58.8/96/61),Public,0,2000 Cal Young Road,97401,44.076195,-123.083
 Ocean Dunes Golf Club,Florence,OR,(70.3/132/71),Semi-Private/Resort,0,3345 Munsel Lake Road,97439,43.996029,-124.084183
-Old Back 9,Bend,OR,(68.4/125/72),Unknown,0,60584 China Hat Road,97702,44.002735,-121.316742
+Old Back 9,Bend,OR,(68.4/125/72),Public,1,60584 China Hat Road,97702,44.002735,-121.316742
 Oregon City Golf Club,Oregon City,OR,(68.1/120/71),Unknown,0,20110 O C Golf,97045,45.315208,-122.55088
 Oswego Lake Country Club,Lake Oswego,OR,(72.9/134/71),Municipal,0,20 Oswego Lake Country Club,97034,45.416965,-122.683014
 Persimmon Country Club,Gresham,OR,(71.6/133/72),Private,0,500 Southeast Butler Road,97080,45.469303,-122.428917
@@ -3407,7 +3407,7 @@ Pumpkin Ridge - Ghost Creek,North Plains,OR,(74.5/146/71),Public,0,12930 Northwe
 Pumpkin Ridge - Witch Hollow,North Plains,OR,(75.6/147/72),Public,0,12930 Northwest Old Pumpkin Ridge Road,97133,45.613544,-123.0112
 Quail Point Golf Club,Medford,OR,(68.2/130/68),Semi-Private,0,2416 Rogue Valley Manor Drive,97504,42.310879,-122.843781
 Quail Ridge Golf Course,Baker City,OR,(69.0/121/70),Municipal,0,2800 Indiana Avenue,97814,44.767197,-117.841171
-Quail Run Golf Club,Bend,OR,(72.7/136/72),Unknown,0,,,44.0580883,-121.3151497
+Quail Run Golf Club,Bend,OR,(72.7/136/72),Public,1,,,44.0580883,-121.3151497
 Quail Valley Golf Club,Banks,OR,(72.6/129/72),Unknown,1,Northwest Aerts Road,97106,45.611839,-123.102814
 Ranch Hills Golf Club,Mulino,OR,(66.0/111/68),Public,0,26710 South Ranch Hills Road,97042,45.220181,-122.573967
 RedTail Golf Club,Beaverton,OR,(74.7/136/72),Public/Municipal,1,8200 Southwest Scholls Ferry Road,97008,45.46056,-122.780411
@@ -4530,7 +4530,7 @@ Azusa Greens Country Club,Azusa,CA,(69.1/118/70),Public,0,991 West Sierra Madre 
 Bailey Creek GC,Lake Almanor,CA,(72.7/129/72),Public,0,,,40.2783002,-121.1193661
 Bakersfield Country Club,Bakersfield,CA,(72.6/131/72),Private,0,7001 Stockdale Highway,93309,35.354233,-119.078583
 Balboa Park Golf Club - 18 Hole Course,San Diego,CA,(71.2/125/72),Public/Municipal,1,2600 Golf Course Drive,92102,32.724648,-117.137207
-Balboa Park Golf Club - 9 Hole Course,San Diego,CA,(60.2/94/64),Public/Municipal,0,2600 Golf Course Drive,92102,32.724648,-117.137207
+Balboa Park Golf Club - 9 Hole Course,San Diego,CA,(60.2/94/64),Public/Municipal,1,2600 Golf Course Drive,92102,32.724648,-117.137207
 Barbara Worth Golf Resort,Holtville,CA,(71.5/124/71),Resort,0,2050 Country Club Drive,92250,32.800308,-115.419655
 Barona Creek Golf Club,Lakeside,CA,(73.8/140/71),Resort,0,Harry Hertzberg Way,92040,32.940571,-116.87104
 Bartley Cavanaugh GC,Sacramento,CA,(69.8/125/71),Public,0,8301 Freeport Boulevard,95832,38.456753,-121.500694
@@ -4580,7 +4580,7 @@ Blue Rock Springs GC - West,Vallejo,CA,(69.1/128/71),Public,0,655 Columbus Parkw
 Bluff Pointe GC,Fresno,CA,(58.4/90/58),Semi-Private,0,5399 East Salerno Drive,93727,36.777424,-119.708305
 Blythe Municipal Golf Course,Blythe,CA,(72.8/123/73),Unknown,0,3600 Quail Run Road,92225,33.672348,-114.630119
 Bodega Harbour,Bodega Bay,CA,(71.8/131/70),Public,0,21295 Heron Dr,94923,38.3135592,-123.0292119
-Bonita Golf Course,Bonita,CA,(69.4/118/71),Unknown,0,3631 Bonita Road,91902,32.654408,-117.045853
+Bonita Golf Course,Bonita,CA,(69.4/118/71),Unknown,1,3631 Bonita Road,91902,32.654408,-117.045853
 Boulder Creek GCC&R,Boulder Creek,CA,(59.8/97/60),Resort,0,160 Hilton Drive,95006,37.15361,-122.161949
 Boulder Oaks Golf Club,Escondido,CA,(68.3/118/70),Semi-Private,1,10333 Meadow Glen Way E,92026,33.2149575,-117.1112959
 Boulder Ridge,San Jose,CA,(GC at) - Boulder Ridge (GC at) (73.2/138/72),Private,0,1000 Old Quarry Road,95120,37.233891,-121.85685
@@ -4721,7 +4721,7 @@ Dragonfly GC,Madera,CA,(78.6/144/73),Public,0,23200 Avenue 17,93637,36.996445,-1
 Dry Creek Ranch GC,Galt,CA,(72.6/133/72),Public/Municipal,0,State Route 99,95632,38.243031,-121.286522
 Dryden Park GC,Modesto,CA,(70.9/123/72),Public,0,,,37.640735,-121.002435
 Dublin Ranch GC,Dublin,CA,(63.8/107/63),Private,0,5900 Signal Hill Drive,94568,37.725876,-121.856995
-Dos Osos Golf Club,Escondido,CA,(72.2/131/72),Public,0,2492 Old Ranch Rd,92027,33.1161729,-117.0107712
+Dos Osos Golf Club,Escondido,CA,(72.2/131/72),Public,1,2492 Old Ranch Rd,92027,33.1161729,-117.0107712
 Eagle Falls Golf Course,Indio,CA,(72.8/133/72),Resort,0,84250 Indio Springs Drive,92203,33.721584,-116.19117
 Eagle Glen Golf Club,Corona,CA,(73.5/139/72),Semi-Private,0,4571 Birdie Circle,92883,33.80624,-117.538643
 Eagle Ridge GC,Gilroy,CA,(74.1/140/72),Public,0,1975 Saint Andrews Circle,95020,37.004913,-121.606514
@@ -4843,7 +4843,7 @@ La Costa Resort & Spa - CHAMPIONS,Carlsbad,CA,(75.0/139/72),Unknown,0,2101 Costa
 La Costa Resort & Spa - LEGENDS,Carlsbad,CA,(74.6/138/72),Unknown,0,2101 Costa del Mar Road,92009,33.091301,-117.26635
 La Cumbre Country Club,Santa Barbara,CA,(72.0/129/71),Private,0,4015 Via Laguna,93110,34.435711,-119.753723
 La Jolla Country Club,La Jolla,CA,(73.8/134/72),Private,0,7301 High Avenue,92037,32.837421,-117.269936
-La Mirada Golf Course,La Mirada,CA,(69.2/119/70),Public,0,15501 Alicante Road,90638,33.902687,-118.00045
+La Mirada Golf Course,La Mirada,CA,(69.2/119/70),Public,1,15501 Alicante Road,90638,33.902687,-118.00045
 La Purisima Golf Course,Lompoc,CA,(75.4/142/72),Public,0,3455 East Highway 246,93436,34.664715,-120.389359
 La Quinta Country Club,La Quinta,CA,(74.3/136/72),Private,0,49650 Eisenhower Drive,92253,33.687244,-116.307922
 La Rinconada CC,Los Gatos,CA,(70.4/134/70),Private,0,14569 Clearview Drive,95032,37.256855,-121.975311
@@ -4967,7 +4967,7 @@ Muroc Lake Golf Course,Edwards,CA,(72.8/127/72),Military,0,Edwards Air Force Sta
 Napa GC at Kennedy Park,Napa,CA,(72.4/129/72),Public,0,2295 Streblow Drive,94558,38.269421,-122.276604
 Napa Valley CC,Napa,CA,(71.5/127/72),Public,0,3385 Hagen Road,94558,38.322849,-122.242798
 National City Golf Course,National City,CA,(63.4/102/68),Public,1,1439 Sweetwater Road,91950,32.661221,-117.083534
-Native Oaks Golf Club,Valley Center,CA,(72.6/132/72),Public,0,14616 Woods Valley Road,92082,33.207443,-117.026855
+Native Oaks Golf Club,Valley Center,CA,(72.6/132/72),Public,1,14616 Woods Valley Road,92082,33.207443,-117.026855
 Navy Golf Course Seal Beach - Cruiser,Cypress,CA,(59.8/94/62),Military,0,,,33.824251,-118.045693
 Navy Golf Course Seal Beach - Destroyer,Cypress,CA,(72.6/129/72),Military,0,,,33.824251,-118.045693
 Nevada County CC,Grass Valley,CA,(66.0/122/68),Semi-Private,0,1040 East Main Street,95945,39.229321,-121.050568
@@ -4995,7 +4995,7 @@ Oakmoore GC,Stockton,CA,(70.8/133/71),Private,0,Sanguinetti Lane,95205,37.994556
 Oaks North Golf Course - East/North,San Diego,CA,(56.5/88/60),Public,0,12602 Oaks N Dr,92128,33.0338025,-117.0591959
 Oaks North Golf Course - East/South,San Diego,CA,(56.8/91/60),Public,1,12602 Oaks N Dr,92128,33.0338025,-117.0591959
 Oaks North Golf Course - North/South,San Diego,CA,(57.3/92/60),Public,0,12602 Oaks N Dr,92128,33.0338025,-117.0591959
-Oceanside Golf Course,Oceanside,CA,(71.8/125/72),Private,0,821 Douglas Drive,92058,33.252003,-117.321815
+Oceanside Golf Course,Oceanside,CA,(71.8/125/72),Public,0,821 Douglas Drive,92058,33.252003,-117.321815
 Ojai Valley Inn & Spa,Ojai,CA,(71.0/131/70),Unknown,0,820 Country Club Road,93023,34.438644,-119.255081
 Old Brockway GC,Kings Beach,CA,(71.4/134/72),Unknown,0,,,39.278817,-120.035449
 Old Greenwood GC,Truckee,CA,(75.5/144/72),Resort/Semi-Private,0,12915 Fairway Drive,96161,39.345024,-120.143562
@@ -5189,7 +5189,7 @@ SilverRock Resort,La Quinta,CA,(75.0/139/72),Resort/Public,0,79179 Ahmanson Lane
 Silverado Resort - North,Napa,CA,(74.8/141/72),Unknown,0,Club House Drive,94558,38.34864,-122.264488
 Silverado Resort - South,Napa,CA,(72.3/133/72),Unknown,1,Club House Drive,94558,38.34864,-122.264488
 Simi Hills Golf Course,Simi Valley,CA,(71.5/128/71),Public,0,5031 Alamo Street,93063,34.286232,-118.694771
-Singing Hills Golf Resort at Sycuan - Oak Glen,El Cajon,CA,(70.6/123/72),Resort,0,3007 Dehesa Rd,92019,32.7845055,-116.8861799
+Singing Hills Golf Resort at Sycuan - Oak Glen,El Cajon,CA,(70.6/123/72),Resort,1,3007 Dehesa Rd,92019,32.7845055,-116.8861799
 Singing Hills Golf Resort at Sycuan - Willow Glen,El Cajon,CA,(72.3/128/72),Resort,1,3007 Dehesa Rd,92019,32.7845055,-116.8861799
 Skyline Ranch Country Club,Valley Center,CA,(54.6/87/60),Private,0,27304 Conchita Road,92082,33.2094,-116.945137
 Skylinks at Long Beach,Long Beach,CA,(72.7/127/72),Public,0,4800 East Wardlow Road,90808,33.818741,-118.138481
