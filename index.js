@@ -260,51 +260,34 @@ function initialize() {
 }
 
 function loadStoreData() {
-    //Download the store location data.
-    fetch(storeLocationDataUrl)
-        .then(response => response.text())
-        .then(function (text) {
+    // Fetch golf course data from backend API (replace with your deployed endpoint)
+    fetch('https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json()
+        })
+        .then(function (courses) {
+            var featuresUnplayedPublic = [];
+            var featuresUnplayedPrivate = [];
+            var featuresPlayed = [];
 
-        //Parse the Tab delimited file data into GeoJSON features.
-        var featuresUnplayedPublic = [];
-        var featuresUnplayedPrivate = [];
-        var featuresPlayed = [];
-
-        //Split the lines of the file.
-        var lines = text.split('\n');
-
-        //Grab the header row.
-        var row = lines[0].split(',');
-
-        //Parse the header row and index each column, so that when our code for parsing each row is easier to follow.
-        var header = {};
-        var numColumns = row.length;
-        var i;
-
-        for (i = 0; i < row.length; i++) {
-            header[row[i].trim()] = i;
-        }
-    
-        //Skip the header row and then parse each row into a GeoJSON feature.
-        for (i = 1; i < lines.length; i++) {
-            row = lines[i].split(',');
-
-            //Ensure that the row has the right number of columns.
-            if (row.length >= numColumns) {
-                var longitude = parseFloat(row[header['Longitude']]);
-                var latitude = parseFloat(row[header['Latitude']]);
-                var played = row[header['Played']];
-                var access = row[header['Access']];
+            courses.forEach((course, idx) => {
+                var longitude = parseFloat(course.Longitude);
+                var latitude = parseFloat(course.Latitude);
+                var played = course.Played;
+                var access = course.Access;
                 var feature = new atlas.data.Feature(new atlas.data.Point([longitude, latitude]), {
-                    Course: row[header['Course']],
-                    Address: row[header['Address']],
-                    City: row[header['City']],
-                    State: row[header['State']],
-                    Info: row[header['Info']],
+                    Course: course.Course,
+                    Address: course.Address,
+                    City: course.City,
+                    State: course.State,
+                    Info: course.Info,
                     Access: access,
-                    ZIP: row[header['ZIP']],
+                    ZIP: course.ZIP,
                     Played: played,
-                    CourseID: i - 1
+                    CourseID: idx
                 });
 
                 if (played == 0) {
@@ -317,17 +300,20 @@ function loadStoreData() {
                     featuresPlayed.push(feature);
                 }
                 featuresAll.push(feature);
-            }
-        }
+            });
 
-        //Add the features to the data source.
-        datasourceUnplayedPublic.add(featuresUnplayedPublic);
-        datasourceUnplayedPrivate.add(featuresUnplayedPrivate);
-        datasourcePlayed.add(featuresPlayed);
+            //Add the features to the data source.
+            datasourceUnplayedPublic.add(featuresUnplayedPublic);
+            datasourceUnplayedPrivate.add(featuresUnplayedPrivate);
+            datasourcePlayed.add(featuresPlayed);
 
-        //Initially update the list items.
-        updateListItems();
-    });
+            //Initially update the list items.
+            updateListItems();
+        })
+        .catch(error => {
+            console.error('Error loading golf course data:', error);
+            document.getElementById('listPanel').innerHTML = '<div class="statusMessage">Error loading golf course data. Please check that your Azure Function is running.</div>';
+        });
 }
 
 function performSearch() {
