@@ -1,0 +1,16 @@
+{
+  "name": "golf-courses-functions",
+  "version": "1.0.0",
+  "description": "Azure Functions for Golf Courses Map",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "mssql": "^9.1.1"
+  },
+  "devDependencies": {},
+  "keywords": ["azure-functions", "golf", "courses"],
+  "author": "Your Name",
+  "license": "MIT"
+}
