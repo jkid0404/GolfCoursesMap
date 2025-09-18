@@ -4,7 +4,8 @@
   "description": "Azure Functions for Golf Courses Map",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests specified\""
+    "test": "echo \"No tests specified\"",
+    "build": "echo 'No build step required for Azure Functions'"
   },
   "dependencies": {
     "mssql": "^9.1.1"
