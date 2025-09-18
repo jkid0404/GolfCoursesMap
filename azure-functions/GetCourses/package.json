@@ -1,0 +1,8 @@
+{
+  "name": "getcourses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mssql": "^10.0.0"
+  }
+}
