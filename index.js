@@ -273,7 +273,7 @@ function loadStoreData() {
             var featuresUnplayedPrivate = [];
             var featuresPlayed = [];
 
-            courses.forEach((course, idx) => {
+            courses.forEach((course) => {
                 var longitude = parseFloat(course.Longitude);
                 var latitude = parseFloat(course.Latitude);
                 var played = course.Played;
@@ -287,7 +287,7 @@ function loadStoreData() {
                     Access: access,
                     ZIP: course.ZIP,
                     Played: played,
-                    CourseID: idx
+                    ID: course.ID
                 });
 
                 if (played == 0) {
@@ -354,7 +354,7 @@ function setMapToUserLocation() {
     });
 }
 
-function updateListItems(courseIdToMarkPlayed=-1) {
+function updateListItems(idToMarkPlayed=-1) {
     //Hide the center marker.
     centerMarker.setOptions({
         visible: false
@@ -385,18 +385,18 @@ function updateListItems(courseIdToMarkPlayed=-1) {
 
         //Get all the shapes that have been rendered in the bubble layer. 
         var listData = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayerUnPlayedPrivate, iconLayerUnPlayedPublic, iconLayerPlayed]);
-        displayList(listData, isFromMap=true, courseIdToMarkPlayed);
+        displayList(listData, isFromMap=true, idToMarkPlayed);
     }
 }
 
-function displayList(listData, isFromMap, courseIdToMarkPlayed=-1) {
+function displayList(listData, isFromMap, idToMarkPlayed=-1) {
     var listPanel = document.getElementById('listPanel');
     var html = [], properties;
     listData.forEach(function (shape) {
         properties = isFromMap ? shape.getProperties() : shape.properties;
         var isPlayed = properties.Played == 1;
 
-        if (properties.CourseID == courseIdToMarkPlayed) {
+        if (properties.ID == idToMarkPlayed) {
             shape.setProperties({
                 Course: properties.Course,
                 Address: properties.Address,
@@ -406,11 +406,11 @@ function displayList(listData, isFromMap, courseIdToMarkPlayed=-1) {
                 Access: properties.Access,
                 ZIP: properties.ZIP,
                 Played: 1,
-                CourseID: properties.CourseID
+                ID: properties.ID
             })
         }
 
-        html.push('<div class="', (isPlayed ? 'listPlayedItem' : 'listItem'), '" onclick="itemSelected(\'', properties.CourseID, '\')"><div class="listItem-title">',
+        html.push('<div class="', (isPlayed ? 'listPlayedItem' : 'listItem'), '" onclick="itemSelected(\'', properties.ID, '\')"><div class="listItem-title">',
                 getCorrectFlagIconForList(properties),
                 properties['Course'],
                 '</div>',
@@ -424,7 +424,7 @@ function displayList(listData, isFromMap, courseIdToMarkPlayed=-1) {
 
         if (!isPlayed) {
             html.push('<br />',
-                '<button id="markPlayedButton" onClick="markPlayed(', properties.CourseID, ')">Mark Played</button>');
+                '<button id="markPlayedButton" onClick="markPlayed(', properties.ID, ')">Mark Played</button>');
         }
         html.push('</div>');
         });
@@ -435,10 +435,42 @@ function displayList(listData, isFromMap, courseIdToMarkPlayed=-1) {
         listPanel.scrollTop = 0;
 }
 
-function markPlayed(courseId) {
-    var feature = featuresAll[courseId];
-    feature.properties.Played = 1;
-    updateListItems(courseIdToMarkPlayed=courseId);
+function markPlayed(id) {
+    var feature = featuresAll[id - 1];
+    
+    // Update the database first
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}/played`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ played: 1 })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Only update the frontend if the database update was successful
+        console.log('Database updated:', data.message);
+        feature.properties.Played = 1;
+        
+        // Remove the course from its current data source and add it to the played data source
+        if (feature.properties.Access === 'Private') {
+            datasourceUnplayedPrivate.remove(feature);
+        } else {
+            datasourceUnplayedPublic.remove(feature);
+        }
+        datasourcePlayed.add(feature);
+        
+        updateListItems(idToMarkPlayed=id);
+    })
+    .catch(error => {
+        console.error('Error updating course:', error);
+        alert('Failed to update course. Please try again.');
+    });
 }
 
 function getCorrectFlagIconForList(properties) {
@@ -482,7 +514,7 @@ function getAddress(properties) {
 
 //When a user clicks on a result in the side panel, look up the course by its id value and show popup.
 function itemSelected(id) {
-    var feature = featuresAll[id];
+    var feature = featuresAll[id - 1];
     var coordinates = feature.geometry.coordinates
     showPopup(feature.properties, coordinates);
 
