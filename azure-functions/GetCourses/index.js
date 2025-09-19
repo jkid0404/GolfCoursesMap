@@ -1,43 +1,38 @@
-const sql = require('mssql');
+const { connectToDatabase, closeDatabaseConnection, sql } = require('../shared/database');
+const { validateTableName } = require('../shared/validation');
+const { setCorsHeaders, handleOptionsRequest, sendErrorResponse, sendSuccessResponse, logError } = require('../shared/response');
+const { getTableName } = require('../shared/sqlUtils');
 
 module.exports = async function (context, req) {
-    // Add CORS headers for local development
-    context.res = {
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type'
-        }
-    };
+    // Set CORS headers
+    setCorsHeaders(context, ['GET', 'POST', 'OPTIONS']);
 
     // Handle preflight OPTIONS request
-    if (req.method === 'OPTIONS') {
-        context.res.status = 200;
+    if (handleOptionsRequest(context, req)) {
         return;
     }
 
-    // Update with your Azure SQL connection string
-    const config = {
-        user: process.env.SQL_USER,
-        password: process.env.SQL_PASSWORD,
-        server: process.env.SQL_SERVER, // e.g. 'your-server.database.windows.net'
-        database: process.env.SQL_DATABASE,
-        options: {
-            encrypt: true
-        }
-    };
+    // Get table name from request
+    const tableName = getTableName(req);
+    
+    // Validate table name to prevent SQL injection
+    if (!validateTableName(tableName)) {
+        sendErrorResponse(context, 400, 'Invalid table name format');
+        return;
+    }
 
     try {
-        await sql.connect(config);
-        const result = await sql.query('SELECT * FROM MasterList_USA');
-        context.res.status = 200;
-        context.res.headers['Content-Type'] = 'application/json';
-        context.res.body = result.recordset;
+        await connectToDatabase();
+        
+        // Use parameterized query with dynamic table name (table names cannot be parameterized, but we validated above)
+        const query = `SELECT * FROM [${tableName}]`;
+        const result = await sql.query(query);
+        
+        sendSuccessResponse(context, result.recordset);
     } catch (err) {
-        context.log.error('SQL error:', err);
-        context.res = {
-            status: 500,
-            body: { error: 'Database error', details: err.message }
-        };
+        logError(context, 'GetCourses SQL', err);
+        sendErrorResponse(context, 500, 'Database error', err.message);
+    } finally {
+        await closeDatabaseConnection();
     }
 };

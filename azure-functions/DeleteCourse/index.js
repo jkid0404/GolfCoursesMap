@@ -1,76 +1,54 @@
-const sql = require('mssql');
+const { connectToDatabase, closeDatabaseConnection, sql } = require('../shared/database');
+const { validateTableName, validateCourseId } = require('../shared/validation');
+const { setCorsHeaders, handleOptionsRequest, sendErrorResponse, sendSuccessResponse, logError } = require('../shared/response');
+const { getTableName } = require('../shared/sqlUtils');
 
 module.exports = async function (context, req) {
-    // Add CORS headers
-    context.res = {
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'DELETE, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type'
-        }
-    };
+    // Set CORS headers
+    setCorsHeaders(context, ['DELETE', 'OPTIONS']);
 
     // Handle preflight OPTIONS request
-    if (req.method === 'OPTIONS') {
-        context.res.status = 200;
+    if (handleOptionsRequest(context, req)) {
         return;
     }
 
-    const courseId = req.params.courseId;
+    const courseId = req.params.id;
+    const tableName = getTableName(req);
 
-    if (!courseId) {
-        context.res.status = 400;
-        context.res.body = { error: 'Course ID is required' };
+    // Validate course ID
+    if (!validateCourseId(courseId)) {
+        sendErrorResponse(context, 400, 'Invalid course ID');
         return;
     }
 
-    // Use connection string if available, otherwise fall back to individual settings
-    const connectionString = process.env.SQLAZURECONNSTR_DefaultConnection;
-    
-    let config;
-    if (connectionString) {
-        config = connectionString;
-    } else {
-        config = {
-            user: process.env.SQL_USER,
-            password: process.env.SQL_PASSWORD,
-            server: process.env.SQL_SERVER,
-            database: process.env.SQL_DATABASE,
-            options: {
-                encrypt: true
-            }
-        };
+    // Validate table name
+    if (!validateTableName(tableName)) {
+        sendErrorResponse(context, 400, 'Invalid table name format');
+        return;
     }
 
     try {
-        await sql.connect(config);
+        await connectToDatabase();
         
         // Delete the course from the database
         const request = new sql.Request();
         request.input('courseId', sql.Int, parseInt(courseId));
         
-        const result = await request.query('DELETE FROM MasterList_USA WHERE ID = @courseId');
+        const result = await request.query(`DELETE FROM [${tableName}] WHERE ID = @courseId`);
 
         if (result.rowsAffected[0] === 0) {
-            context.res.status = 404;
-            context.res.body = { error: 'Course not found' };
+            sendErrorResponse(context, 404, 'Course not found');
         } else {
-            context.res.status = 200;
-            context.res.body = { 
-                success: true, 
+            sendSuccessResponse(context, {
+                success: true,
                 message: `Course ${courseId} deleted successfully`,
                 rowsAffected: result.rowsAffected[0]
-            };
+            });
         }
     } catch (err) {
-        context.log.error('SQL error:', err);
-        context.res.status = 500;
-        context.res.body = { error: 'Database error', details: err.message };
+        logError(context, 'DeleteCourse SQL', err);
+        sendErrorResponse(context, 500, 'Database error', err.message);
     } finally {
-        try {
-            await sql.close();
-        } catch (closeError) {
-            context.log.error('Error closing SQL connection:', closeError);
-        }
+        await closeDatabaseConnection();
     }
 };

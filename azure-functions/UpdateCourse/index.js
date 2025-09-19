@@ -1,108 +1,75 @@
-const sql = require('mssql');
+const { connectToDatabase, closeDatabaseConnection, sql } = require('../shared/database');
+const { validateTableName, validateCourseId, validateUpdateFields } = require('../shared/validation');
+const { setCorsHeaders, handleOptionsRequest, sendErrorResponse, sendSuccessResponse, logError } = require('../shared/response');
+const { getTableName, buildSetClause } = require('../shared/sqlUtils');
 
 module.exports = async function (context, req) {
-    // Add CORS headers
-    context.res = {
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type'
-        }
-    };
+    // Set CORS headers
+    setCorsHeaders(context, ['GET', 'POST', 'PUT', 'OPTIONS']);
 
     // Handle preflight OPTIONS request
-    if (req.method === 'OPTIONS') {
-        context.res.status = 200;
+    if (handleOptionsRequest(context, req)) {
         return;
     }
 
     const courseId = req.params.id;
     const updates = req.body;
+    const tableName = getTableName(req);
 
-    // Validate that we have updates to make
-    if (!updates || Object.keys(updates).length === 0) {
-        context.res.status = 400;
-        context.res.body = { error: 'No update data provided' };
+    // Validate course ID
+    if (!validateCourseId(courseId)) {
+        sendErrorResponse(context, 400, 'Invalid course ID');
         return;
     }
 
-    // Use connection string if available, otherwise fall back to individual settings
-    const connectionString = process.env.SQLAZURECONNSTR_DefaultConnection;
-    
-    let config;
-    if (connectionString) {
-        config = connectionString;
-    } else {
-        config = {
-            user: process.env.SQL_USER,
-            password: process.env.SQL_PASSWORD,
-            server: process.env.SQL_SERVER,
-            database: process.env.SQL_DATABASE,
-            options: {
-                encrypt: true
-            }
-        };
+    // Validate table name
+    if (!validateTableName(tableName)) {
+        sendErrorResponse(context, 400, 'Invalid table name format');
+        return;
+    }
+
+    // Validate update fields
+    const validation = validateUpdateFields(updates);
+    if (!validation.isValid) {
+        sendErrorResponse(context, 400, 'Validation failed', validation.errors);
+        return;
     }
 
     try {
-        await sql.connect(config);
+        await connectToDatabase();
         
         // Build dynamic SET clause based on provided properties
         const allowedFields = ['Course', 'Address', 'City', 'State', 'ZIP', 'Info', 'Access', 'Played', 'Latitude', 'Longitude'];
-        const setClause = [];
-        const parameters = [];
-
-        for (const [key, value] of Object.entries(updates)) {
-            if (allowedFields.includes(key)) {
-                setClause.push(`${key} = @${key}`);
-                parameters.push({ name: key, value: value });
-            }
-        }
-
-        if (setClause.length === 0) {
-            context.res.status = 400;
-            context.res.body = { error: 'No valid fields to update' };
-            return;
-        }
+        const { setClause, parameters } = buildSetClause(validation.validUpdates, allowedFields);
 
         // Create the SQL query
-        const query = `UPDATE MasterList_USA SET ${setClause.join(', ')} WHERE ID = @courseId`;
+        const query = `UPDATE [${tableName}] SET ${setClause.join(', ')} WHERE ID = @courseId`;
         
-        // Create request and add parameters
+        // Execute the update
         const request = new sql.Request();
         request.input('courseId', sql.Int, parseInt(courseId));
         
-        parameters.forEach(param => {
-            if (param.name === 'Played') {
-                request.input(param.name, sql.Int, parseInt(param.value));
-            } else {
-                request.input(param.name, sql.NVarChar, param.value);
-            }
-        });
-
+        // Add dynamic parameters
+        for (const param of parameters) {
+            request.input(param.name, sql.NVarChar, param.value);
+        }
+        
         const result = await request.query(query);
 
         if (result.rowsAffected[0] === 0) {
-            context.res.status = 404;
-            context.res.body = { error: 'Course not found' };
+            sendErrorResponse(context, 404, 'Course not found');
         } else {
-            context.res.status = 200;
-            context.res.body = { 
-                success: true, 
+            sendSuccessResponse(context, {
+                success: true,
                 message: `Course ${courseId} updated successfully`,
-                updatedFields: Object.keys(updates).filter(key => allowedFields.includes(key)),
+                updatedFields: Object.keys(validation.validUpdates),
                 rowsAffected: result.rowsAffected[0]
-            };
+            });
         }
     } catch (err) {
-        context.log.error('SQL error:', err);
-        context.res.status = 500;
-        context.res.body = { error: 'Database error', details: err.message };
+        logError(context, 'UpdateCourse SQL', err);
+        sendErrorResponse(context, 500, 'Database error', err.message);
     } finally {
-        try {
-            await sql.close();
-        } catch (closeError) {
-            context.log.error('Error closing SQL connection:', closeError);
-        }
+        await closeDatabaseConnection();
     }
 };

@@ -22,7 +22,7 @@ function findFeatureById(id) {
 }
 
 function initialize() {
-    // username = document.getElementById('username').value;
+    username = document.getElementById('username').value;
 
     //Initialize a map instance.
     map = new atlas.Map('myMap', {
@@ -267,8 +267,8 @@ function initialize() {
 }
 
 function loadStoreData() {
-    // Fetch golf course data from backend API (replace with your deployed endpoint)
-    fetch('https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses')
+    // Fetch golf course data from backend API with tableName parameter
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses?tableName=${encodeURIComponent(username)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -522,7 +522,7 @@ function deleteCourse(id) {
     }
     
     // Delete from database first
-    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}`, {
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}?tableName=${encodeURIComponent(username)}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'
@@ -616,7 +616,7 @@ function saveEditedCourse(id) {
     console.log('Fields changed:', Object.keys(changedFields));
     
     // Update the database with only changed fields
-    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}`, {
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}?tableName=${encodeURIComponent(username)}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -853,7 +853,7 @@ function saveNewCourse() {
     }
     
     // Create new course in database
-    fetch('https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses', {
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses?tableName=${encodeURIComponent(username)}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -910,4 +910,4 @@ function saveNewCourse() {
 }
 
 //Initialize the application when the page is loaded.
-window.onload = initialize;
+window.onload = showUserSignIn;
