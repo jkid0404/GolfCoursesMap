@@ -373,6 +373,8 @@ function updateListItems(idToEdit=-1) {
 
         var listPanel = document.getElementById('listPanel');
         var html = [];
+        html.push('<button class="editCourseButton" onclick="addNewCourse()">New Course</button>');
+        html.push('<br /><br />');
         html.push('<img class="listPlayedIcon" src="' + playedIcon + '">Played course</img>');
         html.push('<br />');
         html.push('<img class="listUnplayedPublicIcon" src="' + unplayedPublicIcon + '">Unplayed public course</img>');
@@ -486,11 +488,59 @@ function showEditCourseForm(id) {
         
         '<button class="editCourseButton" onclick="saveEditedCourse(', id, ')">Save Changes</button>',
         '<button class="editCourseButton" onclick="updateListItems()">Cancel</button>',
+        '<br />',
+        '<button class="editCourseButton" onclick="deleteCourse(', id, ')">Delete Course</button>',
         '</div>',
         '</div>'
     ];
     
     listPanel.innerHTML = formHtml.join('');
+}
+
+function deleteCourse(id) {
+    var feature = featuresAll[id - 1];
+    var courseName = feature.properties.Course;
+    
+    // Confirm deletion with user
+    if (!confirm(`Are you sure you want to delete "${courseName}"? This action cannot be undone.`)) {
+        return;
+    }
+    
+    // Delete from database first
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Course deleted:', data.message);
+        
+        // Remove from appropriate data source
+        if (feature.properties.Played == 1) {
+            datasourcePlayed.remove(feature);
+        } else if (feature.properties.Access === 'Private') {
+            datasourceUnplayedPrivate.remove(feature);
+        } else {
+            datasourceUnplayedPublic.remove(feature);
+        }
+        
+        // Remove from featuresAll array
+        featuresAll.splice(id - 1, 1);
+        
+        // Close the edit form and refresh the display
+        updateListItems();
+    })
+    .catch(error => {
+        console.error('Error deleting course:', error);
+        alert('Failed to delete course. Please try again.');
+    });
 }
 
 function saveEditedCourse(id) {
@@ -677,6 +727,135 @@ function showPopup(properties, coordinates) {
 
     //Open the popup.
     popup.open(map);
+}
+
+function addNewCourse() {
+    var listPanel = document.getElementById('listPanel');
+    listPanel.innerHTML = '';
+    
+    var formHtml = [
+        '<h3>Add New Golf Course</h3>',
+        
+        '<label for="newCourse">Course Name:</label>',
+        '<input type="text" id="newCourse" class="editCourseItem" value="" required>',
+        
+        '<label for="newAddress">Address:</label>',
+        '<input type="text" id="newAddress" class="editCourseItem" value="" required>',
+        
+        '<label for="newCity">City:</label>',
+        '<input type="text" id="newCity" class="editCourseItem" value="" required>',
+        
+        '<label for="newState">State:</label>',
+        '<input type="text" id="newState" class="editCourseItem" value="" required>',
+        
+        '<label for="newZIP">ZIP:</label>',
+        '<input type="text" id="newZIP" class="editCourseItem" value="" required>',
+
+        '<label for="newLat">Latitude:</label>',
+        '<input type="number" step="any" id="newLat" class="editCourseItem" value="" required>',
+
+        '<label for="newLong">Longitude:</label>',
+        '<input type="number" step="any" id="newLong" class="editCourseItem" value="" required>',
+
+        '<label for="newInfo">Course Info:</label>',
+        '<input type="text" id="newInfo" class="editCourseItem" value="">',
+        
+        '<label for="newAccess">Access:</label>',
+        '<select id="newAccess" class="editCourseItem">',
+        '<option value="Public" selected>Public</option>',
+        '<option value="Private">Private</option>',
+        '<option value="Semi-Private">Semi-Private</option>',
+        '</select>',
+        
+        '<label for="newPlayed">Played:</label>',
+        '<select id="newPlayed" class="editCourseItem">',
+        '<option value="0" selected>No</option>',
+        '<option value="1">Yes</option>',
+        '</select>',
+        
+        '<button class="editCourseButton" onclick="saveNewCourse()">Create Course</button>',
+        '<button class="editCourseButton" onclick="updateListItems()">Cancel</button>'
+    ];
+    
+    listPanel.innerHTML = formHtml.join('');
+}
+
+function saveNewCourse() {
+    var newCourse = {
+        Course: document.getElementById('newCourse').value,
+        Address: document.getElementById('newAddress').value,
+        City: document.getElementById('newCity').value,
+        State: document.getElementById('newState').value,
+        ZIP: document.getElementById('newZIP').value,
+        Info: document.getElementById('newInfo').value,
+        Access: document.getElementById('newAccess').value,
+        Played: parseInt(document.getElementById('newPlayed').value),
+        Latitude: parseFloat(document.getElementById('newLat').value),
+        Longitude: parseFloat(document.getElementById('newLong').value)
+    };
+    
+    // Validate required fields
+    if (!newCourse.Course || !newCourse.Address || !newCourse.City || !newCourse.State || 
+        !newCourse.ZIP || isNaN(newCourse.Latitude) || isNaN(newCourse.Longitude)) {
+        alert('Please fill in all required fields (Course, Address, City, State, ZIP, Latitude, Longitude)');
+        return;
+    }
+    
+    // Create new course in database
+    fetch('https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newCourse)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Course created:', data.message);
+        
+        // Create new feature for the frontend
+        var newFeature = new atlas.data.Feature(
+            new atlas.data.Point([newCourse.Longitude, newCourse.Latitude]), 
+            {
+                Course: newCourse.Course,
+                Address: newCourse.Address,
+                City: newCourse.City,
+                State: newCourse.State,
+                Info: newCourse.Info,
+                Access: newCourse.Access,
+                ZIP: newCourse.ZIP,
+                Played: newCourse.Played,
+                ID: data.courseId,
+                Latitude: newCourse.Latitude,
+                Longitude: newCourse.Longitude
+            },
+            data.courseId
+        );
+        
+        // Add to appropriate data source and featuresAll array
+        if (newCourse.Played == 1) {
+            datasourcePlayed.add(newFeature);
+        } else if (newCourse.Access === 'Private') {
+            datasourceUnplayedPrivate.add(newFeature);
+        } else {
+            datasourceUnplayedPublic.add(newFeature);
+        }
+        
+        featuresAll.push(newFeature);
+        
+        // Refresh the display
+        updateListItems();
+        alert(`Course "${newCourse.Course}" has been created successfully!`);
+    })
+    .catch(error => {
+        console.error('Error creating course:', error);
+        alert('Failed to create course. Please try again.');
+    });
 }
 
 //Initialize the application when the page is loaded.

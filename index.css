@@ -146,6 +146,7 @@ header {
 }
 
 .editCourseButton {
+    margin-bottom: 10px;
     margin-right: 10px;
     padding: 0;
     border: none;
