@@ -24,6 +24,11 @@ function findFeatureById(id) {
 function initialize() {
     username = document.getElementById('username').value;
 
+    if (username !== 'jason' && username !== 'anna'){
+        alert('Invalid username. Please enter either "jason" or "anna".');
+        return;
+    }
+
     //Initialize a map instance.
     map = new atlas.Map('myMap', {
         center: [-90, 40],
@@ -268,14 +273,17 @@ function initialize() {
 
 function loadStoreData() {
     // Fetch golf course data from backend API with tableName parameter
-    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses?tableName=${encodeURIComponent(username)}`)
+    fetch(`http://localhost:7071/api/courses?tableName=${encodeURIComponent(username)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             return response.json()
         })
-        .then(function (courses) {
+        .then(function (data) {
+            // Handle both old format (direct array) and new format (object with courses array)
+            const courses = Array.isArray(data) ? data : data.courses;
+            
             var featuresUnplayedPublic = [];
             var featuresUnplayedPrivate = [];
             var featuresPlayed = [];
