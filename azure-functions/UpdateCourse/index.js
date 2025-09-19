@@ -17,6 +17,14 @@ module.exports = async function (context, req) {
     }
 
     const courseId = req.params.id;
+    const updates = req.body;
+
+    // Validate that we have updates to make
+    if (!updates || Object.keys(updates).length === 0) {
+        context.res.status = 400;
+        context.res.body = { error: 'No update data provided' };
+        return;
+    }
 
     // Use connection string if available, otherwise fall back to individual settings
     const connectionString = process.env.SQLAZURECONNSTR_DefaultConnection;
@@ -39,25 +47,62 @@ module.exports = async function (context, req) {
     try {
         await sql.connect(config);
         
-        // Update the played status for the course
-        // Using a WHERE clause based on row number since CourseID might be the index
-        const result = await sql.query`
-            UPDATE MasterList_USA 
-            SET Played = 1
-            WHERE ID = ${parseInt(courseId)}
-        `;
+        // Build dynamic SET clause based on provided properties
+        const allowedFields = ['Course', 'Address', 'City', 'State', 'ZIP', 'Info', 'Access', 'Played', 'Latitude', 'Longitude'];
+        const setClause = [];
+        const parameters = [];
 
-        context.res.status = 200;
-        context.res.body = { 
-            success: true, 
-            message: `Course ${courseId} marked as played`,
-            rowsAffected: result.rowsAffected[0]
-        };
+        for (const [key, value] of Object.entries(updates)) {
+            if (allowedFields.includes(key)) {
+                setClause.push(`${key} = @${key}`);
+                parameters.push({ name: key, value: value });
+            }
+        }
+
+        if (setClause.length === 0) {
+            context.res.status = 400;
+            context.res.body = { error: 'No valid fields to update' };
+            return;
+        }
+
+        // Create the SQL query
+        const query = `UPDATE MasterList_USA SET ${setClause.join(', ')} WHERE ID = @courseId`;
+        
+        // Create request and add parameters
+        const request = new sql.Request();
+        request.input('courseId', sql.Int, parseInt(courseId));
+        
+        parameters.forEach(param => {
+            if (param.name === 'Played') {
+                request.input(param.name, sql.Int, parseInt(param.value));
+            } else {
+                request.input(param.name, sql.NVarChar, param.value);
+            }
+        });
+
+        const result = await request.query(query);
+
+        if (result.rowsAffected[0] === 0) {
+            context.res.status = 404;
+            context.res.body = { error: 'Course not found' };
+        } else {
+            context.res.status = 200;
+            context.res.body = { 
+                success: true, 
+                message: `Course ${courseId} updated successfully`,
+                updatedFields: Object.keys(updates).filter(key => allowedFields.includes(key)),
+                rowsAffected: result.rowsAffected[0]
+            };
+        }
     } catch (err) {
         context.log.error('SQL error:', err);
         context.res.status = 500;
         context.res.body = { error: 'Database error', details: err.message };
     } finally {
-        await sql.close();
+        try {
+            await sql.close();
+        } catch (closeError) {
+            context.log.error('Error closing SQL connection:', closeError);
+        }
     }
 };

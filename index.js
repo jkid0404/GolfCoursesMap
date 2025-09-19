@@ -287,8 +287,11 @@ function loadStoreData() {
                     Access: access,
                     ZIP: course.ZIP,
                     Played: played,
-                    ID: course.ID
-                });
+                    ID: course.ID,
+                    Latitude: latitude,
+                    Longitude: longitude
+                },
+                course.ID /*id*/);
 
                 if (played == 0) {
                     if (access === 'Private') {
@@ -354,7 +357,7 @@ function setMapToUserLocation() {
     });
 }
 
-function updateListItems(idToMarkPlayed=-1) {
+function updateListItems(idToEdit=-1) {
     //Hide the center marker.
     centerMarker.setOptions({
         visible: false
@@ -385,18 +388,16 @@ function updateListItems(idToMarkPlayed=-1) {
 
         //Get all the shapes that have been rendered in the bubble layer. 
         var listData = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayerUnPlayedPrivate, iconLayerUnPlayedPublic, iconLayerPlayed]);
-        displayList(listData, isFromMap=true, idToMarkPlayed);
+        displayList(listData, isFromMap=true, idToEdit);
     }
 }
 
-function displayList(listData, isFromMap, idToMarkPlayed=-1) {
+function displayList(listData, isFromMap, idToEdit=-1) {
     var listPanel = document.getElementById('listPanel');
     var html = [], properties;
     listData.forEach(function (shape) {
-        properties = isFromMap ? shape.getProperties() : shape.properties;
-        var isPlayed = properties.Played == 1;
-
-        if (properties.ID == idToMarkPlayed) {
+        properties = shape.properties;
+        if (properties.ID == idToEdit) {
             shape.setProperties({
                 Course: properties.Course,
                 Address: properties.Address,
@@ -405,12 +406,14 @@ function displayList(listData, isFromMap, idToMarkPlayed=-1) {
                 Info: properties.Info,
                 Access: properties.Access,
                 ZIP: properties.ZIP,
-                Played: 1,
-                ID: properties.ID
+                Played: properties.Played,
+                ID: properties.ID,
+                Latitude: properties.Latitude,
+                Longitude: properties.Longitude
             })
         }
 
-        html.push('<div class="', (isPlayed ? 'listPlayedItem' : 'listItem'), '" onclick="itemSelected(\'', properties.ID, '\')"><div class="listItem-title">',
+        html.push('<div class="listItem" onclick="itemSelected(\'', properties.ID, '\')"><div class="listItem-title">',
                 getCorrectFlagIconForList(properties),
                 properties['Course'],
                 '</div>',
@@ -420,13 +423,12 @@ function displayList(listData, isFromMap, idToMarkPlayed=-1) {
                 '<br />',
 
                 //Convert the course info into a nicely formated time.
-                getCourseInfo(properties));
+                getCourseInfo(properties),
+                '<br />',
 
-        if (!isPlayed) {
-            html.push('<br />',
-                '<button id="markPlayedButton" onClick="markPlayed(', properties.ID, ')">Mark Played</button>');
-        }
-        html.push('</div>');
+                '<button id="editButton" onClick="event.stopPropagation(); showEditCourseForm(', properties.ID, ')">Edit</button>',
+                '</div>'
+            );
         });
         
         listPanel.innerHTML = html.join('');
@@ -435,16 +437,118 @@ function displayList(listData, isFromMap, idToMarkPlayed=-1) {
         listPanel.scrollTop = 0;
 }
 
-function markPlayed(id) {
+function showEditCourseForm(id) {
+    var listPanel = document.getElementById('listPanel');
+    listPanel.innerHTML = '';
+
     var feature = featuresAll[id - 1];
+    var properties = feature.properties;
     
-    // Update the database first
-    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}/played`, {
+    var formHtml = [
+        '<h3>Edit Golf Course</h3>',
+        
+        '<label for="editCourse">Course Name:</label>',
+        '<input type="text" id="editCourse" class="editCourseItem" value="', properties.Course, '">',
+        
+        '<label for="editAddress">Address:</label>',
+        '<input type="text" id="editAddress" class="editCourseItem" value="', properties.Address, '">',
+        
+        '<label for="editCity">City:</label>',
+        '<input type="text" id="editCity" class="editCourseItem" value="', properties.City, '">',
+        
+        '<label for="editState">State:</label>',
+        '<input type="text" id="editState" class="editCourseItem" value="', properties.State, '">',
+        
+        '<label for="editZIP">ZIP:</label>',
+        '<input type="text" id="editZIP" class="editCourseItem" value="', properties.ZIP, '">',
+
+        '<label for="editLat">Latitude:</label>',
+        '<input type="text" id="editLat" class="editCourseItem" value="', properties.Latitude, '">',
+
+        '<label for="editLong">Longitude:</label>',
+        '<input type="text" id="editLong" class="editCourseItem" value="', properties.Longitude, '">',
+
+        '<label for="editInfo">Course Info:</label>',
+        '<input type="text" id="editInfo" class="editCourseItem" value="', properties.Info, '">',
+        
+        '<label for="editAccess">Access:</label>',
+        '<select id="editAccess" class="editCourseItem">',
+        '<option value="Public"', (properties.Access === 'Public' ? ' selected' : ''), '>Public</option>',
+        '<option value="Private"', (properties.Access === 'Private' ? ' selected' : ''), '>Private</option>',
+        '<option value="Semi-Private"', (properties.Access === 'Semi-Private' ? ' selected' : ''), '>Semi-Private</option>',
+        '</select>',
+        
+        '<label for="editPlayed">Played:</label>',
+        '<select id="editPlayed" class="editCourseItem">',
+        '<option value="0"', (properties.Played == 0 ? ' selected' : ''), '>No</option>',
+        '<option value="1"', (properties.Played == 1 ? ' selected' : ''), '>Yes</option>',
+        '</select>',
+        
+        '<button class="editCourseButton" onclick="saveEditedCourse(', id, ')">Save Changes</button>',
+        '<button class="editCourseButton" onclick="updateListItems()">Cancel</button>',
+        '</div>',
+        '</div>'
+    ];
+    
+    listPanel.innerHTML = formHtml.join('');
+}
+
+function saveEditedCourse(id) {
+    var feature = featuresAll[id - 1];
+    var originalProperties = feature.properties;
+    
+    var updatedCourse = {
+        Course: document.getElementById('editCourse').value,
+        Address: document.getElementById('editAddress').value,
+        City: document.getElementById('editCity').value,
+        State: document.getElementById('editState').value,
+        ZIP: document.getElementById('editZIP').value,
+        Info: document.getElementById('editInfo').value,
+        Access: document.getElementById('editAccess').value,
+        Played: parseInt(document.getElementById('editPlayed').value),
+        Latitude: document.getElementById('editLat').value,
+        Longitude: document.getElementById('editLong').value
+    };
+    
+    // Check if any values have actually changed
+    var changedFields = {};
+    var hasChanges = false;
+    
+    for (var key in updatedCourse) {
+        // Compare values, handling type conversion
+        var originalValue = originalProperties[key];
+        var newValue = updatedCourse[key];
+        
+        // Convert original value to string for comparison if it's not already
+        if (key === 'Played') {
+            originalValue = parseInt(originalValue);
+        } else {
+            originalValue = String(originalValue);
+            newValue = String(newValue);
+        }
+        
+        if (originalValue !== newValue) {
+            changedFields[key] = updatedCourse[key];
+            hasChanges = true;
+        }
+    }
+    
+    // If no changes, just close the form
+    if (!hasChanges) {
+        console.log('No changes detected');
+        updateListItems();
+        return;
+    }
+    
+    console.log('Fields changed:', Object.keys(changedFields));
+    
+    // Update the database with only changed fields
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses/${id}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ played: 1 })
+        body: JSON.stringify(changedFields)
     })
     .then(response => {
         if (!response.ok) {
@@ -453,19 +557,35 @@ function markPlayed(id) {
         return response.json();
     })
     .then(data => {
-        // Only update the frontend if the database update was successful
-        console.log('Database updated:', data.message);
-        feature.properties.Played = 1;
+        console.log('Course updated:', data.message);
+        console.log('Fields updated: ', data.updatedFields);
         
-        // Remove the course from its current data source and add it to the played data source
-        if (feature.properties.Access === 'Private') {
-            datasourceUnplayedPrivate.remove(feature);
+        // Update the frontend feature
+        var feature = featuresAll[id - 1];
+        
+        // Remove the old feature from the appropriate datasource
+        if (feature.properties.Played == 1) {
+            datasourcePlayed.removeById(feature.id);
+        } else if (feature.properties.Access === 'Private') {
+            datasourceUnplayedPrivate.removeById(feature.id);
         } else {
-            datasourceUnplayedPublic.remove(feature);
+            datasourceUnplayedPublic.removeById(feature.id);
         }
-        datasourcePlayed.add(feature);
+
+        // Update all properties
+        Object.assign(feature.properties, updatedCourse);
+        feature.properties.ID = id; // Preserve the ID
+
+        // Add the feature back into the appropriate datasource
+        if (feature.properties.Played == 1) {
+            datasourcePlayed.add(feature);
+        } else if (feature.properties.Access === 'Private') {
+            datasourceUnplayedPrivate.add(feature);
+        } else {
+            datasourceUnplayedPublic.add(feature);
+        }
         
-        updateListItems(idToMarkPlayed=id);
+        updateListItems();
     })
     .catch(error => {
         console.error('Error updating course:', error);

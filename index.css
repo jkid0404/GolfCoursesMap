@@ -84,7 +84,7 @@ header {
     z-index: 200;
 }
 
-#markPlayedButton {
+#editButton {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
@@ -137,16 +137,25 @@ header {
     font-weight: bold;
 }
 
-.listPlayedItem {
-    height: 120px;
-    padding-bottom: 15px;
-    font-size: 14px;
+.editCourseItem {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-    .listPlayedItem:hover {
-        cursor: pointer;
-        background-color: #f1f1f1;
-    }
+.editCourseButton {
+    margin-right: 10px;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 32px;
+}
 
 .storePopup {
     min-width: 150px;  
