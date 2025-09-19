@@ -16,6 +16,11 @@ var map, popup, datasourceUnplayedPublic, datasourceUnplayedPrivate, datasourceP
 
 var featuresAll = [];
 
+// Helper function to find feature by ID
+function findFeatureById(id) {
+    return featuresAll.find(feature => feature.properties.ID == id);
+}
+
 function initialize() {
     //Initialize a map instance.
     map = new atlas.Map('myMap', {
@@ -324,7 +329,7 @@ function performSearch() {
 
     var subSetFeatures = featuresAll.filter((feature) => String(feature.properties.Course).toLowerCase().includes(query));
     if (subSetFeatures.length > 0) {
-        displayList(subSetFeatures, isFromMap=false);
+        displayList(subSetFeatures);
         } else {
             document.getElementById('listPanel').innerHTML = '<div class="statusMessage">Unable to find the location you searched for.</div>';
         } 
@@ -390,11 +395,11 @@ function updateListItems(idToEdit=-1) {
 
         //Get all the shapes that have been rendered in the bubble layer. 
         var listData = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayerUnPlayedPrivate, iconLayerUnPlayedPublic, iconLayerPlayed]);
-        displayList(listData, isFromMap=true, idToEdit);
+        displayList(listData, idToEdit);
     }
 }
 
-function displayList(listData, isFromMap, idToEdit=-1) {
+function displayList(listData, idToEdit=-1) {
     var listPanel = document.getElementById('listPanel');
     var html = [], properties;
     listData.forEach(function (shape) {
@@ -443,7 +448,11 @@ function showEditCourseForm(id) {
     var listPanel = document.getElementById('listPanel');
     listPanel.innerHTML = '';
 
-    var feature = featuresAll[id - 1];
+    var feature = findFeatureById(id);
+    if (!feature) {
+        console.error('Feature not found with ID:', id);
+        return;
+    }
     var properties = feature.properties;
     
     var formHtml = [
@@ -498,7 +507,11 @@ function showEditCourseForm(id) {
 }
 
 function deleteCourse(id) {
-    var feature = featuresAll[id - 1];
+    var feature = findFeatureById(id);
+    if (!feature) {
+        console.error('Feature not found with ID:', id);
+        return;
+    }
     var courseName = feature.properties.Course;
     
     // Confirm deletion with user
@@ -532,10 +545,14 @@ function deleteCourse(id) {
         }
         
         // Remove from featuresAll array
-        featuresAll.splice(id - 1, 1);
+        var featureIndex = featuresAll.findIndex(f => f.properties.ID == id);
+        if (featureIndex !== -1) {
+            featuresAll.splice(featureIndex, 1);
+        }
         
         // Close the edit form and refresh the display
         updateListItems();
+        popup.close();
     })
     .catch(error => {
         console.error('Error deleting course:', error);
@@ -544,7 +561,11 @@ function deleteCourse(id) {
 }
 
 function saveEditedCourse(id) {
-    var feature = featuresAll[id - 1];
+    var feature = findFeatureById(id);
+    if (!feature) {
+        console.error('Feature not found with ID:', id);
+        return;
+    }
     var originalProperties = feature.properties;
     
     var updatedCourse = {
@@ -611,7 +632,11 @@ function saveEditedCourse(id) {
         console.log('Fields updated: ', data.updatedFields);
         
         // Update the frontend feature
-        var feature = featuresAll[id - 1];
+        var feature = findFeatureById(id);
+        if (!feature) {
+            console.error('Feature not found with ID:', id);
+            return;
+        }
         
         // Remove the old feature from the appropriate datasource
         if (feature.properties.Played == 1) {
@@ -684,7 +709,11 @@ function getAddress(properties) {
 
 //When a user clicks on a result in the side panel, look up the course by its id value and show popup.
 function itemSelected(id) {
-    var feature = featuresAll[id - 1];
+    var feature = findFeatureById(id);
+    if (!feature) {
+        console.error('Feature not found with ID:', id);
+        return;
+    }
     var coordinates = feature.geometry.coordinates
     showPopup(feature.properties, coordinates);
 
