@@ -12,7 +12,7 @@ var playedIcon = 'images/RedFlag.png';
 //An array of country region ISO2 values to limit searches to.
 var countrySet = ['US'];      
 
-var map, popup, datasourceUnplayedPublic, datasourceUnplayedPrivate, datasourcePlayed, iconLayerUnPlayedPublic, iconLayerUnPlayedPrivate, iconLayerPlayed, centerMarker;
+var map, popup, datasourceUnplayedPublic, datasourceUnplayedPrivate, datasourcePlayed, iconLayerUnPlayedPublic, iconLayerUnPlayedPrivate, iconLayerPlayed, centerMarker, username;
 
 var featuresAll = [];
 
@@ -22,6 +22,8 @@ function findFeatureById(id) {
 }
 
 function initialize() {
+    // username = document.getElementById('username').value;
+
     //Initialize a map instance.
     map = new atlas.Map('myMap', {
         center: [-90, 40],
@@ -252,7 +254,7 @@ function initialize() {
             //Add a click event to the icon layer and show the shape that was clicked.
             map.events.add('click', [iconLayerUnPlayedPublic, iconLayerUnPlayedPrivate, iconLayerPlayed], function (e) {
                 var shape = e.shapes[0];
-                showPopup(shape.getProperties(), shape.getCoordinates());
+                showPopup(shape.properties, shape.geometry.coordinates);
             });
 
             //Add an event to monitor when the map has finished moving.
@@ -807,6 +809,26 @@ function addNewCourse() {
     ];
     
     listPanel.innerHTML = formHtml.join('');
+}
+
+function showUserSignIn() {
+    var listPanel = document.getElementById('listPanel');
+    listPanel.innerHTML = '';
+    
+    var formHtml = [
+        '<h3>User Sign In</h3>',
+        
+        '<label for="username">User Name:</label>',
+        '<input type="text" id="username" class="editCourseItem" value="" placeholder="Enter your username" required>',
+        
+        '<br /><br />',
+        '<button class="editCourseButton" onclick="initialize()">Sign In</button>'
+    ];
+    
+    listPanel.innerHTML = formHtml.join('');
+    
+    // Focus on the username input
+    document.getElementById('username').focus();
 }
 
 function saveNewCourse() {
