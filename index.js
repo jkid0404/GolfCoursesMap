@@ -273,7 +273,7 @@ function initialize() {
 
 function loadStoreData() {
     // Fetch golf course data from backend API with tableName parameter
-    fetch(`http://localhost:7071/api/courses?tableName=${encodeURIComponent(username)}`)
+    fetch(`https://golfcoursesfunctionapp-bpd8cjfratg7a2br.westus2-01.azurewebsites.net/api/courses?tableName=${encodeURIComponent(username)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -330,7 +330,7 @@ function loadStoreData() {
         })
         .catch(error => {
             console.error('Error loading golf course data:', error);
-            document.getElementById('listPanel').innerHTML = '<div class="statusMessage">Error loading golf course data. Please check that your Azure Function is running.</div>';
+            document.getElementById('listPanel').innerHTML = '<div class="statusMessage">Error loading golf course data.</div>';
         });
 }
 
