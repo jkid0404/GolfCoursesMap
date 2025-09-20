@@ -51,7 +51,13 @@ module.exports = async function (context, req) {
         
         // Add dynamic parameters
         for (const param of parameters) {
-            request.input(param.name, sql.NVarChar, param.value);
+            if (param.name == 'Played') {
+                request.input(param.name, sql.Int, parseInt(param.value));
+            } else if (param.name == 'Latitude' || param.name == 'Longitude') {
+                request.input(param.name, sql.Float, parseFloat(param.value));
+            } else {
+                request.input(param.name, sql.NVarChar, param.value);
+            }
         }
         
         const result = await request.query(query);

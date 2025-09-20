@@ -25,7 +25,7 @@ function initialize() {
     username = document.getElementById('username').value;
 
     if (username !== 'jason' && username !== 'anna'){
-        alert('Invalid username. Please enter either "jason" or "anna".');
+        alert('Invalid username.');
         return;
     }
 
@@ -837,6 +837,12 @@ function showUserSignIn() {
     
     // Focus on the username input
     document.getElementById('username').focus();
+
+    document.getElementById('username').onkeyup = function (e) {
+        if (e.code === 'Enter') {
+            initialize();
+        }
+    };
 }
 
 function saveNewCourse() {
