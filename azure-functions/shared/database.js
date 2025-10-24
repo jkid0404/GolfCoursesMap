@@ -19,10 +19,33 @@ function getConfig() {
     }
 }
 
-// Connect to database
+// Helper function to wait/sleep
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Connect to database with retry logic
 async function connectToDatabase() {
     const config = getConfig();
-    return await sql.connect(config);
+    const maxRetries = 3;
+    const retryDelay = 5000; // 5 seconds
+    
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            console.log(`Database connection attempt ${attempt}/${maxRetries}`);
+            return await sql.connect(config);
+        } catch (error) {
+            console.error(`Database connection attempt ${attempt} failed:`, error.message);
+            
+            if (attempt === maxRetries) {
+                console.error(`All ${maxRetries} database connection attempts failed`);
+                throw error;
+            }
+            
+            console.log(`Waiting ${retryDelay/1000} seconds before retry...`);
+            await sleep(retryDelay);
+        }
+    }
 }
 
 // Close database connection
