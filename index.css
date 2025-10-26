@@ -196,14 +196,14 @@ header {
     }
 
     #listPanel {
-        top: 385px;
+        top: 485px;
         width: 100vw;
-        height: 33vh;
+        height: calc(100vh - 485px);
     }
 
     #myMap {
         width: 100vw;
-        height: 60vh;
+        height: 350px;
         top: 135px;
         left: 0px;
     }
