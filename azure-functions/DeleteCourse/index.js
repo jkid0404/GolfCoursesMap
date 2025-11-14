@@ -12,7 +12,7 @@ module.exports = async function (context, req) {
         return;
     }
 
-    const courseId = req.params.id;
+    const courseId = req.params.courseId;
     const tableName = getTableName(req);
 
     // Validate course ID
