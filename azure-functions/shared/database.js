@@ -13,7 +13,9 @@ function getConfig() {
             server: process.env.SQL_SERVER,
             database: process.env.SQL_DATABASE,
             options: {
-                encrypt: true
+                encrypt: true,
+                connectTimeout: 60000, // 60 seconds - allows time for database to resume
+                requestTimeout: 30000   // 30 seconds for queries
             }
         };
     }
